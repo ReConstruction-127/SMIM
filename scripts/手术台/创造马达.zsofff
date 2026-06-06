@@ -1,0 +1,24 @@
+<recipetype:spore:surgery>.addJsonRecipe("creative_motor",
+{
+  "ingredients": [
+    {"slot": 1, "item": "spore:plated_muscle"},
+    {"slot": 2, "item": "spore:brain_remnants"},
+    {"slot": 3, "item": "create:shaft"},
+    {"slot": 4, "item": "spore:plated_muscle"},
+    {"slot": 5, "item": "spore:plated_muscle"},
+    {"slot": 6, "item": "spore:reforged_biomass_w"},
+    {"slot": 7, "item": "spore:mutated_fiber"},
+    {"slot": 8, "item": "spore:plated_muscle"},
+    {"slot": 9, "item": "spore:plated_muscle"},
+    {"slot": 10, "item": "spore:reforged_biomass_t"},
+    {"slot": 11, "item": "spore:mutated_heart"},
+    {"slot": 12, "item": "spore:plated_muscle"},
+    {"slot": 13, "item": "spore:plated_muscle"},
+    {"slot": 14, "item": "spore:reforged_biomass_a"},
+    {"slot": 15, "item": "spore:mutated_fiber"},
+    {"slot": 16, "item": "spore:plated_muscle"}
+  ],
+  "output": {
+    "item": "create:creative_motor"
+  }
+});

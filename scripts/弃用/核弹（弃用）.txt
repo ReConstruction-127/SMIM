@@ -1,0 +1,39 @@
+<recipetype:create:mechanical_crafting>.remove(<item:cbc_nukes:nuke_shell>);
+<recipetype:create:mechanical_crafting>.addJsonRecipe("nuke_shell",{
+  "pattern": [
+    " P ",
+    "PDP",
+    "IFI",
+    "UNU",
+    "IFI",
+    " H "
+  ],
+  "key": {
+    "D": {
+      "tag": "forge:gems/diamond"
+    },
+    "P": {
+      "tag": "forge:plates/iron"
+    },
+    "N": {
+      "item": "alexscaves:block_of_uranium"
+    },
+    "I": {
+      "item": "minecraft:iron_block"
+    },
+    "H": {
+      "item": "alexscaves:hazmat_block"
+    },
+    "F": {
+      "item": "alexscaves:fissile_core"
+    },
+    "U": {
+      "item": "alexscaves:uranium_rod"
+    }
+  },
+  "result": {
+    "item": "cbc_nukes:nuke_shell"
+  },
+  "acceptMirrored": true
+}
+);

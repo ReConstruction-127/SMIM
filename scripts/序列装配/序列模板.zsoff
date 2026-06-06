@@ -1,0 +1,48 @@
+<recipetype:create:sequenced_assembly>.addJsonRecipe("example",{
+  "ingredient": {
+    "item": "输入"
+  },
+  "loops": 3,
+  "results": [
+    {
+      "id": "产物"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "半成品"
+        },
+        {
+          "item": "输入1"
+        }
+      ],
+      "results": [
+        {
+          "id": "半成品"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "半成品"
+        },
+        {
+          "item": "输入2"
+        }
+      ],
+      "results": [
+        {
+          "id": "半成品"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "半成品"
+  }
+});

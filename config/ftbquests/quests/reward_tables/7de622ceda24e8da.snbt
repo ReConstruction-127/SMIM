@@ -1,0 +1,19 @@
+{
+	id: "7DE622CEDA24E8DA"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{ id: "120BD5E958299D4F", item: { components: { "ftbquests:missing_item": "iceandfire:dragonegg_red" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "1E15C40975F41041", item: { components: { "ftbquests:missing_item": "iceandfire:dragonegg_green" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "44C9199252B6D5ED", item: { components: { "ftbquests:missing_item": "iceandfire:dragonegg_bronze" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "7D77E17F6CE513DC", item: { components: { "ftbquests:missing_item": "iceandfire:dragonegg_gray" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "46171FDB5EA98CD8", item: { components: { "ftbquests:missing_item": "iceandfire:dragonegg_blue" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "3D4B7B15CCE568D0", item: { components: { "ftbquests:missing_item": "iceandfire:dragonegg_white" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "256BF59331006FCD", item: { components: { "ftbquests:missing_item": "iceandfire:dragonegg_sapphire" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "53A6BE35213F3E12", item: { components: { "ftbquests:missing_item": "iceandfire:dragonegg_silver" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "17AD56382B2C8E39", item: { components: { "ftbquests:missing_item": "iceandfire:dragonegg_electric" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "2D5B06392080F8E7", item: { components: { "ftbquests:missing_item": "iceandfire:dragonegg_amythest" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "47B150F7E5FD88C0", item: { components: { "ftbquests:missing_item": "iceandfire:dragonegg_copper" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "6D47AF57C629238D", item: { components: { "ftbquests:missing_item": "iceandfire:dragonegg_black" }, count: 1, id: "ftbquests:missing_item" } }
+	]
+}

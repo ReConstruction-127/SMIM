@@ -1,0 +1,28 @@
+import mods.jeitweaker.Jei;
+import crafttweaker.api.text.Component;
+
+//Jei.hideIngredient();
+//Jei.hideIngredients();
+//Jei.addIngredientInformation(,Component.literal(""));
+
+Jei.addIngredientInformation(<item:allthemodium:allthemodium_nugget>,Component.literal("atm矿不会自然生成！获取方式见atm粒的搅拌配方"));
+Jei.addIngredientInformation(<item:allthemodium:raw_allthemodium>,Component.literal("atm矿不会自然生成！获取方式见atm粒的搅拌配方"));
+Jei.addIngredientInformation(<item:alexscaves:nuclear_bomb>,Component.literal("现在核弹无法被制造！你需要制作核炮弹，使用火炮发射它！"));
+Jei.addIngredientInformation(<fluid:spore:bile>,Component.literal("胆汁需要使用流体储罐或其他设备采集"));
+
+
+//Jei.hideIngredientsByRegex("^mekanism:.*");
+//Jei.hideIngredientsByRegex("^mekanismgenerators:.*");
+//craftingTable.removeByModid("mekanism");
+//craftingTable.removeByModid("mekanismgenerators");
+//<recipetype:mekanism:metallurgic_infusing>.removeAll();//移除所有灌注配方
+Jei.addIngredient(<item:mekanismgenerators:bio_generator>);
+Jei.addIngredient(<item:mekanism:basic_fluid_tank>);
+Jei.addIngredient(<item:mekanism:basic_chemical_tank>);
+
+
+//Jei.hideIngredients(<item:ue_addons:thermal_mechanism>,<item:ue_addons:signalum_mechanism>,<item:ue_addons:lead_mechanism>,<item:ue_addons:enderium_mechanism>,
+//<item:ue_addons:lumium_mechanism>,<item:ue_addons:logic_mechanism>,<item:ue_addons:calculation_mechanism>,<item:ue_addons:engineering_mechanism>,
+//<item:ue_addons:incomplete_logic_mechanism>,<item:ue_addons:incomplete_calculation_mechanism>,<item:ue_addons:incomplete_lead_mechanism>,
+//<item:ue_addons:incomplete_engineering_mechanism>,<item:ue_addons:incomplete_thermal_mechanism>,<item:ue_addons:incomplete_sinalum_mechanism>
+//,<item:ue_addons:incomplete_lumium_mechanism>,<item:ue_addons:incomplete_enderium_mechanism>);

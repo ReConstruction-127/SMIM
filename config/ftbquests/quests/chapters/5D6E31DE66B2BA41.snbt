@@ -1,0 +1,93 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5D6E31DE66B2BA41"
+	group: "67D1C43D30648F2E"
+	id: "5D6E31DE66B2BA41"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "22B057292C118F21"
+			tasks: [{
+				id: "3D95521041C860F6"
+				item: { count: 1, id: "spore:surgery_table" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22B057292C118F21"]
+			id: "3E1EF1B8A7BAE170"
+			tasks: [{
+				id: "3F2EC713DBE16D00"
+				item: { count: 1, id: "spore:living_chest" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22B057292C118F21"]
+			id: "76EE485550CEF9AD"
+			tasks: [{
+				id: "3813B49B80D85165"
+				item: { count: 1, id: "spore:plated_chest" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"76EE485550CEF9AD"
+				"3E1EF1B8A7BAE170"
+			]
+			id: "45227EA0A68DD23C"
+			tasks: [{
+				id: "1DB44718C2294CDD"
+				item: { count: 1, id: "spore:inf_chest" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["22B057292C118F21"]
+			id: "131B93B7754D197B"
+			tasks: [{
+				id: "021D8790FA8EC8E5"
+				item: { count: 1, id: "spore:r_elytron" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"45227EA0A68DD23C"
+				"131B93B7754D197B"
+			]
+			id: "26813CD49611EB70"
+			tasks: [{
+				id: "65E7EB7EA825579B"
+				item: { count: 1, id: "spore:inf_up_chest" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["22B057292C118F21"]
+			id: "17F02CAF0BFE9F8B"
+			tasks: [{
+				id: "4671BEDB210CC95D"
+				item: { count: 1, id: "spore:rapier" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+	]
+}

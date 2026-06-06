@@ -1,0 +1,414 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5DED65C400F30AA6"
+	group: "56C520161AC601FC"
+	id: "5DED65C400F30AA6"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4C573C0A6C4DD09F"
+			tasks: [{
+				count: 10L
+				id: "5795A47CEC5B2CBE"
+				item: { components: { "ftbquests:missing_item": "tconstruct:dragon_scale" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			id: "7808C2879AB16474"
+			tasks: [{
+				count: 5L
+				id: "37A82469C639C2F7"
+				item: { components: { "ftbquests:missing_item": "tconstruct:cobalt_reinforcement" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:missing_item": "tconstruct:plate_chestplate"
+				}
+				id: "ftbquests:missing_item"
+			}
+			id: "4F408AA122A154DE"
+			tasks: [
+				{
+					id: "19E667F6FF900C86"
+					item: { components: { "ftbquests:missing_item": "tconstruct:helmet_plating" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "06ED3F071B191274"
+					item: { components: { "ftbquests:missing_item": "tconstruct:chestplate_plating" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "47B0976C1AC5CBE8"
+					item: { components: { "ftbquests:missing_item": "tconstruct:leggings_plating" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "51C5A73669C37D3F"
+					item: { components: { "ftbquests:missing_item": "tconstruct:boots_plating" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "0D6BF2806B66DD30"
+					item: { components: { "ftbquests:missing_item": "tconstruct:maille" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F408AA122A154DE"]
+			id: "6CFD74C5DCB4ED19"
+			tasks: [
+				{
+					id: "2A717E946D9E6E85"
+					item: { count: 1, id: "minecraft:diamond" }
+					type: "item"
+				}
+				{
+					id: "3CEF51C3629EB81B"
+					item: { components: { "ftbquests:missing_item": "tconstruct:emerald_reinforcement" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "1D66C2640A9BC8EF"
+					item: { count: 1, id: "minecraft:netherite_ingot" }
+					type: "item"
+				}
+				{
+					id: "78705CC0F98519F6"
+					item: { count: 1, id: "minecraft:netherite_upgrade_smithing_template" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6CFD74C5DCB4ED19"]
+			id: "4FB403B30D1BA96C"
+			tasks: [
+				{
+					count: 2L
+					id: "24F4DAD577E3CD93"
+					item: { count: 1, id: "minecraft:shulker_shell" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "352E39D9B0B7C11C"
+					item: { count: 1, id: "minecraft:netherite_ingot" }
+					type: "item"
+				}
+				{
+					id: "3337AF5CC03DC50E"
+					item: { count: 1, id: "minecraft:dragon_breath" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"77701D467BFB9975"
+				"312318E2D2B49BF6"
+			]
+			id: "706DFF94353E0738"
+			tasks: [{
+				id: "76CFB4A4ACB9E0A0"
+				item: { components: { "ftbquests:missing_item": "tinkerscalibration:mandite_ingot" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"4A5732C88B08327B"
+				"0B8BC51C20FC56CE"
+			]
+			id: "77701D467BFB9975"
+			tasks: [{
+				id: "075561342C6D13E8"
+				item: { components: { "ftbquests:missing_item": "tconstruct:manyullyn_ingot" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4A5732C88B08327B"]
+			id: "312318E2D2B49BF6"
+			tasks: [{
+				id: "70281FE606ECF425"
+				item: { components: { "ftbquests:missing_item": "tconstruct:hepatizon_ingot" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["706DFF94353E0738"]
+			id: "5F66EA3E649B13AA"
+			shape: "gear"
+			tasks: [{
+				id: "1623898BE7D00EC5"
+				item: { components: { "ftbquests:missing_item": "tinker_rapier:rapier_tic" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			id: "4A5732C88B08327B"
+			tasks: [{
+				id: "58720E9284FD828B"
+				item: { components: { "ftbquests:missing_item": "tconstruct:cobalt_ore" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			id: "0B8BC51C20FC56CE"
+			tasks: [{
+				id: "7073F71904E338F4"
+				item: { count: 1, id: "minecraft:ancient_debris" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3CE3E0A3413E0F65"]
+			id: "502035E0FFADEDAD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A84FA75A7A299E1"
+				table_id: 4312717794984490238L
+				type: "random"
+			}]
+			tasks: [{
+				id: "736407F4B7A8C2DA"
+				item: { components: { "ftbquests:missing_item": "tconstruct:blazing_blood_bucket" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.5d
+		}
+		{
+			id: "033A54B6B745742F"
+			tasks: [{
+				id: "389243F13C929074"
+				item: { count: 1, id: "minecraft:terracotta" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4F5ED13C578FC8F2"]
+			icon: {
+				components: {
+					"ftbquests:missing_item": "tconstruct:smeltery_controller"
+				}
+				id: "ftbquests:missing_item"
+			}
+			id: "3CE3E0A3413E0F65"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "72616D3296E47229"
+				table_id: 4312717794984490238L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "17947D277A2A4D68"
+					item: { components: { "ftbquests:missing_item": "tconstruct:smeltery_controller" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "3A4E0BC13639D92E"
+					item: { components: { "ftbquests:missing_item": "tconstruct:seared_bricks" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "379F99B2F0D31BAF"
+					item: { components: { "ftbquests:missing_item": "tconstruct:seared_glass" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "286D17D2AC9AC446"
+					item: { components: { "ftbquests:missing_item": "tconstruct:seared_ladder" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "18A84E2563CA9EEE"
+					item: { components: { "ftbquests:missing_item": "tconstruct:seared_fuel_tank" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "7CA0A2EDBE7186D5"
+					item: { components: { "ftbquests:missing_item": "tconstruct:seared_drain" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "750E966742455C90"
+					item: { components: { "ftbquests:missing_item": "tconstruct:seared_faucet" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "11347B1C4FA93585"
+					item: { components: { "ftbquests:missing_item": "tconstruct:seared_basin" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "05B126A4B0A5AEB6"
+					item: { components: { "ftbquests:missing_item": "tconstruct:seared_table" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"0B5610EEA8545B45"
+				"033A54B6B745742F"
+			]
+			id: "4F5ED13C578FC8F2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0DA0863BA2845A57"
+				table_id: 4312717794984490238L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "6E3C282F6F9FE89C"
+					item: { components: { "ftbquests:missing_item": "tconstruct:seared_melter" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "3B837076D924BEC4"
+					type: "checkmark"
+				}
+				{
+					id: "16366BCD561A8276"
+					item: { components: { "ftbquests:missing_item": "tconstruct:seared_faucet" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "382AACB605A297BF"
+					item: { components: { "ftbquests:missing_item": "tconstruct:seared_basin" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "4600C757505D8497"
+					item: { components: { "ftbquests:missing_item": "tconstruct:seared_stone" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			id: "0B5610EEA8545B45"
+			rewards: [
+				{
+					id: "592ACCA83458F305"
+					item: {
+						components: {
+							"ftbquests:missing_item": "tconstruct:puny_smelting"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "1E20E954593CABC0"
+					item: {
+						components: {
+							"ftbquests:missing_item": "tconstruct:fantastic_foundry"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "15A0351B4410F95A"
+					item: {
+						components: {
+							"ftbquests:missing_item": "tconstruct:tinkers_gadgetry"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "434CA1B5450A70CF"
+					item: {
+						components: {
+							"ftbquests:missing_item": "tconstruct:mighty_smelting"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "19DE00E1ACBB1FA6"
+				item: { components: { "ftbquests:missing_item": "tconstruct:materials_and_you" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3CE3E0A3413E0F65"]
+			id: "431638869A6DCDE3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "11570EC41150124E"
+				table_id: 4312717794984490238L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "59CBFEF9D4ADFB8B"
+					item: { components: { "ftbquests:missing_item": "tconstruct:seared_duct" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "3ED4282F2DCD109A"
+					item: { components: { "ftbquests:missing_item": "tconstruct:copper_can" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "3C3F0F557D7D7F35"
+					item: { components: { "ftbquests:missing_item": "tconstruct:ingot_cast" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 5.5d
+		}
+	]
+}

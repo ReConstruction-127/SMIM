@@ -1,0 +1,19 @@
+{
+  "dlc_name": "modernfix-mixins.properties",
+  "dlc_identifier": "modernfix",
+  "DisplayName": {
+    "en_us": "ABC Config",
+    "zh_cn": "ABC 配置"
+  },
+  "type": "config",
+  "appliedTarget": "config/modernfix-mixins.properties",
+  "isInList": true,
+  "isHidden": false,
+  "AllowEnableByAll": false,
+  "dependencies": "",
+  "conflicts": "",
+  "tip": {
+    "en_us": "ABC",
+    "zh_cn": "ABC"
+  }
+}

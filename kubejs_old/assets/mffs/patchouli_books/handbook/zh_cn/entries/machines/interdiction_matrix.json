@@ -1,0 +1,27 @@
+{
+    "name": "禁制矩阵",
+    "icon": "mffs:interdiction_matrix",
+    "category": "mffs:machines",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "mffs:interdiction_matrix",
+            "link_recipe": true,
+            "text": "$(9)禁制矩阵$() 是模块化力场系统的成员设备之一。它能够对自身周围区域内的玩家或实体施加限制规则，例如可以被配置为自动击杀进入作用范围的生物或玩家，或是阻止未授权玩家篡改其他设备。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "mffs:interdiction_matrix",
+            "text": "合成 $(9)禁制矩阵$() 的配方。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "运行机制",
+            "text": "$(9)禁制矩阵$() 的周围区域被划分为两个逻辑分区：$(bold)作用区$() 与 $(bold)预警区$()。作用区的辐射范围与设备中安装的 $(l:mffs:upgrade_modules/scale_module)$(5)缩放模块$() 数量完全一致。默认情况下，预警区会以作用区边缘为起点，向外延伸额外3格的距离，形成一个同心球状区域。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "当玩家进入 $(l:mffs:machines/interdiction_matrix)禁制矩阵$() 的预警区时，设备会发送一条警告信息，提示玩家已进入扫描范围。如果玩家不想亲身体验该矩阵所安装模块的效果，就不应继续向中心靠近。在未安装任何模块的情况下，$(l:mffs:machines/interdiction_matrix)禁制矩阵$() 实际上不会产生任何作用；而装配了 $(l:mffs:interdiction_modules)$(5)功能模块$() 后，它将成为一套威力强大的防御系统。"
+        }
+    ]
+}

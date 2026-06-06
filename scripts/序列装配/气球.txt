@@ -1,0 +1,61 @@
+<recipetype:create:sequenced_assembly>.addJsonRecipe("balloon",{
+  "ingredient": {
+    "item": "mekanism:cardboard_box"
+  },
+  "loops": 1,
+  "results": [{
+      "item": "vs_eureka:balloon"}
+  ],"sequence": [
+     {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "mekanism:cardboard_box"
+        },
+        {
+          "amount": 1000,
+          "fluid": "gtceu:helium"
+        }
+      ],
+      "results": [
+        {
+          "item": "mekanism:cardboard_box"
+        }
+      ]
+    },  {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "mekanism:cardboard_box"
+        },
+        {
+          "amount": 100,
+          "fluid": "gtceu:glue"
+        }
+      ],
+      "results": [
+        {
+          "item": "mekanism:cardboard_box"
+        }
+      ]
+    },{
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "mekanism:cardboard_box"
+        },
+        {
+          "item": "minecraft:white_dye"
+        }
+      ],
+      "results": [
+        {
+          "item": "mekanism:cardboard_box"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "mekanism:cardboard_box"
+  }
+});

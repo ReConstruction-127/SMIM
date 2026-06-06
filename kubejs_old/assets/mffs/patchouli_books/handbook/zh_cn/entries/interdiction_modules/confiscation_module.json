@@ -1,0 +1,33 @@
+{
+    "name": "没收模块",
+    "icon": "mffs:confiscation_module",
+    "category": "mffs:interdiction_modules",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "mffs:confiscation_module",
+            "link_recipe": true,
+            "text": "$(5)没收模块$() 是 $(l:mffs:machines/interdiction_matrix)禁制矩阵$() 的可选功能模块，安装后可让设备获得自动没收玩家物品的能力。当玩家进入禁制矩阵的作用区时，设备会扫描玩家的背包，扣押所有被判定为违禁的物品。该规则适用于玩家**手持、穿戴及存放在背包内**的所有物品。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "mffs:confiscation_module",
+            "text": "合成 $(5)没收模块$() 的配方。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "筛选模式",
+            "text": "你可以通过 $(l:mffs:machines/interdiction_matrix)禁制矩阵$() 界面底部的**筛选模式开关**和对应的9个物品槽，来配置该模块的工作规则。筛选模式包含两种状态：黑名单模式（默认）与白名单模式。$(br2)被没收的物品会被自动收集到与 $(l:mffs:machines/interdiction_matrix)禁制矩阵$() 相邻的容器中。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "黑名单模式",
+            "text": "当模式开关显示为「黑名单」时，$(l:mffs:machines/interdiction_matrix)禁制矩阵$() 会将9个红色物品槽内的物品判定为违禁品，仅会扣押这些物品，玩家可保留其余所有物品。若9个物品槽全部为空，禁制矩阵会判定**所有物品均为违禁品**，并没收玩家身上的全部物品。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "白名单模式",
+            "text": "当模式开关显示为「白名单」时，禁制矩阵会将9个绿色物品槽内的物品判定为许可物品，玩家仅可保留这些物品，其余所有物品都会被扣押。若9个物品槽全部为空，禁制矩阵会判定**所有物品均为许可品**，不会没收任何物品。"
+        }
+    ]
+}

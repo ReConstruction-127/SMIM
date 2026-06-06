@@ -1,0 +1,23 @@
+{
+    "name": "方块访问限制模块",
+    "icon": "mffs:block_access_module",
+    "category": "mffs:interdiction_modules",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "mffs:block_access_module",
+            "link_recipe": true,
+            "text": "$(5)方块访问限制模块$() 是 $(l:mffs:machines/interdiction_matrix)禁制矩阵$() 的可选功能模块。安装该模块后，禁制矩阵将能够限制玩家右键点击方块并打开其交互界面的操作权限。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "mffs:block_access_module",
+            "text": "合成 $(5)方块访问限制模块$() 的配方。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "运行机制",
+            "text": "若未授权玩家尝试右键点击位于禁制矩阵作用区内的方块或机械，将无法打开其交互界面。同理，处于作用区外的方块或机械，玩家可正常右键交互使用。"
+        }
+    ]
+}

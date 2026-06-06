@@ -1,0 +1,53 @@
+{
+    "name": "生物特征识别器",
+    "icon": "mffs:biometric_identifier",
+    "category": "mffs:machines",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "mffs:biometric_identifier",
+            "link_recipe": true,
+            "text": "$(9)生物特征识别器$() 是模块化力场系统中的核心设备之一。它通过识别玩家的生物特征信息，管控玩家在与力场屏障、模块化力场系统设备交互时所拥有的权限。例如，它可以允许指定玩家穿过已激活的力场屏障，或使其豁免于 $(l:mffs:machines/interdiction_matrix)禁制矩阵$() 的作用效果。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "mffs:biometric_identifier",
+            "text": "合成 $(9)生物特征识别器$() 的配方。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "使用方法",
+            "text": "若要配置 $(9)生物特征识别器$() 使其识别某名玩家，需先打开设备界面，将一张 $(l:mffs:tools/id_card)身份识别卡$() 放入左上角标有 $(2)权限$() 的物品槽中。如果这张身份识别卡是空白未绑定状态，你可以手持卡片**潜行右键点击**自身完成绑定，也可以潜行右键点击其他玩家，将卡片绑定给目标对象。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "接下来，你可以通过点击界面右侧的对应按钮，为该玩家分配所需权限。每个按钮对应的权限功能如下：$(li)$(bold)力场穿行$()：允许玩家通过潜行的方式穿过力场屏障。$(li)$(bold)方块操作$()：允许玩家在 $(l:mffs:machines/interdiction_matrix)禁制矩阵$() 的防护区域内放置或破坏方块。$()"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(li)$(bold)方块访问$()：允许玩家在禁制矩阵的作用范围内，打开任意方块的交互界面。$(li)$(bold)设备配置$()：授予玩家配置生物特征识别器、修改用户权限的权限。$(li)$(bold)防御豁免$()：允许玩家绕过 $(l:mffs:machines/interdiction_matrix)禁制矩阵$() 施加的限制。$(li)$(bold)没收豁免$()：使玩家免受禁制矩阵的物品没收效果影响。$()"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(li)$(bold)远程操控$()：允许玩家对已链接至本识别器的设备使用遥控器。$(p)完成玩家的权限分配后，将其身份识别卡移入界面底部的9个卡槽中任意一个，即可完成整个配置流程。若要将自己设为该 $(9)生物特征识别器$() 的管理员，只需将一张绑定了自身信息的 $(l:mffs:tools/id_card)身份识别卡$() 放入标有 $(2)管理员$() 的物品槽即可。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(9)生物特征识别器$() 的管理员用户将 $(4)自动获得全部权限$()。向设备输入红石信号，或点击界面左上角的红石火把按钮，即可激活 $(9)生物特征识别器$()。设备激活后会亮起灯光，并正式开始发挥作用。"
+        },
+        {
+            "type": "patchouli:image",
+            "images": [
+                "mffs:textures/gui/handbook/biometric_identifier.png"
+            ],
+            "border": true,
+            "title": "设备展示",
+            "text": "一张已激活的 $(9)生物特征识别器$() 界面截图。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "注意事项",
+            "text": "$(li)玩家在穿行力场屏障的过程中，必须全程保持潜行状态，直至完全离开力场范围，否则会被力场击杀。$(li)设备处于激活状态时，放入卡槽的 $(l:mffs:tools/id_card)身份识别卡$() 无法取出。$(li)穿过力场屏障可能会使玩家获得4级反胃效果，该效果为暂时性。$(li)处于创造模式的玩家可以无视权限，直接穿行任何力场屏障。$()"
+        }
+    ]
+}

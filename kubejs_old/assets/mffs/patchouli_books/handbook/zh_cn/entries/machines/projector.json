@@ -1,0 +1,36 @@
+{
+    "name": "力场投射器",
+    "icon": "mffs:projector",
+    "category": "mffs:machines",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "mffs:projector",
+            "link_recipe": true,
+            "text": "$(9)力场投射器$() 是模块化力场系统的核心设备。它能够消耗力场能量液，在游戏世界中投射出不同尺寸与形态的力场屏障。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "mffs:projector",
+            "text": "合成 $(9)力场投射器$() 的配方。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "使用方法",
+            "text": "若要生成力场屏障，需先将 $(9)力场投射器$() 与附近的 $(l:mffs:machines/fortron_capacitor)力场能量电容器$() 建立链接，以获取 $(l:mffs:getting_started/fortron)力场能量液$() 供应。链接可通过以下两种方式实现：$(li)右键点击 $(9)力场投射器$()，在设备界面中输入与电容器匹配的频率数值$(li)手持 $(l:mffs:tools/frequency_card)频率卡片$()，潜行右键点击力场投射器"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "你需要先合成任意一种 $(l:mffs:projector_modes)投射形态道具$()，以此决定力场屏障的形状。右键打开力场投射器界面，将投射形态道具放入界面中央被外向箭头环绕的红色物品槽中。随后合成若干个 $(l:mffs:upgrade_modules/scale_module)$(5)缩放模块$()，并将其放入力场投射器界面左侧的升级槽位矩阵中。每在矩阵槽位中放入一个 $(l:mffs:upgrade_modules/scale_module)$(5)缩放模块$()，力场屏障的半径就会增加1格。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "界面底部的数值代表维持指定尺寸与形态的力场屏障所需消耗的力场能量液总量。向投射器输入红石信号即可激活设备，激活后投射器的外观会从红色变为蓝色，并开始投射力场屏障（前提是设备拥有足够的 $(l:mffs:getting_started/fortron)力场能量液$()）。$(p)若要实现穿行力场屏障的功能，则需要搭配 $(l:mffs:machines/biometric_identifier)生物特征识别器$() 使用。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "可升级性",
+            "text": "$(9)力场投射器$() 可加装多种升级模块以提升性能，各类通用模块的作用如下：$(li)$(l:mffs:upgrade_modules/scale_module)$(5)缩放模块$()：调整投射出的力场屏障形态与尺寸$(li)$(l:mffs:upgrade_modules/speed_module)$(5)增速模块$()：提升力场屏障的生成速度$(li)$(l:mffs:upgrade_modules/capacity_module)$(5)扩容模块$()：提升力场投射器的 $(l:mffs:getting_started/fortron)力场能量液$() 储存上限$()"
+        }
+    ]
+}

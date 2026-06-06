@@ -1,0 +1,30 @@
+{
+	id: "709C60B20E9676C7"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{
+			id: "7A6E2B81250AC3C7"
+			item: {
+				components: {
+					"ftbquests:missing_item": "kubejs:ys"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			random_bonus: 100
+			weight: 99.0f
+		}
+		{
+			id: "7052E9F9BCDBFBAC"
+			item: {
+				components: {
+					"ftbquests:missing_item": "kubejs:csjj"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			random_bonus: 100
+		}
+	]
+}

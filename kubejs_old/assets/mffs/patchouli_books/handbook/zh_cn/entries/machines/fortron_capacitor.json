@@ -1,0 +1,36 @@
+{
+    "name": "力场能量电容器",
+    "icon": "mffs:fortron_capacitor",
+    "category": "mffs:machines",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "mffs:fortron_capacitor",
+            "link_recipe": true,
+            "text": "$(9)力场能量电容器$() 是模块化力场系统的能量存储与管理设备。它的核心作用是收集由 $(l:mffs:machines/coercion_deriver)强制推导器$() 生成的力场能量液，并将其输送给其他需要 $(l:mffs:getting_started/fortron)力场能量液$() 才能运转的设备，相当于整个系统的能量枢纽。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "mffs:fortron_capacitor",
+            "text": "合成 $(9)力场能量电容器$() 的配方。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "使用方法",
+            "text": "放置电容器后，需为其设置工作频率。电容器默认频率为0，你可以通过以下两种方式修改频率：$(li)右键点击电容器，在设备界面中输入目标频率数值$(li)手持 $(l:mffs:tools/frequency_card)频率卡片$()，潜行右键点击电容器。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "向电容器输入红石信号即可激活设备。激活后，电容器的外观会从红色变为蓝色，并开始与**同频率**且**在作用范围内**（默认15格）的其他模块化力场系统设备进行 $(l:mffs:getting_started/fortron)力场能量液$() 传输。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "可升级性",
+            "text": "你可以为电容器加装各类升级模块，以增强设备性能：$(li)$(l:mffs:upgrade_modules/scale_module)$(5)缩放模块$()：提升电容器与其他模块化力场系统设备的链接距离，每个模块可在默认15格的基础上增加1格作用范围。$(li)$(l:mffs:upgrade_modules/speed_module)$(5)增速模块$()：提升电容器与其他设备之间的 $(l:mffs:getting_started/fortron)力场能量液$() 传输速度，每个模块可使传输速率提升50 FE。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(li)$(l:mffs:upgrade_modules/capacity_module)$(5)扩容模块$()：提升电容器的 $(l:mffs:getting_started/fortron)力场能量液$() 储存上限。"
+        }
+    ]
+}

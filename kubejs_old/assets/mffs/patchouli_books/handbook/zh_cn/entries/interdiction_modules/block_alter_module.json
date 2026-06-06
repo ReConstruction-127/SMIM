@@ -1,0 +1,18 @@
+{
+    "name": "方块限制模块",
+    "icon": "mffs:block_alter_module",
+    "category": "mffs:interdiction_modules",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "mffs:block_alter_module",
+            "link_recipe": true,
+            "text": "$(5)方块限制模块$() 是 $(l:mffs:machines/interdiction_matrix)禁制矩阵$() 的可选功能模块。安装该模块后，禁制矩阵将能够限制玩家在其作用区内放置或破坏方块的操作权限。如果玩家尝试在 $(l:mffs:machines/interdiction_matrix)禁制矩阵$() 的作用区内放置或破坏方块，设备会向玩家发送无权限提示，并撤销其已执行的操作。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "mffs:block_alter_module",
+            "text": "合成 $(5)方块限制模块$() 的配方。"
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+<recipetype:tconstruct:casting_basin>.remove(<item:create:andesite_alloy>);
+
+<recipetype:tconstruct:casting_table>.addJsonRecipe("copper_backtank",
+{
+  "cast": {
+    "item": "create:copper_backtank"
+  },
+  "cast_consumed": true,
+  "cooling_time": 60,
+  "fluid": {
+    "amount": 360,
+    "tag": "tconstruct:molten_osmium"
+  },
+  "result": {
+    "item": "mekanism:basic_chemical_tank"
+  }
+} );
+
+<recipetype:tconstruct:casting_table>.addJsonRecipe("mechanismcast1",
+{
+  "cast": {
+    "item": "ue_addons:mechanismcast"
+  },
+  "cast_consumed": false,
+  "cooling_time": 60,
+  "fluid": {
+    "amount": 90,
+    "tag": "tconstruct:molten_iron"
+  },
+  "result": {
+    "item": "ue_addons:incomplete_iron_mechanism"
+  }
+} );
+
+<recipetype:tconstruct:casting_table>.addJsonRecipe("mechanismcast2",
+{
+  "cast": {
+    "item": "ue_addons:mechanismcast"
+  },
+  "cast_consumed": false,
+  "cooling_time": 60,
+  "fluid": {
+    "amount": 90,
+    "tag": "tconstruct:molten_copper"
+  },
+  "result": {
+    "item": "ue_addons:incomplete_copper_mechanism"
+  }
+} );
+
+<recipetype:tconstruct:casting_table>.addJsonRecipe("rubber_plate",
+{
+  "cast": {
+    "item": "gtceu:plate_casting_mold"
+  },
+  "cast_consumed": false,
+  "cooling_time": 60,
+  "fluid": {
+    "amount": 144,
+    "fluid": "gtceu:rubber"
+  },
+  "result": {
+    "item": "gtceu:rubber_plate"
+  }
+} );

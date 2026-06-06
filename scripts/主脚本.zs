@@ -1,0 +1,1 @@
+//<recipetype:mekanism:gas_conversion>.addRecipe("gas_conversion/scent",<item:spore:biomass>,<gas:kubejs:scent_gas>*1);

@@ -1,0 +1,1390 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ias_2"
+	group: "56C520161AC601FC"
+	id: "533375A9F3E73B09"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0ECE2D3543AA67D0"]
+			id: "2D19FFDC6C1E407A"
+			tasks: [{
+				id: "7DFCBA19D996D56A"
+				item: { count: 1, id: "immersiveengineering:cloche" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			id: "0ECE2D3543AA67D0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "35FC7489BE37540A"
+					table_id: 4312717794984490238L
+					type: "random"
+				}
+				{
+					id: "4C7FEC1A45432E91"
+					item: {
+						count: 1
+						id: "immersiveengineering:chemthrower"
+					}
+					type: "item"
+				}
+				{
+					id: "300215E46A1C4B3B"
+					item: {
+						count: 1
+						id: "immersiveengineering:toolupgrade_drill_capacity"
+					}
+					type: "item"
+				}
+				{
+					id: "3FD36ED7BCB905DA"
+					item: {
+						count: 1
+						id: "immersiveengineering:toolupgrade_chemthrower_focus"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 27L
+				id: "4B5EEB57FD41996F"
+				item: { count: 1, id: "immersiveengineering:cokebrick" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			id: "49FC773ACB8DFDCD"
+			rewards: [
+				{
+					id: "547E799330939335"
+					item: {
+						count: 1
+						id: "minecraft:elytra"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7557CE06527AA66A"
+					item: {
+						count: 1
+						id: "apotheosis:potion_charm"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "541BA73031F7D2A9"
+					item: {
+						count: 1
+						id: "minecraft:oak_log"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7AA451455464897B"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5E0DFD092F52F566"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "60125F9934E2777A"
+					item: {
+						components: {
+							"ftbquests:missing_item": "constructionwand:diamond_wand"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "6D9AD8608B3511A4"
+					item: {
+						components: {
+							"ftbquests:missing_item": "tacz:modern_kinetic_gun"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7E38282A21F9643B"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "4EC8AA4558065896"
+					item: {
+						components: {
+							"ftbquests:missing_item": "artifacts:night_vision_goggles"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					auto: "disabled"
+					count: 4
+					id: "7D13221B7EFD2680"
+					item: {
+						count: 1
+						id: "apotheosis:potion_charm"
+					}
+					type: "item"
+				}
+				{
+					id: "77A8CA28B6796584"
+					item: {
+						count: 1
+						id: "minecraft:white_bed"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4CB92200E2A8A015"
+					item: {
+						components: {
+							"ftbquests:missing_item": "vs_eureka:birch_ship_helm"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "7D5F4BF9EDA018D9"
+					item: {
+						count: 1
+						id: "create:white_seat"
+					}
+					type: "item"
+				}
+				{
+					count: 24
+					id: "662DC30C8235FCF6"
+					item: {
+						count: 1
+						id: "create:cut_diorite_brick_stairs"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					auto: "disabled"
+					count: 667
+					id: "2F4DEC4F404C666E"
+					item: {
+						count: 1
+						id: "create:industrial_iron_block"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "18E93D32E33C10F9"
+					item: {
+						count: 1
+						id: "minecraft:oak_sign"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 2
+					id: "703CED4D0636DCB7"
+					item: {
+						count: 1
+						id: "minecraft:sea_lantern"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 253
+					id: "444EBFD0B7299BA0"
+					item: {
+						components: {
+							"ftbquests:missing_item": "vs_eureka:gray_balloon"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "33DD46D45E7D6EE7"
+					item: {
+						count: 1
+						id: "create:white_seat"
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					count: 2
+					id: "75CF93F1214351AF"
+					item: {
+						count: 1
+						id: "minecraft:chest"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0D0E829424B67D8F"
+					item: {
+						components: {
+							"ftbquests:missing_item": "vs_eureka:engine"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					auto: "disabled"
+					count: 135
+					id: "6301D0EF7D7B6B5A"
+					item: {
+						count: 1
+						id: "create:framed_glass"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 8
+					id: "15A690976FB10F89"
+					item: {
+						count: 1
+						id: "create:copper_door"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7AFFD8AFECF4D92B"
+					item: {
+						count: 1
+						id: "minecraft:redstone_block"
+					}
+					type: "item"
+				}
+				{
+					id: "44552A1EF6F4BEF0"
+					item: {
+						count: 1
+						id: "create:schematic_table"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1B71D4694E52108E"
+					item: {
+						count: 1
+						id: "waystones:waystone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4A723676A0558924"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["56E77A7A1DA00EED"]
+			id: "4870C6C1CC32CD27"
+			rewards: [
+				{
+					count: 26
+					id: "74E655C01D25D0EE"
+					item: {
+						components: {
+							"ftbquests:missing_item": "exdeorum:netherite_mesh"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 25
+					id: "6EADD1C5AC52DBBB"
+					item: {
+						components: {
+							"ftbquests:missing_item": "exdeorum:oak_compressed_sieve"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "64A0B27661009096"
+					item: {
+						components: {
+							"ftbquests:missing_item": "exdeorum:compressed_cobblestone"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "73714A40614FA351"
+					item: {
+						components: {
+							"ftbquests:missing_item": "exdeorum:mechanical_sieve"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "7D6F9BCF05DB655B"
+					item: {
+						components: {
+							"ftbquests:missing_item": "exdeorum:compressed_diamond_hammer"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "469F677EA0ADB0F7"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:advanced_compacting_upgrade"
+					}
+					type: "item"
+				}
+				{
+					id: "61DF92AF215094A5"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:stack_upgrade_tier_3"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "47C674E94606EDB8"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			id: "56C952B89FF8A369"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52EE9450076221D1"
+				table_id: 4312717794984490238L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "40BBD427EAD60866"
+					item: { components: { "ftbquests:missing_item": "vs_tournament:sensor" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "3DB34ECD670B8B40"
+					item: { components: { "ftbquests:missing_item": "vs_tournament:thruster" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "2440208BF19442D5"
+					item: { components: { "ftbquests:missing_item": "vs_tournament:upgrade_thruster" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			id: "1E04D20622DDF7A3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6129E24EA0920461"
+				table_id: 4312717794984490238L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "2C7AA2DD838597F9"
+					item: { components: { "ftbquests:missing_item": "vs_eureka:engine" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "4BA2821147792ABF"
+					item: { components: { "ftbquests:missing_item": "vs_tournament:prop_big" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			id: "3A3F2E2A000145CE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "175E087ABCE9E97B"
+				table_id: 3890725184685661295L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "4332D7C2D26B4190"
+					item: { components: { "ftbquests:missing_item": "kontraption:ion_thruster" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "44FD7429F645EAC0"
+					item: { components: { "ftbquests:missing_item": "kontraption:ship_control_interface" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "2B108F53EA79E0AA"
+					item: { components: { "ftbquests:missing_item": "kontraption:gyro" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "0235EC3AC0B9097A"
+					item: { components: { "ftbquests:missing_item": "kontraption:liquid_fuel_thruster_casing" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "23FDF373F10796E2"
+					item: { components: { "ftbquests:missing_item": "kontraption:liquid_fuel_thruster_valve" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "18A0460B72633F15"
+					item: { components: { "ftbquests:missing_item": "kontraption:liquid_fuel_thruster_exhaust" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			id: "208D3F2A55962F28"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1EE1FC6A93D72EBA"
+					table_id: 1583329392786107932L
+					type: "random"
+				}
+				{
+					id: "15FE363DDDF41FA7"
+					item: {
+						components: {
+							"ftbquests:missing_item": "kubejs:chefmaster8"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "21218EEB860F7181"
+					item: { components: { "ftbquests:missing_item": "barbequesdelight:grilled_cod_skewer" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "329E95E31B0759AC"
+					item: { components: { "ftbquests:missing_item": "barbequesdelight:grilled_salmon_skewer" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "1EB68AC50C22A528"
+					item: { components: { "ftbquests:missing_item": "barbequesdelight:grilled_chicken_skewer" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "05CDC68A74BC2AF8"
+					item: { components: { "ftbquests:missing_item": "barbequesdelight:grilled_mushroom_skewer" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "3DA69C8D4C77BAB9"
+					item: { components: { "ftbquests:missing_item": "barbequesdelight:grilled_beef_skewer" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "6E291761D7B93AB2"
+					item: { components: { "ftbquests:missing_item": "barbequesdelight:grilled_lamb_skewer" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "66905953666E4A3E"
+					item: { components: { "ftbquests:missing_item": "barbequesdelight:grilled_rabbit_skewer" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "10EB7D3F47300A20"
+					item: { components: { "ftbquests:missing_item": "barbequesdelight:grilled_pork_sausage_skewer" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "7500B0E4AC3E5B00"
+					item: { components: { "ftbquests:missing_item": "barbequesdelight:grilled_potato_skewer" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "3A32D8946AAC852D"
+					item: { components: { "ftbquests:missing_item": "barbequesdelight:grilled_vegetable_skewer" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "5DA5F76E1B9A2B7F"
+					item: { components: { "ftbquests:missing_item": "barbequesdelight:kebab_wrap" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "48F0E5C6BEE97A36"
+					item: { components: { "ftbquests:missing_item": "barbequesdelight:kebab_sandwich" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "2D3C8AB0FE482A2B"
+					item: { components: { "ftbquests:missing_item": "barbequesdelight:bibimbap" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "06C3ABADFE6F3919"
+					item: { components: { "ftbquests:missing_item": "skewers:skewer_beef_cooked" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "44711C316F75A060"
+					item: { components: { "ftbquests:missing_item": "skewers:skewer_porkchop_cooked" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "65D2E396BAC5466B"
+					item: { components: { "ftbquests:missing_item": "skewers:skewer_cod_cooked" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "5A175A861B7D236B"
+					item: { components: { "ftbquests:missing_item": "skewers:skewer_salmon_cooked" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "6FEE19F3DD420F79"
+					item: { components: { "ftbquests:missing_item": "skewers:skewer_veggie_cooked" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "68F899A9B5697599"
+					item: { components: { "ftbquests:missing_item": "skewers:skewer_chicken_cooked" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "070650BADA24B388"
+					item: { components: { "ftbquests:missing_item": "skewers:skewer_chicken_cooked" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "18B84242156646D2"
+					item: { components: { "ftbquests:missing_item": "skewers:skewer_rabbit_cooked" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "65884DE6749BADAD"
+					item: { components: { "ftbquests:missing_item": "skewers:skewer_mutton_cooked" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "000AEB204D6F75A7"
+					item: { components: { "ftbquests:missing_item": "skewers:skewer_algae" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "43AF1E0572D818E5"
+					item: { components: { "ftbquests:missing_item": "skewers:skewer_fish_fillet_cooked" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			id: "4F7DEB2FE578DDAF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2A1F4F971F1882C6"
+					table_id: 4312717794984490238L
+					type: "random"
+				}
+				{
+					id: "3595DC7CD5C9F8EB"
+					item: {
+						count: 1
+						id: "minecraft:soul_sand"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "434E87C9C36CCA1A"
+					item: { components: { "ftbquests:missing_item": "mynethersdelight:nether_bricks_stove" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "6C712F936D8D8DA0"
+					item: { components: { "ftbquests:missing_item": "ends_delight:end_stove" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -4.0d
+		}
+		{
+			id: "76EA883092FF5441"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3C8E7D93E3BE419A"
+					table_id: 1583329392786107932L
+					type: "random"
+				}
+				{
+					id: "68C68EACE67C10CB"
+					item: {
+						components: {
+							"ftbquests:missing_item": "kubejs:chefmaster3"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "76723B190B42509B"
+					item: { components: { "ftbquests:missing_item": "mynethersdelight:hotdog" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "0498AE7D18C78350"
+					item: { components: { "ftbquests:missing_item": "mynethersdelight:sausage_and_potatoes" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "59C4EAFE1B3B68C5"
+					item: { components: { "ftbquests:missing_item": "mynethersdelight:breakfast_sampler" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "1DF3320640465C64"
+					item: { components: { "ftbquests:missing_item": "mynethersdelight:blue_tenderloin_steak" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "2E833065DC618200"
+					item: { components: { "ftbquests:missing_item": "mynethersdelight:fried_hoglin_chop" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "2A057D47C0DC4A71"
+					item: { components: { "ftbquests:missing_item": "mynethersdelight:deviled_egg" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "46CD6FFD87B5FD66"
+					item: { components: { "ftbquests:missing_item": "mynethersdelight:bleeding_tartar" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "73E23A715177FC1A"
+					item: { components: { "ftbquests:missing_item": "mynethersdelight:strider_with_grilled_fungus" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "1949E4CC598F16C0"
+					item: { components: { "ftbquests:missing_item": "mynethersdelight:strider_stew" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "1448B3010512D002"
+					item: { components: { "ftbquests:missing_item": "mynethersdelight:crimson_stroganoff" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "2B25CFC9A1B2EFC9"
+					item: { components: { "ftbquests:missing_item": "mynethersdelight:plate_of_striderloaf" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "0AADA76DDDA7772E"
+					item: { components: { "ftbquests:missing_item": "mynethersdelight:ghast_salad" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "35E29E17FCF73423"
+					item: { components: { "ftbquests:missing_item": "mynethersdelight:spicy_noodle_soup" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "4AC1BAA66D76395C"
+					item: { components: { "ftbquests:missing_item": "mynethersdelight:spicy_cotton" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "25C93D8108867AF0"
+					item: { components: { "ftbquests:missing_item": "mynethersdelight:plate_of_ghasta_with_cream" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "3576BB6DE77E3C0B"
+					item: { components: { "ftbquests:missing_item": "mynethersdelight:spicy_skewer" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "3428471EBAFBBC3F"
+					item: { components: { "ftbquests:missing_item": "mynethersdelight:chilidog" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "56FD92EF46F1E57C"
+					item: { components: { "ftbquests:missing_item": "mynethersdelight:spicy_hoglin_stew" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "0DC6BAF97ED742B2"
+					item: { components: { "ftbquests:missing_item": "mynethersdelight:hot_wings_bucket" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "5394A26C881A21DC"
+					item: { components: { "ftbquests:missing_item": "mynethersdelight:spicy_curry" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "5C1A0355664BB476"
+					item: { components: { "ftbquests:missing_item": "mynethersdelight:rock_soup" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "43DB8F87A6FAE057"
+					item: { components: { "ftbquests:missing_item": "mynethersdelight:burnt_roll" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "7ABE9F8160BB334C"
+					item: { components: { "ftbquests:missing_item": "mynethersdelight:magma_cake" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "2FE785DA7580576F"
+					item: { components: { "ftbquests:missing_item": "mynethersdelight:hot_cream" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -3.0d
+		}
+		{
+			id: "7DD96A818FBE24FA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2AC783469C0C235C"
+					table_id: 3890725184685661295L
+					type: "random"
+				}
+				{
+					id: "66DBF345E602F01D"
+					item: {
+						components: {
+							"ftbquests:missing_item": "kubejs:chefmaster7"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7D20DFF258F79B89"
+					item: { components: { "ftbquests:missing_item": "muffins_thaidelight:somtam_feast" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "145EBA23EF6B983E"
+					item: { components: { "ftbquests:missing_item": "muffins_thaidelight:spicy_minced_meat_salad_feast" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "4BF38596594FD774"
+					item: { components: { "ftbquests:missing_item": "muffins_thaidelight:crab_fried_rice_feast" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "569FDCCA195A0427"
+					item: { components: { "ftbquests:missing_item": "muffins_thaidelight:stir_fried_noodle" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "232F9CE91842E2B4"
+					item: { components: { "ftbquests:missing_item": "muffins_thaidelight:lime_juice" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "559DB0E4601A113F"
+					item: { components: { "ftbquests:missing_item": "muffins_thaidelight:papaya_juice" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "4B33130782CB375E"
+					item: { components: { "ftbquests:missing_item": "pineapple_delight:pineapple_juice" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "1C5AA28B616016AF"
+					item: { components: { "ftbquests:missing_item": "pineapple_delight:pineapple_fried_rice" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "167B3FDD79AB9080"
+					item: { components: { "ftbquests:missing_item": "pineapple_delight:pineapple_milk_shake" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "74A7349247605075"
+					item: { components: { "ftbquests:missing_item": "pineapple_delight:pineapple_ice_cream" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "7893E27775A89932"
+					item: { components: { "ftbquests:missing_item": "pineapple_delight:pineapple_pie" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			id: "23F6CFB7FE2D6A98"
+			rewards: [
+				{
+					count: 12
+					id: "5AF57CEDE4990F75"
+					item: {
+						count: 1
+						id: "minecraft:light_gray_carpet"
+					}
+					type: "item"
+				}
+				{
+					count: 12
+					id: "72B560B881792F9E"
+					item: {
+						components: {
+							"ftbquests:missing_item": "kaleidoscope_cookery:table_oak"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3F592F27128615D2"
+					item: {
+						components: {
+							"ftbquests:missing_item": "kaleidoscope_cookery:cook_stool_oak"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "128BA814B440021F"
+					item: {
+						components: {
+							"ftbquests:missing_item": "kaleidoscope_cookery:shawarma_spit"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "797EA32B428F1088"
+					item: { components: { "ftbquests:missing_item": "kaleidoscope_cookery:pot" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "79D0829435255FCC"
+					item: { components: { "ftbquests:missing_item": "kaleidoscope_cookery:stockpot" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "21A856EFB07EE917"
+					item: { components: { "ftbquests:missing_item": "kaleidoscope_cookery:stockpot_lid" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "21A595A35A7B0098"
+					item: { components: { "ftbquests:missing_item": "kaleidoscope_cookery:chopping_board" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "3C5DF28F2E9DE4F5"
+					item: { components: { "ftbquests:missing_item": "kaleidoscope_cookery:enamel_basin" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "76E4118F8BB6091C"
+					item: { components: { "ftbquests:missing_item": "kaleidoscope_cookery:kitchen_shovel" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "678BDCCCCB6A58A3"
+					item: { components: { "ftbquests:missing_item": "kaleidoscope_cookery:iron_kitchen_knife" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "7CF309524491C559"
+					item: { components: { "ftbquests:missing_item": "kaleidoscope_cookery:recipe_item" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			id: "1ED33E61D7544A9E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "558F59C6D65C7834"
+					table_id: 3890725184685661295L
+					type: "random"
+				}
+				{
+					id: "20533B9FE1D80105"
+					item: {
+						components: {
+							"ftbquests:missing_item": "kubejs:chefmaster4"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "14673623C3508B2F"
+					item: { components: { "ftbquests:missing_item": "ends_delight:ender_bamboo_rice" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "67FCEAD3F3893E1F"
+					item: { components: { "ftbquests:missing_item": "ends_delight:shulker_omelette" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "256A55488D435628"
+					item: { components: { "ftbquests:missing_item": "ends_delight:ender_congee" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "0F20F37AA44895F1"
+					item: { components: { "ftbquests:missing_item": "ends_delight:dragon_breath_and_chorus_soup" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "244300CAB5FDEB1E"
+					item: { components: { "ftbquests:missing_item": "ends_delight:shulker_soup" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "5B1AF33BCDDFF234"
+					item: { components: { "ftbquests:missing_item": "ends_delight:enderman_gristle_stew" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "67779A3E9F312C0E"
+					item: { components: { "ftbquests:missing_item": "ends_delight:stir_fried_shulker_meat" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "518581D2F07ACF2C"
+					item: { components: { "ftbquests:missing_item": "ends_delight:roasted_dragon_steak" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "157F92D564FB8D07"
+					item: { components: { "ftbquests:missing_item": "ends_delight:end_mixed_salad" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "13C80C8CB35FBDD1"
+					item: { components: { "ftbquests:missing_item": "ends_delight:assorted_salad" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "2FEA3BC331B4BC0F"
+					item: { components: { "ftbquests:missing_item": "ends_delight:dragon_leg_with_sauce" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "6619878237A1C25D"
+					item: { components: { "ftbquests:missing_item": "ends_delight:steamed_dragon_egg" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "6A112551E0583437"
+					item: { components: { "ftbquests:missing_item": "ends_delight:dragon_meat_stew" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "00C37691BC0D8F96"
+					item: { components: { "ftbquests:missing_item": "ends_delight:grilled_shulker" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "6D47CC6033F3D442"
+					item: { components: { "ftbquests:missing_item": "ends_delight:ender_noodle" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			id: "41A2B707EEBB0960"
+			rewards: [
+				{
+					count: 26
+					id: "02BB92A3B9463EEC"
+					item: {
+						components: {
+							"ftbquests:missing_item": "exdeorum:netherite_mesh"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 25
+					id: "5FF72110F3BB33EB"
+					item: {
+						components: {
+							"ftbquests:missing_item": "exdeorum:oak_compressed_sieve"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "3C7C6C76F886D913"
+					item: {
+						components: {
+							"ftbquests:missing_item": "exdeorum:compressed_cobblestone"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "36B05391EE608312"
+					item: {
+						components: {
+							"ftbquests:missing_item": "exdeorum:mechanical_sieve"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "352B35C8EF27B1AD"
+					item: {
+						components: {
+							"ftbquests:missing_item": "exdeorum:compressed_diamond_hammer"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "777EA4AEDB3F5C19"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:advanced_compacting_upgrade"
+					}
+					type: "item"
+				}
+				{
+					id: "06374BAE54C7DEC0"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:stack_upgrade_tier_3"
+					}
+					type: "item"
+				}
+				{
+					id: "54A4F9A42C51B012"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:compression_upgrade"
+					}
+					type: "item"
+				}
+				{
+					id: "1DFB6681E35ED8F5"
+					item: {
+						components: {
+							"ftbquests:missing_item": "exdeorum:witch_water_bucket"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "57F3D572984FDF1B"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:advanced_refill_upgrade"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7FF80FCACD9C0F9F"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["41A2B707EEBB0960"]
+			id: "64EE4A6CE0872E1C"
+			tasks: [
+				{
+					id: "751BDD8988A9CC2A"
+					item: { components: { "ftbquests:missing_item": "exdeorum:compressed_dust" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "423D596BAE91B31E"
+					item: { count: 1, id: "minecraft:redstone" }
+					type: "item"
+				}
+				{
+					id: "4EA4294751B6470C"
+					item: { count: 1, id: "minecraft:gunpowder" }
+					type: "item"
+				}
+				{
+					id: "2D217B28664D500C"
+					item: { count: 1, id: "minecraft:glowstone_dust" }
+					type: "item"
+				}
+				{
+					id: "1F973F41354A4A7D"
+					item: { count: 1, id: "minecraft:blaze_powder" }
+					type: "item"
+				}
+				{
+					id: "479948B4D1B15ACB"
+					item: { count: 1, id: "minecraft:bone_meal" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			id: "4E33AA74D513D072"
+			rewards: [{
+				id: "76B52D03CB652918"
+				item: {
+					count: 1
+					id: "minecraft:netherite_axe"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B4C13247130DD23"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			id: "774F324E6D556C5B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5DF77E08846F2895"
+				table_id: 4312717794984490238L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "0AA70C894020AE23"
+					item: { components: { "ftbquests:missing_item": "exdeorum:porcelain_crucible" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "4B3C45CD1C741931"
+					item: { count: 1, id: "minecraft:flint_and_steel" }
+					type: "item"
+				}
+				{
+					id: "76C26070C497DC56"
+					item: { count: 1, id: "minecraft:netherrack" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2D6F0D7C436D34AE"]
+			id: "373FAAF338FC01A1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56F327C9D1391B13"
+				table_id: 4312717794984490238L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "218C7B8A566FCBB4"
+					item: { components: { "ftbquests:missing_item": "beyonddimensions:net_interface" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "6D776BD1D15762FC"
+					item: { components: { "ftbquests:missing_item": "beyonddimensions:net_magnet_item" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "127FB7565BE4F58E"
+					item: { components: { "ftbquests:missing_item": "beyonddimensions:net_feeder_item" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			id: "2D6F0D7C436D34AE"
+			rewards: [
+				{
+					id: "563FA06FCC70B7B4"
+					item: {
+						components: {
+							"ftbquests:missing_item": "beyonddimensions:net_creater"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 64
+					id: "348A918C7446507E"
+					item: {
+						components: {
+							"ftbquests:missing_item": "beyonddimensions:net_member_inviter"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "2FC22EA04AAB13F3"
+					item: {
+						components: {
+							"ftbquests:missing_item": "beyonddimensions:net_pump_block"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "597B0DD090E3845A"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+	]
+}

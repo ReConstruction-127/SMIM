@@ -1,0 +1,17 @@
+{
+	id: "2D4E692BAD34B3F5"
+	loot_size: 1
+	order_index: 3
+	rewards: [{
+		count: 32
+		id: "3419867AF746A45F"
+		item: {
+			components: {
+				"ftbquests:missing_item": "kubejs:bulletcoin"
+			}
+			count: 1
+			id: "ftbquests:missing_item"
+		}
+		weight: 193.0f
+	}]
+}

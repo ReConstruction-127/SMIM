@@ -1,0 +1,526 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3E5E4B52FA2DB0A8"
+	group: ""
+	id: "3E5E4B52FA2DB0A8"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "293F55475D2DCB20"
+			rewards: [
+				{
+					id: "56EB036F20FEACFD"
+					item: {
+						count: 1
+						id: "cuisinedelight:cuisine_skillet"
+					}
+					type: "item"
+				}
+				{
+					id: "3D234E4B5F270B14"
+					item: {
+						count: 1
+						id: "cuisinedelight:spatula"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6586A754623099F7"
+					item: {
+						components: {
+							"ftbquests:missing_item": "barbequesdelight:grill"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "36D315DD73D4E5C9"
+					item: {
+						components: {
+							"ftbquests:missing_item": "barbequesdelight:basin"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "75C3F7837C5D9255"
+					item: {
+						components: {
+							"ftbquests:missing_item": "barbequesdelight:tray"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "2C4691651174CE66"
+					item: {
+						components: {
+							"ftbquests:missing_item": "barbequesdelight:cumin_powder"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "4489B2CD9CE0122D"
+					item: {
+						components: {
+							"ftbquests:missing_item": "barbequesdelight:pepper_powder"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "127AE7E66ACC60DE"
+					item: {
+						components: {
+							"ftbquests:missing_item": "barbequesdelight:chili_powder"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "449888D7C836F64A"
+					item: {
+						components: {
+							"ftbquests:missing_item": "barbequesdelight:honey_mustard_sauce"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "192C45EFBBA6D3B1"
+					item: {
+						components: {
+							"ftbquests:missing_item": "barbequesdelight:buffalo_sauce"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "34440DC5A77C8ED9"
+					item: {
+						components: {
+							"ftbquests:missing_item": "barbequesdelight:barbeque_sauce"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3A4F1EE9426D041A"
+					item: {
+						count: 1
+						id: "minecraft:campfire"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "51CA3DFB73DA8A65"
+					item: {
+						count: 1
+						id: "aquaculture:box_turtle"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "27C148A571EA6127"
+					item: {
+						count: 1
+						id: "minecraft:campfire"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "36B65829A07203B2"
+					item: { count: 1, id: "farmersdelight:cooking_pot" }
+					type: "item"
+				}
+				{
+					id: "6C15FD74DD6A694A"
+					item: { count: 1, id: "minecraft:campfire" }
+					type: "item"
+				}
+				{
+					advancement: "farmersdelight:main/craft_knife"
+					criterion: ""
+					id: "2148E4D95C788DCA"
+					type: "advancement"
+				}
+				{
+					id: "577AA1EF15C82FD9"
+					item: { count: 1, id: "farmersdelight:cutting_board" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["293F55475D2DCB20"]
+			id: "2CC5359067C9DAFE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0A70FE403BD8B719"
+				table_id: 3890725184685661295L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "7B7AA44DC922CE0D"
+					item: { count: 1, id: "cuisinedelight:cuisine_skillet" }
+					type: "item"
+				}
+				{
+					id: "7F46AA5D761BAC12"
+					item: { count: 1, id: "cuisinedelight:spatula" }
+					type: "item"
+				}
+				{
+					id: "755BC6FE569E2BB8"
+					item: { count: 1, id: "cuisinedelight:plate" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["293F55475D2DCB20"]
+			id: "240E50EA1B90639C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "250E83236FB857D2"
+					table_id: 1583329392786107932L
+					type: "random"
+				}
+				{
+					id: "124EB2E72B940F32"
+					item: {
+						components: {
+							"ftbquests:missing_item": "kubejs:chefmaster1"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "16FAE3AD110C9A09"
+					item: { count: 1, id: "farmersdelight:bone_broth" }
+					type: "item"
+				}
+				{
+					id: "37589F9DF883F8C4"
+					item: { count: 1, id: "farmersdelight:beef_stew" }
+					type: "item"
+				}
+				{
+					id: "58A83034087501F9"
+					item: { count: 1, id: "farmersdelight:chicken_soup" }
+					type: "item"
+				}
+				{
+					id: "7DAEF585B933EC7A"
+					item: { count: 1, id: "farmersdelight:vegetable_soup" }
+					type: "item"
+				}
+				{
+					id: "4432413B73EDC112"
+					item: { count: 1, id: "farmersdelight:fish_stew" }
+					type: "item"
+				}
+				{
+					id: "774E535D78070FD2"
+					item: { count: 1, id: "farmersdelight:fried_rice" }
+					type: "item"
+				}
+				{
+					id: "42BE45C56B87EABE"
+					item: { count: 1, id: "farmersdelight:pumpkin_soup" }
+					type: "item"
+				}
+				{
+					id: "1F343A0E70A22F4D"
+					item: { count: 1, id: "farmersdelight:baked_cod_stew" }
+					type: "item"
+				}
+				{
+					id: "23ACF580F565EB4B"
+					item: { count: 1, id: "farmersdelight:noodle_soup" }
+					type: "item"
+				}
+				{
+					id: "798DD13075D7E0C4"
+					item: { count: 1, id: "farmersdelight:bacon_and_eggs" }
+					type: "item"
+				}
+				{
+					id: "373FAC63BF32979C"
+					item: { count: 1, id: "farmersdelight:pasta_with_meatballs" }
+					type: "item"
+				}
+				{
+					id: "0CCC57ACA95F73D0"
+					item: { count: 1, id: "farmersdelight:pasta_with_mutton_chop" }
+					type: "item"
+				}
+				{
+					id: "737D0761207F7530"
+					item: { count: 1, id: "farmersdelight:mushroom_rice" }
+					type: "item"
+				}
+				{
+					id: "67F9D937B4254074"
+					item: { count: 1, id: "farmersdelight:roasted_mutton_chops" }
+					type: "item"
+				}
+				{
+					id: "0A538E566DDF9D6A"
+					item: { count: 1, id: "farmersdelight:vegetable_noodles" }
+					type: "item"
+				}
+				{
+					id: "16BBFF05D49217CB"
+					item: { count: 1, id: "farmersdelight:steak_and_potatoes" }
+					type: "item"
+				}
+				{
+					id: "2AECEDAA5E001D3E"
+					item: { count: 1, id: "farmersdelight:ratatouille" }
+					type: "item"
+				}
+				{
+					id: "4EF4120F940A5B27"
+					item: { count: 1, id: "farmersdelight:squid_ink_pasta" }
+					type: "item"
+				}
+				{
+					id: "545DEF5F48B5C8C7"
+					item: { count: 1, id: "farmersdelight:grilled_salmon" }
+					type: "item"
+				}
+				{
+					id: "071EB923195AB1A7"
+					item: { count: 1, id: "farmersdelight:roast_chicken_block" }
+					type: "item"
+				}
+				{
+					id: "6EDBA8D7BC49024D"
+					item: { count: 1, id: "farmersdelight:stuffed_pumpkin_block" }
+					type: "item"
+				}
+				{
+					id: "1A87E3F02E642735"
+					item: { count: 1, id: "farmersdelight:honey_glazed_ham_block" }
+					type: "item"
+				}
+				{
+					id: "59964725D7B13FBA"
+					item: { count: 1, id: "farmersdelight:shepherds_pie_block" }
+					type: "item"
+				}
+				{
+					id: "3384CC9D8186F66B"
+					item: { count: 1, id: "farmersdelight:rice_roll_medley_block" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "4C4AB438D7BCC41E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "019C59052D7DCB4E"
+				table_id: 1583329392786107932L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "4901AA1C7EE116EC"
+					item: { count: 1, id: "farmersdelight:roast_chicken_block" }
+					type: "item"
+				}
+				{
+					id: "70F8AF5349F078BB"
+					item: { count: 1, id: "farmersdelight:shepherds_pie_block" }
+					type: "item"
+				}
+				{
+					id: "663C720933B51889"
+					item: { count: 1, id: "farmersdelight:honey_glazed_ham_block" }
+					type: "item"
+				}
+				{
+					id: "3F21A90515579F14"
+					item: { count: 1, id: "farmersdelight:stuffed_pumpkin_block" }
+					type: "item"
+				}
+				{
+					id: "65679353F91AAC74"
+					item: { count: 1, id: "farmersdelight:rice_roll_medley_block" }
+					type: "item"
+				}
+				{
+					id: "4FD60FD6914C2E6F"
+					item: { components: { "ftbquests:missing_item": "mynethersdelight:roast_stuffed_hoglin" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "184B5B8C12E3A0B4"
+					item: { components: { "ftbquests:missing_item": "mynethersdelight:striderloaf" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "653FD893701B1CA8"
+					item: { components: { "ftbquests:missing_item": "mynethersdelight:ghasta_with_cream" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "728417B32B66ED49"
+					item: { components: { "ftbquests:missing_item": "ends_delight:dragon_leg_with_sauce_block" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "5F6B3895FDE71C43"
+					item: { components: { "ftbquests:missing_item": "ends_delight:grilled_shulker_block" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "17E0069563C092BD"
+					item: { components: { "ftbquests:missing_item": "ends_delight:dragon_meat_stew_block" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "32D320BD1A5A1754"
+					item: { components: { "ftbquests:missing_item": "ends_delight:steamed_dragon_egg_block" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "3C48E4C34954609E"
+					item: { components: { "ftbquests:missing_item": "oceansdelight:guardian_soup" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "3FBD4D4BEFD17E7C"
+					item: { components: { "ftbquests:missing_item": "youkaishomecoming:chest_of_heart_throbbing_surprise" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "27B6F2A83933517C"
+					item: { components: { "ftbquests:missing_item": "slime_delight:grass_block_cake_1" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "34208CEADFA1D465"
+					item: { components: { "ftbquests:missing_item": "trailandtales_delight:cherry_cake" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "040549C4202B03EF"
+					item: { components: { "ftbquests:missing_item": "farmersrespite:coffee_cake" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "6FE9C97C858E02DD"
+					item: { components: { "ftbquests:missing_item": "muffins_thaidelight:somtam_feast" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "4DBD2295F33FD1C3"
+					item: { components: { "ftbquests:missing_item": "muffins_thaidelight:spicy_minced_meat_salad_feast" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "1ED4EE4661F07311"
+					item: { components: { "ftbquests:missing_item": "muffins_thaidelight:crab_fried_rice_feast" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "10AECBB1A7295F06"
+					item: { components: { "ftbquests:missing_item": "twilightdelight:lily_chicken_block" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "0A56944AAC563944"
+					item: { components: { "ftbquests:missing_item": "twilightdelight:fiery_snakes_block" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "0ACB40533C543748"
+					item: { components: { "ftbquests:missing_item": "twilightdelight:meef_wellington_block" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -4.5d
+		}
+		{
+			icon: {
+				id: "farmersdelight:iron_knife"
+			}
+			id: "5CA8DCF6AF41F62E"
+			rewards: [{
+				id: "73840BBB01A8FCB8"
+				item: {
+					count: 1
+					id: "farmersdelight:diamond_knife"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4475D57079DB73E8"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			id: "08826919B495DCAF"
+			rewards: [{
+				count: 16
+				id: "233731C859A084D4"
+				item: {
+					count: 1
+					id: "farmersdelight:roast_chicken"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3170460F30E6D47D"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: -4.5d
+		}
+	]
+}

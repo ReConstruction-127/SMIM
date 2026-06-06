@@ -1,0 +1,85 @@
+<recipetype:create:sequenced_assembly>.addJsonRecipe("alloy_reinforced",{
+  "ingredient": {
+    "item": "mekanism:alloy_infused"
+  },
+  "loops": 5,
+  "results": [{
+      "item": "mekanism:alloy_reinforced"}
+  ],"sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "mekanism:alloy_infused"
+        }
+      ],
+      "results": [
+        {
+          "item": "mekanism:alloy_infused"
+        }
+      ]
+    },{
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "mekanism:alloy_infused"
+        },
+        {
+          "amount": 50,
+          "fluid": "kubejs:juice",
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "mekanism:alloy_infused"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "mekanism:alloy_infused"
+        },
+        {
+          "tag": "c:fruits"
+        }
+      ],
+      "results": [
+        {
+          "item": "mekanism:alloy_infused"
+        }
+      ]
+    },{
+  "type": "northstar:engraving",
+  "ingredients": [
+    {
+      "item": "mekanism:alloy_infused"
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "item": "mekanism:alloy_infused"
+    }
+  ]
+},{
+  "type": "create_new_age:energising",
+  "energy_needed": 1000,
+  "ingredients": [
+    {
+      "item": "mekanism:alloy_infused"
+    }
+  ],
+  "results": [
+    {
+      "item": "mekanism:alloy_infused"
+    }
+  ]
+}
+  ],
+  "transitionalItem": {
+    "item": "mekanism:alloy_infused"
+  }
+});

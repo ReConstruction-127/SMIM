@@ -1,0 +1,42 @@
+{
+	id: "35FEA1F107DADC6F"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			count: 4
+			id: "270E1ACC9CE9356C"
+			item: {
+				count: 1
+				id: "minecraft:netherite_ingot"
+			}
+			weight: 0.5f
+		}
+		{
+			count: 16
+			id: "7DD3B20F1883485A"
+			item: {
+				count: 1
+				id: "minecraft:diamond"
+			}
+		}
+		{
+			count: 2
+			id: "72B012FB25128F1A"
+			item: {
+				count: 1
+				id: "sophisticatedbackpacks:stack_upgrade_tier_3"
+			}
+		}
+		{ id: "78EB35E13D646B82", item: { components: { "ftbquests:missing_item": "tconstruct:tinkers_anvil" }, count: 1, id: "ftbquests:missing_item" } }
+		{
+			count: 16
+			id: "21EBD2C48C05D460"
+			item: {
+				count: 1
+				id: "apotheosis:epic_material"
+			}
+		}
+		{ id: "4FE7D08A6BB7AE5C", item: { components: { "ftbquests:missing_item": "tconstruct:queens_slime_block" }, count: 1, id: "ftbquests:missing_item" } }
+	]
+}

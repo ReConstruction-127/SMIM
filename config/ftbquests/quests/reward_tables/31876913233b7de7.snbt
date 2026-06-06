@@ -1,0 +1,13 @@
+{
+	id: "31876913233B7DE7"
+	loot_size: 1
+	order_index: 7
+	rewards: [{
+		count: 64
+		id: "690562B81D2777BF"
+		item: {
+			count: 1
+			id: "farmersdelight:cabbage_leaf"
+		}
+	}]
+}

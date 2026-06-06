@@ -1,0 +1,16 @@
+{
+	id: "4EFCAC1B99DAA09A"
+	loot_size: 1
+	order_index: 8
+	rewards: [{
+		id: "0AFDAAF46C874708"
+		item: {
+			components: {
+				"ftbquests:missing_item": "kubejs:ys"
+			}
+			count: 1
+			id: "ftbquests:missing_item"
+		}
+		random_bonus: 10
+	}]
+}

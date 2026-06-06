@@ -1,0 +1,33 @@
+<recipetype:create:sequenced_assembly>.addJsonRecipe("lv_mechanism_8",{
+  "ingredient": {
+    "item": "mekanism:basic_bin"
+  },
+  "loops": 256,
+  "results": [{
+    "item": "mekanism:creative_bin",
+    // 仅修复：内部双引号添加反斜杠转义，其余内容完全保留
+    "nbt": "{mekData: {Items: [{Item: {id: \"kubejs:lv_mechanism\", Count: -1}, Slot: 0, SizeOverride: 2147483647}]}}"
+    
+  }],
+  "sequence": [
+   {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "mekanism:basic_bin"
+        },
+        {
+          "item": "kubejs:lv_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "item": "mekanism:basic_bin"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "mekanism:basic_bin"
+  }
+});

@@ -1,0 +1,67 @@
+{
+	id: "3BD9D9FC1A8E74FE"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			count: 32
+			id: "040B4BBBB8D42C05"
+			item: {
+				count: 1
+				id: "minecraft:iron_ingot"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 32
+			id: "51DA3CEF3C7E80FE"
+			item: {
+				count: 1
+				id: "minecraft:gold_ingot"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 16
+			id: "31A55B1BC1E46545"
+			item: {
+				count: 1
+				id: "minecraft:diamond"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 2
+			id: "45A52494D8B1E8BE"
+			item: {
+				count: 1
+				id: "sophisticatedbackpacks:stack_upgrade_tier_2"
+			}
+		}
+		{
+			count: 16
+			id: "3B52809B258F6C1D"
+			item: {
+				count: 1
+				id: "apotheosis:gem_dust"
+			}
+		}
+		{
+			count: 4
+			id: "777FCA404DD7B87D"
+			item: {
+				count: 1
+				id: "apotheosis:sigil_of_socketing"
+			}
+		}
+		{
+			count: 16
+			id: "1F5BBCABD9BE5D8D"
+			item: {
+				count: 1
+				id: "apotheosis:uncommon_material"
+			}
+		}
+		{ id: "49DBC74CF090AFC8", item: { components: { "ftbquests:missing_item": "tconstruct:slimesteel_block" }, count: 1, id: "ftbquests:missing_item" } }
+	]
+}

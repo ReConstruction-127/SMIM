@@ -1,0 +1,132 @@
+<recipetype:create:sequenced_assembly>.addJsonRecipe("lv_mechanism",{
+  "ingredient": {
+    "item": "gtceu:resin_printed_circuit_board"
+  },
+  "loops": 1,
+  "results": [{
+      "item": "kubejs:lv_mechanism"}
+  ],"sequence": [
+   {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_lv_mechanism"
+        },
+        {
+          "item": "gtceu:red_alloy_single_cable"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_lv_mechanism"
+        }
+      ]
+    },{
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_lv_mechanism"
+        },
+        {
+          "item": "gtceu:resistor"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_lv_mechanism"
+        }
+      ]
+    },{
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_lv_mechanism"
+        },
+        {
+          "item": "gtceu:vacuum_tube"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_lv_mechanism"
+        }
+      ]
+    },{
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_lv_mechanism"
+        },
+        {
+          "item": "gtceu:red_alloy_single_cable"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_lv_mechanism"
+        }
+      ]
+    },{
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_lv_mechanism"
+        },
+        {
+          "item": "gtceu:resistor"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_lv_mechanism"
+        }
+      ]
+    },{
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_lv_mechanism"
+        },
+        {
+          "item": "gtceu:vacuum_tube"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_lv_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_lv_mechanism"
+        },
+        {
+          "tag": "forge:plates/steel"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_lv_mechanism"
+        }
+      ]
+    },{
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_lv_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_lv_mechanism"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "kubejs:incomplete_lv_mechanism"
+  }
+});

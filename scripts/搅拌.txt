@@ -1,0 +1,105 @@
+<recipetype:create:mixing>.remove(<item:create:andesite_alloy>);
+
+<recipetype:create:mixing>.addJsonRecipe("atm",
+{
+  "type": "create:mixing",
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
+      "tag": "crafttweaker:biomass"
+    }
+  ],
+  "results": [
+    {
+      "item": "allthemodium:allthemodium_nugget"
+    }
+  ]
+});
+
+<recipetype:create:mixing>.addJsonRecipe("glue",
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "gtceu:sticky_resin"
+    }
+  ],
+  "results": [
+    {
+      "item": "gtceu:raw_rubber_dust","count":3
+    },    {
+      "item": "gtceu:plant_ball"
+    },
+    {
+      "amount": 250,
+      "fluid": "gtceu:glue"
+    }
+  ]
+});
+
+
+<recipetype:create:mixing>.addJsonRecipe("juice",
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "c:fruits"
+    }
+  ],
+  "results": [
+    {
+      "amount": 250,
+      "fluid": "kubejs:juice"
+    }
+  ]
+});
+
+<recipetype:create:mixing>.addJsonRecipe("unobtainium_vibranium_alloy_ingot",{
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
+      "item": "allthemodium:unobtainium_ingot"
+    },
+    {
+      "item": "allthemodium:vibranium_ingot"
+}
+  ],
+  "results": [
+    {
+      "count": 2,
+      "item": "allthemodium:unobtainium_vibranium_alloy_ingot"
+    }]});
+
+<recipetype:create:mixing>.addJsonRecipe("rubber_fluid",{
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "gtceu:raw_rubber_dust"
+    },{
+      "item": "gtceu:raw_rubber_dust"
+    },{
+      "item": "gtceu:raw_rubber_dust"
+    },{
+      "item": "gtceu:raw_rubber_dust"
+    },{
+      "item": "gtceu:raw_rubber_dust"
+    },{
+      "item": "gtceu:raw_rubber_dust"
+    },{
+      "item": "gtceu:raw_rubber_dust"
+    },{
+      "item": "gtceu:raw_rubber_dust"
+    },{
+      "item": "gtceu:raw_rubber_dust"
+    },
+    {
+      "item": "pyrotechnicraft:sulfur"
+}
+  ],
+  "results": [
+ {
+      "amount": 1300,
+      "fluid": "gtceu:rubber"
+    }]});

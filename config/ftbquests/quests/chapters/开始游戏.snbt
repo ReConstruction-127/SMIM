@@ -1,0 +1,170 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "开始游戏"
+	group: "7077C155C366B76D"
+	id: "016D3574DA97089E"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7EF07E4DD0A9B5C3"
+			rewards: [{
+				auto: "disabled"
+				count: 64
+				id: "4917C62BE15758E3"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5CC1B2ACC0506DFA"
+				type: "checkmark"
+			}]
+			x: -12.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2144AB0D930232A6"]
+			id: "0B066D1F370E4D3A"
+			rewards: [{
+				auto: "disabled"
+				count: 64
+				id: "206FFB6568806C6E"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B1520898B995483"
+				type: "checkmark"
+			}]
+			x: -10.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["0B066D1F370E4D3A"]
+			id: "1882A98E1136180C"
+			rewards: [{
+				auto: "disabled"
+				count: 64
+				id: "53C83BBFF41CD6EC"
+				item: {
+					count: 1
+					id: "minecraft:lapis_lazuli"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E45C53084F64EAA"
+				type: "checkmark"
+			}]
+			x: -9.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1882A98E1136180C"]
+			id: "5984D0EB54F406B8"
+			rewards: [{
+				auto: "disabled"
+				count: 16
+				id: "78CABA095E4736CC"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7499BE730384FE91"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["44E60544DEB8606F"]
+			id: "758FB01E011B32A9"
+			rewards: [{
+				id: "6B21911EFF6C4B47"
+				item: {
+					count: 1
+					id: "ftbquests:book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3BF580FDD9585919"
+				type: "checkmark"
+			}]
+			x: -10.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7EF07E4DD0A9B5C3"]
+			id: "2144AB0D930232A6"
+			rewards: [{
+				auto: "disabled"
+				count: 64
+				id: "1782EC93C0951AFD"
+				item: {
+					count: 1
+					id: "minecraft:gold_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "06C408B471405952"
+				type: "checkmark"
+			}]
+			x: -11.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1B4491C21DF3DBA9"]
+			hide_dependency_lines: true
+			id: "4F923BE58D9EE55F"
+			tasks: [{
+				id: "3A0E657E1BEFD2C6"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -9.5d
+		}
+		{
+			hide_dependency_lines: false
+			id: "44E60544DEB8606F"
+			rewards: [{
+				count: 32
+				id: "75D6F6269F817B1C"
+				item: {
+					count: 1
+					id: "mekanism:ingot_steel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "42866CECF0907F2C"
+				type: "checkmark"
+			}]
+			x: -10.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["758FB01E011B32A9"]
+			hide_dependency_lines: true
+			id: "1B4491C21DF3DBA9"
+			tasks: [{
+				id: "21D65387DEA961D0"
+				type: "checkmark"
+			}]
+			x: -10.5d
+			y: -4.0d
+		}
+	]
+}

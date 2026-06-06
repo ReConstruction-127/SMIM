@@ -1,0 +1,24 @@
+<recipetype:spore:surgery>.addJsonRecipe("",
+{
+  "ingredients": [
+    {"slot": 1, "item": ""},
+    {"slot": 2, "item": ""},
+    {"slot": 3, "item": ""},
+    {"slot": 4, "item": ""},
+    {"slot": 5, "item": ""},
+    {"slot": 6, "item": ""},
+    {"slot": 7, "item": ""},
+    {"slot": 8, "item": ""},
+    {"slot": 9, "item": ""},
+    {"slot": 10, "item": ""},
+    {"slot": 11, "item": ""},
+    {"slot": 12, "item": ""},
+    {"slot": 13, "item": ""},
+    {"slot": 14, "item": ""},
+    {"slot": 15, "item": ""},
+    {"slot": 16, "item": ""}
+  ],
+  "output": {
+    "item": ""
+  }
+});

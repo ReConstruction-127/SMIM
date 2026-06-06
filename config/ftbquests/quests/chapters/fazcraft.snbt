@@ -1,0 +1,2507 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fazcraft"
+	group: "7077C155C366B76D"
+	id: "4DEE178DCF552CD3"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "3D0D602089CDADF1"
+			rewards: [{
+				auto: "no_toast"
+				id: "62981F1F8E51770C"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "269768E80C25CC3B"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "68648DB21947B3B8"
+			rewards: [{
+				auto: "no_toast"
+				id: "509879D5BA772F4A"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "minecraft:husk"
+				id: "28998ABBA480D276"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "3606A5FC1957B422"
+			rewards: [{
+				auto: "no_toast"
+				id: "38CD6D55D6259E4C"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "minecraft:drowned"
+				id: "6BC2D56A63F8B92E"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "5969D7341DB80537"
+			rewards: [{
+				auto: "no_toast"
+				id: "7D1165D315BF9089"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "1C5D02CAF7D24355"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "2BB977B9CA022BDC"
+			rewards: [{
+				auto: "no_toast"
+				id: "75FF97FF828EDC3E"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "minecraft:stray"
+				id: "06EA2BC3F6B0C3DF"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "3B8EAA921288FAAB"
+			rewards: [{
+				auto: "no_toast"
+				id: "62EF8A11C4D4D13C"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "244C47A341B4A63D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "6B618E860F0C5689"
+			rewards: [{
+				auto: "no_toast"
+				id: "023BEF08B30FB034"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "minecraft:cave_spider"
+				id: "4CDA071D5A7B1485"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "55422FC034DFF3E6"
+			rewards: [{
+				auto: "no_toast"
+				id: "3C3E6CAF7E75488D"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "23FD0CE4E46DAD53"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "04CA691B1806DA6F"
+			rewards: [{
+				auto: "no_toast"
+				id: "75BD31406B657F60"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "blue_skies:nested_spider"
+				id: "4125FB98F18C45C2"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "79BFF23925930117"
+			rewards: [{
+				auto: "no_toast"
+				id: "70EEAA6023C652FA"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "blue_skies:venom_spider"
+				id: "3B0975F1998437E5"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "3DEAD3A81EA1B91D"
+			rewards: [{
+				auto: "no_toast"
+				id: "61666372328F4997"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "blue_skies:infested_swarmer"
+				id: "21E78D1FFEE41B38"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "26903F97BD9073C6"
+			rewards: [{
+				auto: "no_toast"
+				id: "55A8F327774C51EE"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "blue_skies:emberback"
+				id: "6DCC92084CAC2E7B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "4D1A2B0DA60DC4FF"
+			rewards: [{
+				auto: "no_toast"
+				id: "1F8367C8F1EDAF32"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "blue_skies:armored_frost_spirit"
+				id: "61A6EDFBBDE1A46E"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "5CDC9347D7F9ACCE"
+			rewards: [{
+				auto: "no_toast"
+				id: "6359EBFB68C2D88C"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "blue_skies:crynocerous"
+				id: "50017D4A0219AC41"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "0E2768ADDD01CBBF"
+			rewards: [{
+				auto: "no_toast"
+				id: "78A3F249A3165C5D"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "blue_skies:polargeist"
+				id: "2946EF69F5636865"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "179D7F29E4F2F8DC"
+			rewards: [{
+				auto: "no_toast"
+				id: "1D698B6ED093018D"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "blue_skies:diophyde_prowler"
+				id: "578E6A66C2530343"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "7DB0187CBE4B07C5"
+			rewards: [{
+				auto: "no_toast"
+				id: "3D736B403DD60D33"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "iceandfire:cockatrice"
+				id: "2E36A298DEF58DB6"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "55CAB0B77E5772EA"
+			rewards: [{
+				auto: "no_toast"
+				id: "0EFAED3F35EC9664"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "iceandfire:stymphalian_bird"
+				id: "15D73E07CC486676"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "15CA0920C022A6D8"
+			rewards: [{
+				auto: "no_toast"
+				id: "0567CD3DCEFD3092"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "iceandfire:dread_ghoul"
+				id: "6F22219B2B92A26E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "3F1AF0CA4EBDE437"
+			rewards: [{
+				auto: "no_toast"
+				id: "4718BCF415B6FED6"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "iceandfire:dread_beast"
+				id: "4E2A05F331956336"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "27F5CA44EF0C8523"
+			rewards: [{
+				auto: "no_toast"
+				id: "2EB532A53B2D7476"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "iceandfire:dread_knight"
+				id: "4A6F461928D31EB9"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "02F6EE6C24B4B2D4"
+			rewards: [{
+				auto: "no_toast"
+				id: "0A9BB030C45ED69D"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "iceandfire:dread_lich"
+				id: "433463DD68793592"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "46EA0E24F5565198"
+			rewards: [{
+				auto: "no_toast"
+				id: "7135D2EE5809BC99"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "iceandfire:dread_thrall"
+				id: "77EEE1C8ED0AA645"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "4C8445B6F9E7A702"
+			rewards: [{
+				auto: "no_toast"
+				id: "118C6920DB095BBD"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "blue_skies:nyctofly"
+				id: "5BB3DF643C8BED5D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "7933050000F36B38"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5803C855E70D57DB"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "iceandfire:dread_scuttler"
+				id: "74F93361441D339C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			id: "5DC5A49C9D71C013"
+			rewards: [{
+				auto: "no_toast"
+				id: "7E9F7BD91728DE0A"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "iceandfire:troll"
+				id: "64AD653C8E1F20FD"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.5d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "569AFE75092A966D"
+			rewards: [{
+				auto: "no_toast"
+				id: "7B4FF3777882A6FE"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "iceandfire:ghost"
+				id: "7C57233B30C82112"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "1EFF9FF17CFC5D25"
+			rewards: [{
+				auto: "no_toast"
+				id: "30124D6A3E34F027"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "alexscaves:gammaroach"
+				id: "6FD691AEBE2AE4F4"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "2B2E693952905C30"
+			rewards: [{
+				auto: "no_toast"
+				id: "18AB8AF58D7CB827"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "alexscaves:brainiac"
+				id: "2B9163B58FEB0415"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "26C291B4495586D9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "53816740695C0924"
+				table_id: 3264662416200610805L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "alexscaves:tremorsaurus"
+				id: "581DB36786F225B3"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "678E34FFC35E4D08"
+			rewards: [{
+				auto: "no_toast"
+				id: "5CF37E3A6BD477AC"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "alexscaves:vallumraptor"
+				id: "30E9509C2C6975F4"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "386DB0F5CEC76E16"
+			rewards: [{
+				auto: "no_toast"
+				id: "06D559C49C831C56"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "alexscaves:notor"
+				id: "2808EF90D9801DB3"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.5d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "24F1B98E662A8DF5"
+			rewards: [{
+				auto: "no_toast"
+				id: "40AACED709B032F8"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "alexscaves:boundroid"
+				id: "1261A7B756324B54"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "6101CB55B3549F7E"
+			rewards: [{
+				auto: "no_toast"
+				id: "40CFAC7D89A567BC"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "alexscaves:ferrouslime"
+				id: "2E095A9BB1064C84"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "206DF08B84E2E763"
+			rewards: [{
+				auto: "no_toast"
+				id: "13DCAC0D5C2BD688"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "alexscaves:magnetron"
+				id: "20A21F18FB1733F1"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "77EAE7A7039C63A8"
+			rewards: [{
+				auto: "no_toast"
+				id: "4118E72B4E15B651"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "alexscaves:nucleeper"
+				id: "1247427B998C4797"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "7CE684810308D779"
+			rewards: [{
+				auto: "no_toast"
+				id: "4CA8398792A8D058"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "alexscaves:teletor"
+				id: "0649D29D1835A4EA"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			id: "20981780D8AB68D7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "16780F1D5B70BEE8"
+				table_id: 3264662416200610805L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "alexscaves:hullbreaker"
+				id: "7EF983E5EE716966"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "32F7DAB92EB9773C"
+			rewards: [{
+				auto: "no_toast"
+				id: "78EA32599C68FE85"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "alexscaves:mine_guardian"
+				id: "47B1A68C78B31B8F"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.5d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				components: {
+					"ftbquests:missing_item": "cataclysm:coral_spear"
+				}
+				id: "ftbquests:missing_item"
+			}
+			id: "63440E0A7E0B5839"
+			rewards: [{
+				auto: "no_toast"
+				id: "53B26E0342239894"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "cataclysm:deepling"
+				id: "12A1C2DD48B32686"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				components: {
+					"ftbquests:missing_item": "cataclysm:coral_bardiche"
+				}
+				id: "ftbquests:missing_item"
+			}
+			id: "0119368BEEB3256A"
+			rewards: [{
+				auto: "no_toast"
+				id: "4635DD2B5D8015BA"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "cataclysm:deepling_angler"
+				id: "06B15EE7BA173A76"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "5C169D459EF05155"
+			rewards: [{
+				auto: "no_toast"
+				id: "133FBEEC9DF761D4"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "cataclysm:deepling_angler"
+				icon: {
+					id: "minecraft:fishing_rod"
+				}
+				id: "373DB6DBF71AB89E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "71CB8F024A2204E7"
+			rewards: [{
+				auto: "no_toast"
+				id: "5C714B23AA91252E"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "cataclysm:deepling_priest"
+				icon: {
+					components: {
+						"ftbquests:missing_item": "cataclysm:athame"
+					}
+					id: "ftbquests:missing_item"
+				}
+				id: "7F449E8B085337B3"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "3631265D13884291"
+			rewards: [{
+				auto: "no_toast"
+				id: "19C62A48E8080ABF"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "cataclysm:deepling_warlock"
+				icon: {
+					components: {
+						"ftbquests:missing_item": "cataclysm:athame"
+					}
+					id: "ftbquests:missing_item"
+				}
+				id: "2606DD0AD37123A8"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			id: "66D24847C193A58A"
+			rewards: [{
+				auto: "no_toast"
+				id: "1138C77AA7F12116"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "alexscaves:watcher"
+				id: "683D2344E07B85CE"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "71B5892BC802F372"
+			rewards: [{
+				auto: "no_toast"
+				id: "7D9391395F773E93"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "alexscaves:underzealot"
+				id: "40F89222DD4EE668"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "3C7EE1E27A24EC5A"
+			rewards: [{
+				auto: "no_toast"
+				id: "5ED8D52EB9ABC366"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "alexscaves:corrodent"
+				id: "7438DEB01D81CF78"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			id: "37C294410301A4F6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04BD6D270D865C67"
+				table_id: 3264662416200610805L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "alexscaves:forsaken"
+				id: "5A26A35DFF9405E3"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "2196A055D0866678"
+			rewards: [{
+				auto: "no_toast"
+				id: "6AD6E778D4613A66"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "alexscaves:vesper"
+				id: "2E6AB28892A6F856"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "042262752DF27DA8"
+			rewards: [{
+				auto: "no_toast"
+				id: "037CC94FFDFE9E46"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "cataclysm:coral_golem"
+				id: "1DF0F7BA64597BD3"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "3BE06A371C5A9E85"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "56FA400CF4BAD8E7"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "43D597058B853323"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "04849E13DC62C234"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4ABC4B3DDC3C0B33"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "133D06F6F3CECBD2"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5CEEA02558BDED87"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "56DEE11D7F1A7119"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "70F7BB4780D8308D"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B02AF66EB15AD43"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4AD4D466BCC3B3AC"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				id: "3990A4496650A62C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.5d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			id: "21C3B4ACDBDDB8D9"
+			rewards: [{
+				auto: "no_toast"
+				id: "770804221E0905D4"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "cataclysm:the_prowler"
+				id: "219A96E103C46AF8"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				components: {
+					"ftbquests:missing_item": "cataclysm:laser_gatling"
+				}
+				id: "ftbquests:missing_item"
+			}
+			id: "5E61F7F90FBFC941"
+			rewards: [{
+				auto: "no_toast"
+				id: "4DE517B9DFB23C11"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "cataclysm:the_watcher"
+				id: "2FCFDBC508DA4EDF"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "78AE42FC34CC5D55"
+			rewards: [{
+				auto: "no_toast"
+				id: "5772BC68E68CB1DC"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "cataclysm:coralssus"
+				id: "0A97AF226FE31481"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.5d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "405F28C2A893C392"
+			rewards: [{
+				auto: "no_toast"
+				id: "664DA03B90131FC8"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "cataclysm:koboleton"
+				id: "23FE2C5CFF65E57E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			id: "1DD0FC2E2150FFC9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15362E5974036E85"
+				table_id: 3264662416200610805L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "cataclysm:kobolediator"
+				id: "2F4D432404C79DE1"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "361424FDDFC0964B"
+			rewards: [{
+				auto: "no_toast"
+				id: "6EEAA2A2D66C3FE0"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "cataclysm:endermaptera"
+				id: "21DB442A8457C7A1"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: 8.5d
+		}
+		{
+			can_repeat: true
+			id: "44609B897EAB7B1C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "09B38559F1943481"
+				table_id: 3264662416200610805L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "iceandfire:sea_serpent"
+				icon: {
+					components: {
+						"ftbquests:missing_item": "iceandfire:tide_trident"
+					}
+					id: "ftbquests:missing_item"
+				}
+				id: "433DC22DD4E673A8"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "2E88A55B6043C132"
+			rewards: [{
+				auto: "no_toast"
+				id: "58928886B45B3217"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "cataclysm:ignited_revenant"
+				id: "27FE8B507CFB2DA2"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 8.5d
+		}
+		{
+			can_repeat: true
+			id: "1FD2A290EF9990DF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "40D60917F3437BED"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					id: "4B4726A6EC5A51A2"
+					item: {
+						components: {
+							"ftbquests:missing_item": "cataclysm:altar_of_amethyst"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				entity: "cataclysm:amethyst_crab"
+				id: "5450C01897761066"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			id: "0382CC8590C8D5F4"
+			rewards: [{
+				auto: "no_toast"
+				id: "00DDB483ED2FE21C"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "iceandfire:cyclops"
+				id: "417E25D5335E5D5A"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.5d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			id: "229ACDF66E2B5658"
+			rewards: [{
+				auto: "no_toast"
+				id: "0EEB6323F31E0E26"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "iceandfire:siren"
+				id: "12562AEF60D77E49"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "05F695347DF9D186"
+			rewards: [{
+				auto: "no_toast"
+				id: "3B5199F3D5BC66AC"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "minecraft:zombified_piglin"
+				id: "0EDF62C813778E82"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 8.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "4DC0759A8C7DA541"
+			rewards: [{
+				auto: "no_toast"
+				id: "03F88F2B01A7DDC8"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "minecraft:piglin_brute"
+				id: "513702D0E38D41EA"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.5d
+			y: 8.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "107ADA6D60018894"
+			rewards: [{
+				auto: "no_toast"
+				id: "2D6DD0BD9013236B"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "minecraft:piglin"
+				id: "7C883EDEBF8FD024"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.5d
+			y: 8.5d
+		}
+		{
+			can_repeat: true
+			id: "3D2EAF2B8A206E64"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5B15E6AEB7A5B46E"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4675CF76B097B5D6"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6C9548BDF34AA3D2"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "435C4FEF5AB2115E"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "47B54BAE7E2BB7F5"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "648026292BD82D7B"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6FF24B058CE16BC6"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A03EEB7BAB08FF0"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "49D41FB50E4D6F31"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "275C0011CCA91782"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				id: "53276D55017390B3"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.5d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			id: "5B03F61B9720E6C3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "435DCC547E4CBF13"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1B9FB1AFEFA91553"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "151441A35EFA6C8C"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "79F5BAE8C17D6617"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "399F9E462BB2A407"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "65908B8771B340BD"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3316984BD9F0A02E"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "015DC38032AE837F"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "67ABCB31263CD9B7"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "41515EAAAAC77A66"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				icon: {
+					components: {
+						"ftbquests:missing_item": "cataclysm:infernal_forge"
+					}
+					id: "ftbquests:missing_item"
+				}
+				id: "6CCDEC3D0C4D3A12"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: 8.5d
+		}
+		{
+			can_repeat: true
+			id: "2CBEC547DD70E009"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F339A3003DF34E9"
+				table_id: 3264662416200610805L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "cataclysm:wadjet"
+				id: "4ECEF63A4E179559"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.5d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			id: "18E45455EFB59201"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4A6A6982C1DFAD8B"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7418A070BB88CB2E"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "421D763A8A5C9E0C"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1681D9BB5BDDBE11"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "546BB607EB466EF3"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "35EB3EDC6E5287E3"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "46D835DFD6B89766"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "42C2C7F48693C7B5"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "444783C836C2B48D"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "51FCF285FA393705"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				id: "13237AC7688F7A87"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.5d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			id: "432DDE46BC71EE84"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4422228F7B1AD112"
+				table_id: 3264662416200610805L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "iceandfire:deathworm"
+				id: "6A5EAA258412F31B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			id: "427E90232B2C6C64"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3EBBC9F18E6D73F5"
+				table_id: 3264662416200610805L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "cataclysm:ender_golem"
+				id: "543B5D435E85AD51"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.5d
+			y: 8.5d
+		}
+		{
+			can_repeat: true
+			id: "2AC936BC65BB194B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "482D3597F06697A5"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0666CC7E9E23EA80"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "02CC742022D408F6"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "20F53DB300E195D9"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "422C25907A26FCE8"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4602967AB323930E"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "51150637530A6F1E"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B44D032D1894260"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "533F8474CFA7A094"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "225BEAC37A8746DB"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				id: "2D5307D226DFB2CB"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.5d
+			y: 8.5d
+		}
+		{
+			can_repeat: true
+			id: "24D58BC5AA140F1A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "161F53A21F7EC003"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5B0AC9DE41BF0C9E"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2C8A4CD189FEA3A4"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "797096832D350722"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3D90D6AFBFDCBF5C"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "55778EC5A0F94FE1"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "01F7DA99F555EE9C"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "757B720AFFAF3F87"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C1F5969FF36BFDC"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "701C93A4C229D0BC"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				entity: "cataclysm:ignis"
+				id: "6C13E4C1BB42C127"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: 8.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "7272F201E12D8CE9"
+			rewards: [{
+				auto: "no_toast"
+				id: "14F25673AAD54AE1"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "minecraft:guardian"
+				id: "67F6DE2C04B4C018"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.5d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "2F86CA736520F89B"
+			rewards: [{
+				auto: "no_toast"
+				id: "3536A2DF16C9AFA6"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				id: "72E1F8E2F5C42EC7"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "2BE437D7B90656B1"
+			rewards: [{
+				auto: "no_toast"
+				id: "0C2077E11755B2E5"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "minecraft:ghast"
+				id: "39ACB0D244CC8445"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: 8.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "5A1CE33D49644EEE"
+			rewards: [{
+				auto: "no_toast"
+				id: "1EC2818980D8846E"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "337EE2929F3E9572"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: 8.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "1B625906824B6038"
+			rewards: [{
+				auto: "no_toast"
+				id: "50D7F076E3872FBB"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "minecraft:magma_cube"
+				id: "0D54AA7D52356445"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 8.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "0BA37B5A7AA73F82"
+			rewards: [{
+				auto: "no_toast"
+				id: "2EE3E98EB163DAB4"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "minecraft:shulker"
+				id: "0379DD33BA0F7D10"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: 8.5d
+		}
+		{
+			can_repeat: true
+			id: "08EE9034525FBCD2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0273CEDD5C759446"
+				table_id: 3264662416200610805L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "536733E110AD2297"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "40EDDA4F173D05B6"
+			rewards: [{
+				auto: "no_toast"
+				id: "513FAA648A0C5A2F"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "minecraft:hoglin"
+				id: "63C5F868D89391C3"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "7830184E9A78BC9D"
+			rewards: [{
+				auto: "no_toast"
+				id: "23DF8DCC853F4136"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "minecraft:phantom"
+				id: "2A451CCB15DCE3C2"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "0D48BF52DE77A1F3"
+			rewards: [{
+				auto: "no_toast"
+				id: "25F6F19A3253B03D"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "minecraft:slime"
+				id: "1DD0715CFC73A17F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "2B20BD2EA81D5685"
+			rewards: [{
+				auto: "no_toast"
+				id: "42EBE1688ED5CACA"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "minecraft:vex"
+				id: "454F92547285BC13"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "2E46D66084F56892"
+			rewards: [{
+				auto: "no_toast"
+				id: "434942205EBF7D84"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "1E15833D35BBE1F5"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "4E4FA68F9B79901A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4846B2D4C11BDB96"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "2AD7FD832701BE3B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: 8.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "2980959A26F0A88A"
+			rewards: [{
+				auto: "no_toast"
+				id: "6B814CD221ACDD68"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "minecraft:pillager"
+				icon: {
+					id: "minecraft:crossbow"
+				}
+				id: "258C496FB48F50F5"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "7F541A85AD7629B1"
+			rewards: [{
+				auto: "no_toast"
+				id: "31A136608B9F4342"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "minecraft:vindicator"
+				icon: {
+					id: "minecraft:iron_axe"
+				}
+				id: "5206BC2AFC4CDB63"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "21A1E2E8C9C21876"
+			rewards: [{
+				auto: "no_toast"
+				id: "79FC6972F0BA5FB4"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "minecraft:witch"
+				id: "7FD4927B91D89A4C"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "40DE0879B703B942"
+			rewards: [{
+				auto: "no_toast"
+				id: "117A87380C9D9C8A"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "minecraft:evoker"
+				id: "48C59C8B3507D1FD"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "32967B482D0868D5"
+			rewards: [{
+				auto: "no_toast"
+				id: "4AE5A0F6851407BC"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "minecraft:ravager"
+				id: "107DDDE703F6E9A8"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "2B5FFC0BA01B2CE2"
+			rewards: [{
+				auto: "no_toast"
+				id: "68195FF0A70C1CCF"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "good_nights_sleep:tormenter"
+				id: "480D772D8B0CBC9E"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			id: "432B524FCA047952"
+			rewards: [{
+				auto: "no_toast"
+				id: "6A2C10B658BE34D2"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "iceandfire:gorgon"
+				icon: {
+					components: {
+						"ftbquests:missing_item": "iceandfire:gorgon_head"
+					}
+					id: "ftbquests:missing_item"
+				}
+				id: "596759D593009ED6"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			id: "0B6DBD0EE87024F6"
+			rewards: [{
+				auto: "no_toast"
+				id: "300F53197ACD3DBA"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "iceandfire:hydra"
+				id: "4CE5B48F76059C41"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "00F314F044918660"
+			rewards: [{
+				auto: "no_toast"
+				id: "14E15AE6C640E425"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "blue_skies:stonelet"
+				id: "5A17BEB17250562F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "127108F2F0815471"
+			rewards: [{
+				auto: "no_toast"
+				id: "40033E902D4BA316"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "touhou_little_maid:fairy"
+				id: "6B1491EAD15D80D7"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			id: "623D09A76239943C"
+			rewards: [{
+				auto: "no_toast"
+				id: "7A1A5C757946F0F9"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "good_nights_sleep:herobrine"
+				id: "7F83950B5309887F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "29FAA1AC1A2AA978"
+			rewards: [{
+				auto: "no_toast"
+				id: "65FD45FE3B3A100C"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "blue_skies:whistleshell_crab"
+				id: "34BF73EB056643CE"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			id: "1923EDCC51299532"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4BD9C2400033E94A"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "pasterdream:shadow_ghost"
+				id: "4C1B0243F88DE62A"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.5d
+			y: 9.5d
+		}
+		{
+			can_repeat: true
+			id: "1F79E09E2BE4FF79"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "248483318DC1D6DE"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "pasterdream:shadow_squeal_ghost"
+				id: "7F7DFE6F1B3FFB0C"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.5d
+			y: 9.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "22E5F4E78F11D6B0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "033B6A75DA8BBB6E"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "pasterdream:shadow_squeal_ghost_0"
+				id: "60B0DBE6D2D4A3B3"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 9.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "726F7CF4E9F67070"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "639CE51AF4E59A1C"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "pasterdream:black_beetle"
+				id: "24892257C51B3A2E"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: 9.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "57972CA06C84BFA7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2057BE6C04852CF1"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "pasterdream:shadow_hand"
+				id: "21422159D4EEF5DC"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 9.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "6B27299DB5910FC3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6954587E9A9FDA8E"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "pasterdream:terrorbeak"
+				id: "5B3EC53B3B281F81"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: 9.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "45BE53E568305CF3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "014C3A88A2A7E59A"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "pasterdream:weakeness_terrorbeak"
+				id: "2DAE86280DDE10A2"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 9.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "16E909971C5D2299"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1223D2A3374017F7"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "pasterdream:crazy_terrorbeak"
+				id: "3D0F077D2C9B1AAC"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: 9.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "15D2EFF99E52FAA3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "11FFBB31DD03F4D9"
+				table_id: 8514741881753533456L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "pasterdream:shadow_golem"
+				id: "0A88BB4BDBF10435"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: 9.5d
+		}
+		{
+			can_repeat: true
+			id: "375B64231E9A11CB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3081E7CD6D9C8BC9"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "572E911F12AED421"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5AFB7748A343163C"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0004BAFC45E8D467"
+					table_id: 3264662416200610805L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					entity: "pasterdream:aaroncos_lefthand_0"
+					id: "67BCEAC02B828150"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "pasterdream:aaroncos_righthand_0"
+					id: "0C200F57AAB5F000"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 5.5d
+			y: 9.5d
+		}
+		{
+			can_repeat: true
+			id: "7DB632132CB16841"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "629CA90F88FA4DDB"
+				table_id: 3264662416200610805L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "pasterdream:black_beetle_mother"
+				id: "4C3A36A6DF22BF3F"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: 9.5d
+		}
+	]
+}

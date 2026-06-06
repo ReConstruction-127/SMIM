@@ -1,0 +1,693 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6EF14D6920758FA9"
+	group: ""
+	icon: {
+		id: "minecraft:grass_block"
+	}
+	id: "6EF14D6920758FA9"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			icon: {
+				id: "minecraft:sandstone"
+			}
+			id: "63BA7901073D7890"
+			rewards: [{
+				command: "/locate structure minecraft:village_desert"
+				id: "1D58D273D4D66A43"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "5438F8BEA6E5C4EE"
+					type: "checkmark"
+				}
+				{
+					dimension: "minecraft:overworld"
+					id: "42A045F23C02AAB6"
+					type: "dimension"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "minecraft:oak_log"
+			}
+			id: "361E7368C94942E3"
+			rewards: [{
+				command: "/locate structure minecraft:village_plains"
+				id: "3D0082729E4F15EC"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "383DE84B08FCBF67"
+					type: "checkmark"
+				}
+				{
+					dimension: "minecraft:overworld"
+					disable_toast: true
+					id: "0286D77D446359F7"
+					type: "dimension"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "minecraft:acacia_log"
+			}
+			id: "520B7C31C8CE38F8"
+			rewards: [{
+				command: "/locate structure minecraft:village_savanna"
+				id: "22BE2B5EB2B22CEE"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "1A60AD441606CC80"
+					type: "checkmark"
+				}
+				{
+					dimension: "minecraft:overworld"
+					disable_toast: true
+					id: "488BB759818B6125"
+					type: "dimension"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:snow_block"
+			}
+			id: "043B8652FC957B85"
+			rewards: [{
+				command: "/locate structure minecraft:village_snowy"
+				id: "4AF72F027936F309"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "4047869BC757445C"
+					type: "checkmark"
+				}
+				{
+					dimension: "minecraft:overworld"
+					id: "0F85EB21523B2E47"
+					type: "dimension"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "minecraft:spruce_log"
+			}
+			id: "0A287C46C47502B4"
+			rewards: [{
+				command: "/locate structure minecraft:village_taiga"
+				id: "2686E0A981D765D0"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "4B1C918682B4E52F"
+					type: "checkmark"
+				}
+				{
+					dimension: "minecraft:overworld"
+					id: "2508D60BB5941C5B"
+					type: "dimension"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "1287D72462E10EC4"
+			rewards: [{
+				command: "/locate structure "
+				id: "70C2E9648CFA6A8E"
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "38B08D62085067E9"
+					type: "checkmark"
+				}
+				{
+					dimension: "minecraft:overworld"
+					id: "26DB1EE455C07725"
+					type: "dimension"
+				}
+			]
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "minecraft:dark_oak_log"
+			}
+			id: "5406AE31B81C959E"
+			rewards: [{
+				command: "/locate biome minecraft:dark_forest"
+				id: "69BFEB76090AA039"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "315E0B6DF737B764"
+					type: "checkmark"
+				}
+				{
+					dimension: "minecraft:overworld"
+					id: "78E3547F9AB0E158"
+					type: "dimension"
+				}
+			]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "minecraft:cherry_leaves"
+			}
+			id: "27192F526AC703AA"
+			rewards: [{
+				command: "/locate biome minecraft:cherry_grove"
+				id: "43CB43187DCF57B2"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "6E52D234D19B9235"
+					type: "checkmark"
+				}
+				{
+					dimension: "minecraft:overworld"
+					id: "14744F2EB6F792E0"
+					type: "dimension"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "minecraft:jungle_log"
+			}
+			id: "26A9726972E92102"
+			rewards: [{
+				command: "/locate biome minecraft:jungle"
+				id: "2EE081F3FBA724C2"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "74EAB95489E77101"
+					type: "checkmark"
+				}
+				{
+					dimension: "minecraft:overworld"
+					id: "4A5B63DD06DA9C0B"
+					type: "dimension"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "minecraft:birch_log"
+			}
+			id: "6AF2E03BA99DBECC"
+			rewards: [{
+				command: "/locate biome minecraft:old_growth_birch_forest"
+				id: "285CE20E60704D13"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "417CC2EE0D5A7EA3"
+					type: "checkmark"
+				}
+				{
+					dimension: "minecraft:overworld"
+					id: "1749BD5D1B6B1AC3"
+					type: "dimension"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "minecraft:mycelium"
+			}
+			id: "5A1296B572EA88C5"
+			rewards: [{
+				command: "/locate biome minecraft:mushroom_fields"
+				id: "0460EEF3C2910533"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "473C682627B02AAB"
+					type: "checkmark"
+				}
+				{
+					dimension: "minecraft:overworld"
+					id: "46837F2BF4E162CA"
+					type: "dimension"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "minecraft:slime_ball"
+			}
+			id: "52BC2200D3E196FD"
+			rewards: [{
+				command: "/locate biome minecraft:swamp"
+				id: "55C04B2BD1140E5E"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "16B80A58C4A77426"
+					type: "checkmark"
+				}
+				{
+					dimension: "minecraft:overworld"
+					id: "5860B5E5B5966432"
+					type: "dimension"
+				}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "minecraft:sunflower"
+			}
+			id: "5CE445879F07E6CB"
+			rewards: [{
+				command: "/locate biome minecraft:sunflower_plains"
+				id: "5929B7073D61B451"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "208A07E43D956D59"
+					type: "checkmark"
+				}
+				{
+					dimension: "minecraft:overworld"
+					id: "6F34283214AC9E1E"
+					type: "dimension"
+				}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "minecraft:tropical_fish_bucket"
+			}
+			id: "304C106736D87F1A"
+			rewards: [{
+				command: "/locate biome minecraft:lukewarm_ocean"
+				id: "612080825A18DA28"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "064C4748D845F443"
+					type: "checkmark"
+				}
+				{
+					dimension: "minecraft:overworld"
+					id: "79DFD54B6571F818"
+					type: "dimension"
+				}
+			]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "minecraft:iron_axe"
+			}
+			id: "2F2FC3DA9C893993"
+			rewards: [{
+				command: "/locate structure minecraft:mansion"
+				id: "17D37DEDC1986431"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "1A7C5D4713E06C8E"
+					type: "checkmark"
+				}
+				{
+					dimension: "minecraft:overworld"
+					id: "3F41DA4BE58E74A3"
+					type: "dimension"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "minecraft:crimson_nylium"
+			}
+			id: "6F7194CC841427FC"
+			rewards: [{
+				command: "/locate biome minecraft:crimson_forest"
+				id: "11C869AAFA122479"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "42A2D6CC58DB8CF8"
+					type: "checkmark"
+				}
+				{
+					dimension: "minecraft:the_nether"
+					id: "69C70F355EE63F27"
+					type: "dimension"
+				}
+			]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "minecraft:warped_nylium"
+			}
+			id: "1A8F649643881562"
+			rewards: [{
+				command: "/locate biome minecraft:warped_forest"
+				id: "4621E08C2D4DE8F4"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "305CD41D81ECDEB7"
+					type: "checkmark"
+				}
+				{
+					dimension: "minecraft:overworld"
+					id: "40F5590C5C3D7F0A"
+					type: "dimension"
+				}
+			]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "minecraft:soul_sand"
+			}
+			id: "145461EDF5F9C789"
+			rewards: [{
+				command: "/locate biome minecraft:soul_sand_valley"
+				id: "34DDC7DEFB745250"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "742237675FCBC7C8"
+					type: "checkmark"
+				}
+				{
+					dimension: "minecraft:overworld"
+					id: "066D03ECA4CBA3D3"
+					type: "dimension"
+				}
+			]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "minecraft:nether_bricks"
+			}
+			id: "337EEFB7DB0F255A"
+			rewards: [{
+				command: "/locate structure minecraft:fortress"
+				id: "4A6B324AC2C09858"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "558B2EAFDE2859F6"
+					type: "checkmark"
+				}
+				{
+					dimension: "minecraft:overworld"
+					id: "47B09B77FEB46529"
+					type: "dimension"
+				}
+			]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "minecraft:gilded_blackstone"
+			}
+			id: "636498A0D75498A5"
+			rewards: [{
+				command: "/locate structure minecraft:bastion_remnant"
+				id: "70360B1DB3CFA6E1"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "0F7AA94EA4A6C135"
+					type: "checkmark"
+				}
+				{
+					dimension: "minecraft:overworld"
+					id: "758D36E9DE3158EF"
+					type: "dimension"
+				}
+			]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			id: "51BEED20096684A0"
+			rewards: [{
+				command: "/locate structure dungeons_arise:shiraz_palace"
+				id: "4EC6207CCCAEDC14"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "334D8F107FE1A0F1"
+					type: "checkmark"
+				}
+				{
+					dimension: "minecraft:overworld"
+					id: "5BCD79E38A336E78"
+					type: "dimension"
+				}
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "minecraft:ender_eye"
+			}
+			id: "4C8244CB69CED560"
+			rewards: [{
+				command: "/locate structure minecraft:stronghold"
+				id: "49E586F8807D1895"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "4E8E9AF70C992442"
+					type: "checkmark"
+				}
+				{
+					dimension: "minecraft:overworld"
+					id: "6C3B548AD3AF91F9"
+					type: "dimension"
+				}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "minecraft:rose_bush"
+			}
+			id: "53E94026CC533638"
+			rewards: [{
+				command: "/locate structure dungeons_arise:thornborn_towers"
+				id: "0F9E60FD976955AC"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "739EE8AD74D5AE6A"
+					type: "checkmark"
+				}
+				{
+					dimension: "minecraft:overworld"
+					id: "7B4C3AC358902621"
+					type: "dimension"
+				}
+			]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "minecraft:purpur_block"
+			}
+			id: "590255B3CADEB331"
+			rewards: [{
+				command: "/locate structure minecraft:end_city"
+				id: "25A5A4D7BD22B7EF"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "4B9CDA1614FF64E8"
+					type: "checkmark"
+				}
+				{
+					dimension: "minecraft:the_end"
+					id: "7C1262D46E178521"
+					type: "dimension"
+				}
+			]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:missing_item": "explorerscompass:explorerscompass"
+				}
+				id: "ftbquests:missing_item"
+			}
+			id: "66CFB21F6D97EBF1"
+			tasks: [{
+				id: "491D9A06A309E5B7"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "39E0E1045628EA14"
+			rewards: [{
+				command: "/locate biome minecraft:mangrove_swamp"
+				id: "71C2775FCF033D7F"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "1C17487876C44234"
+					type: "checkmark"
+				}
+				{
+					dimension: "minecraft:overworld"
+					id: "08DE5B371E20FF24"
+					type: "dimension"
+				}
+			]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			id: "3C0DBCC6E38C320D"
+			rewards: [{
+				command: "/locate biome minecraft:badlands"
+				id: "5CA79E054BA8DE7E"
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "6877EB6EFBE23978"
+					type: "checkmark"
+				}
+				{
+					dimension: "minecraft:overworld"
+					disable_toast: true
+					id: "48C36B2CFB29A2DE"
+					type: "dimension"
+				}
+			]
+			x: 7.5d
+			y: 3.0d
+		}
+	]
+}

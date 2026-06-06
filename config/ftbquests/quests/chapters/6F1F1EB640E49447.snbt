@@ -1,0 +1,425 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6F1F1EB640E49447"
+	group: "67D1C43D30648F2E"
+	icon: {
+		id: "spore:reaver"
+	}
+	id: "6F1F1EB640E49447"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "69E6570A422A9D3B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "591264F8B4941721"
+				table_id: 3890725184685661295L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4668CD2A48736177"
+				item: { components: { "ftbquests:missing_item": "tconstruct:cleaver" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			id: "4D41F00C7C067FC9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "669499F632B2853C"
+				table_id: 4312717794984490238L
+				type: "random"
+			}]
+			tasks: [{
+				id: "66C727B20F4D3D2F"
+				item: { components: { "ftbquests:missing_item": "tconstruct:efln_ball" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			id: "63CD22EAB528D575"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66A34E9137BFCE34"
+				table_id: 4312717794984490238L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1FD5E4C0E81B9FF1"
+				item: { components: { "ftbquests:missing_item": "alexscaves:nuclear_bomb" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			id: "3E3A55DC924E984C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04A680B52F0B1F53"
+				table_id: 4312717794984490238L
+				type: "random"
+			}]
+			tasks: [{
+				id: "39589DC7173E93FF"
+				item: { components: { "ftbquests:missing_item": "tacz:modern_kinetic_gun" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			id: "29D30470D2324502"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0A960688CB5C2A2A"
+				table_id: 4312717794984490238L
+				type: "random"
+			}]
+			tasks: [{
+				id: "50AC0696F4E5F0D1"
+				item: { count: 1, id: "irons_spellbooks:arcane_anvil" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			id: "5CA9504BE0111C18"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5701F214CC2E5F09"
+				table_id: 3890725184685661295L
+				type: "random"
+			}]
+			tasks: [{
+				id: "472C05D48C1CF5B7"
+				item: { count: 1, id: "sophisticatedbackpacks:stack_upgrade_tier_3" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "30E61E04D3CA74B5"
+			tasks: [
+				{
+					id: "4D5A3769A2448DB1"
+					item: { count: 1, id: "sophisticatedbackpacks:xp_pump_upgrade" }
+					type: "item"
+				}
+				{
+					id: "3F263EE88FD69CDF"
+					item: { count: 1, id: "sophisticatedbackpacks:tank_upgrade" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "4C83E1A30593ACEB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3BB65192ECE9B0E5"
+				table_id: 4312717794984490238L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "538D5FC3B79C604D"
+				item: { count: 1, id: "create:extendo_grip" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "11E241D2CEC3FE4E"
+			tasks: [{
+				id: "4E1BE6019FE20092"
+				item: { components: { "ftbquests:missing_item": "alexscaves:galena_gauntlet" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "4E7BC43CF5EF8104"
+			tasks: [{
+				id: "0399800BA94C910B"
+				item: { components: { "ftbquests:missing_item": "alexscaves:candy_cane_hook" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "313673D36ADE0873"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "063F4FDEF87A93AC"
+				table_id: 4312717794984490238L
+				type: "random"
+			}]
+			tasks: [{
+				id: "14C8C61AFD8D0B3E"
+				item: { components: { "ftbquests:missing_item": "kubejs:deforester" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			id: "61B58A1396ACE136"
+			shape: "gear"
+			tasks: [{
+				id: "5714A4D592575A1F"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			id: "432E94AEFA46F68B"
+			shape: "gear"
+			tasks: [{
+				id: "0842DDB0267BB0AA"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			id: "6DEA2AA4128CFC84"
+			shape: "gear"
+			tasks: [{
+				id: "10FACBE498D8F8CA"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			id: "2F14264D9636D674"
+			shape: "gear"
+			tasks: [{
+				id: "26B25C9A62356AB7"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			id: "5845EAC5B9692CB0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57ECD0185422AFED"
+				table_id: 4312717794984490238L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3F24B48080AA57C4"
+				item: { components: { "ftbquests:missing_item": "tconstruct:swasher" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			id: "58DB0ED3E3B5F5F2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "116A26022AA1A86D"
+				table_id: 4312717794984490238L
+				type: "random"
+			}]
+			tasks: [{
+				advancement: "superbwarfare:main/banzai"
+				criterion: ""
+				id: "73E6FF39E07E1991"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			id: "38C600A5BBC73389"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "77B272867581E7F8"
+				table_id: 4312717794984490238L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "4BED4B48638CA990"
+				item: { count: 1, id: "l2hostility:curse_of_greed" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			id: "34BB6D49FFE33F8A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "534BCB8A1882278E"
+				table_id: 4312717794984490238L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "2E756BF33B7A6D1A"
+				item: { count: 1, id: "l2hostility:curse_of_envy" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			id: "2106F5AA1891F807"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "27683D557C463167"
+				table_id: 3890725184685661295L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					id: "25BC30EB8435F98B"
+					item: { count: 1, id: "l2hostility:charm_of_looting_1" }
+					type: "item"
+				}
+				{
+					id: "70DE2DD11BFA3203"
+					item: { count: 1, id: "l2hostility:charm_of_looting_2" }
+					type: "item"
+				}
+				{
+					id: "3736EA86BB64A6B7"
+					item: { count: 1, id: "l2hostility:charm_of_looting_3" }
+					type: "item"
+				}
+				{
+					id: "1808DF12847D7B42"
+					item: { count: 1, id: "l2hostility:charm_of_looting_4" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			id: "2891278BB0F335F6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6DE84A02A9176723"
+				table_id: 4312717794984490238L
+				type: "random"
+			}]
+			tasks: [{
+				id: "53AB126642881876"
+				item: { count: 1, id: "l2hostility:abyssal_thorn" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			id: "4DCB1C9111BB6041"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25D9DDC4AA745946"
+				table_id: 4312717794984490238L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "340BFBDC829C75D6"
+				item: { count: 1, id: "l2hostility:ring_of_divinity" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "2DB5D729041280AF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1233AB1F8C02A66E"
+				table_id: 4312717794984490238L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3BE0E7D4E7071BF4"
+				item: { count: 1, id: "l2hostility:oddeyes_glasses" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			id: "72D7C66FC4EEDDFF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C7D37CFABE8D938"
+				table_id: 4312717794984490238L
+				type: "random"
+			}]
+			tasks: [{
+				id: "764E33E1472C78E1"
+				item: { count: 1, id: "l2hostility:triple_strip_cape" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			id: "68E5B281F037229C"
+			rewards: [{
+				id: "617C096C3DF57FE9"
+				item: {
+					count: 1
+					id: "l2hostility:infinity_glove"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "589ADE66612E6D66"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			id: "3C0F0681B8FD6DFE"
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "6C9E0E00DCE09117"
+				item: { count: 1, id: "minecraft:enchanting_table" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			id: "7DD4A755EBC9B82A"
+			size: 2.0d
+			tasks: [{
+				id: "56DD958BE139817F"
+				item: { count: 1, id: "spore:reaver" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+	]
+}

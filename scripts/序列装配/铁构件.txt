@@ -1,0 +1,60 @@
+<recipetype:create:sequenced_assembly>.addJsonRecipe("iron_mechanism",{
+  "ingredient": {
+    "item": "ue_addons:stone_mechanism"
+  },
+  "loops": 1,
+  "results": [{
+      "item": "ue_addons:iron_mechanism"}
+  ],"sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "ue_addons:incomplete_iron_mechanism"
+        },
+        {
+          "amount": 90,
+          "fluid": "tconstruct:molten_iron",
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "ue_addons:incomplete_iron_mechanism"
+        }
+      ]
+    },{
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "ue_addons:incomplete_iron_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "item": "ue_addons:incomplete_iron_mechanism"
+        }
+      ]
+    },{
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "ue_addons:incomplete_iron_mechanism"
+        },
+        {
+          "amount": 90,
+          "fluid": "minecraft:water",
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "ue_addons:incomplete_iron_mechanism"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "ue_addons:incomplete_iron_mechanism"
+  }
+});

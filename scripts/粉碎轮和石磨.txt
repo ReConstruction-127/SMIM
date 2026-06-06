@@ -1,0 +1,29 @@
+<recipetype:create:crushing>.addJsonRecipe("crushing_gunpowder",{
+  "ingredients": [
+    {
+      "item": "minecraft:flint"
+    }
+  ],
+  "processingTime": 150,
+  "results": [
+    {
+      "item": "minecraft:gunpowder"
+    }
+  ]
+}
+);
+
+<recipetype:create:milling>.addJsonRecipe("milling_gunpowder",{
+  "ingredients": [
+    {
+      "item": "minecraft:flint"
+    }
+  ],
+  "processingTime": 150,
+  "results": [
+    {
+      "item": "minecraft:gunpowder"
+    }
+  ]
+}
+);

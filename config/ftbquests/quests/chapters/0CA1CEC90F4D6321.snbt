@@ -1,0 +1,219 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0CA1CEC90F4D6321"
+	group: "56C520161AC601FC"
+	id: "0CA1CEC90F4D6321"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "touhou_little_maid:entity_placeholder"
+			}
+			id: "0F3B501B425A6B8D"
+			rewards: [
+				{
+					id: "3884AE0AB3B545C4"
+					item: {
+						count: 1
+						id: "touhou_little_maid:kappa_compass"
+					}
+					type: "item"
+				}
+				{
+					id: "48B4E039713D4E7B"
+					item: {
+						count: 1
+						id: "touhou_little_maid:servant_bell"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "330FFCF9C100C392"
+					item: {
+						count: 1
+						id: "touhou_little_maid:substitute_jizo"
+					}
+					type: "item"
+				}
+				{
+					id: "12141F039AA8FA77"
+					item: {
+						count: 1
+						id: "touhou_little_maid:smart_slab_init"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "19B22A9E883AA8A5"
+					item: {
+						count: 1
+						id: "touhou_little_maid:maid_backpack_middle"
+					}
+					type: "item"
+				}
+				{
+					id: "5BEEB08452649D16"
+					item: {
+						count: 1
+						id: "touhou_little_maid:red_fox_scroll"
+					}
+					type: "item"
+				}
+				{
+					id: "323303C14C30FACF"
+					item: {
+						count: 1
+						id: "touhou_little_maid:trumpet"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "67E3AA8BCA6CA3DB"
+					item: {
+						count: 1
+						id: "touhou_little_maid:maid_bed"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "54192A8E255BAA7E"
+					type: "checkmark"
+				}
+				{
+					id: "065E0E5A966684EB"
+					item: { count: 1, id: "minecraft:bedrock" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"6A70ADDAB4E47617"
+				"1E5AEAFCD2BFECEA"
+			]
+			id: "19D6CBEC40C732BB"
+			tasks: [{
+				id: "3A6899E384D06F9C"
+				item: { components: { "ftbquests:missing_item": "cbc_nukes:nuke_shell" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			id: "6A70ADDAB4E47617"
+			rewards: [
+				{
+					id: "2C7ED88DB1A12BBA"
+					item: {
+						components: {
+							"ftbquests:missing_item": "alex_caves_dimensions:magnetic_caves_key"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "71CE228545C3E439"
+					item: {
+						components: {
+							"ftbquests:missing_item": "alex_caves_dimensions:primordial_caves_key"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "1BF57ED78D5C32C6"
+					item: {
+						components: {
+							"ftbquests:missing_item": "alex_caves_dimensions:toxic_caves_key"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "1B454BCFFD6D760F"
+					item: {
+						components: {
+							"ftbquests:missing_item": "alex_caves_dimensions:abyssal_chasm_key"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "03D3D443132B8C31"
+					item: {
+						components: {
+							"ftbquests:missing_item": "alex_caves_dimensions:forlorn_hollows_key"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "466F3A5981531251"
+					item: {
+						components: {
+							"ftbquests:missing_item": "alex_caves_dimensions:candy_cavity_key"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "4279D357307A0683"
+					item: {
+						components: {
+							"ftbquests:missing_item": "alexscaves:cave_book"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "26388D6B38FB1D4A"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			id: "1E5AEAFCD2BFECEA"
+			rewards: [{
+				id: "30D1D0362B390355"
+				item: {
+					count: 1
+					id: "createbigcannons:cannon_crafting_wand"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "45CE2FF25E5597C7"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+	]
+}

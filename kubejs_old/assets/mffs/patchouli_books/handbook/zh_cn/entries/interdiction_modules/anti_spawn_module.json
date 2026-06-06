@@ -1,0 +1,18 @@
+{
+    "name": "防生成模块",
+    "icon": "mffs:anti_spawn_module",
+    "category": "mffs:interdiction_modules",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "mffs:anti_spawn_module",
+            "link_recipe": true,
+            "text": "$(5)防生成模块$() 是 $(l:mffs:machines/interdiction_matrix)禁制矩阵$() 的可选功能模块。安装该模块后，禁制矩阵将阻止敌对与友方实体在其作用区内生成。若玩家持有刷怪蛋，只需站在禁制矩阵的作用区外侧，即可在保护区内生成对应实体。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "mffs:anti_spawn_module",
+            "text": "合成 $(5)防生成模块$() 的配方。"
+        }
+    ]
+}

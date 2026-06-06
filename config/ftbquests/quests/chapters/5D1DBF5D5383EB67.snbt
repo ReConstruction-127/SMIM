@@ -1,0 +1,253 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5D1DBF5D5383EB67"
+	group: "56C520161AC601FC"
+	id: "5D1DBF5D5383EB67"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2028D796845AE660"
+			tasks: [{
+				id: "02DEF40144677D6F"
+				item: { components: { "ftbquests:missing_item": "gtceu:sticky_resin" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2028D796845AE660"]
+			id: "543026FF330CF21C"
+			tasks: [{
+				id: "5C354F6A577A51CB"
+				item: { components: { "ftbquests:missing_item": "gtceu:raw_rubber_dust" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "146FAD3439753D7A"
+			tasks: [
+				{
+					id: "495956E097CED4A7"
+					item: { components: { "ftbquests:missing_item": "gtceu:lp_steam_alloy_smelter" }, count: 1, id: "ftbquests:missing_item" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "02D152D17DE6C1DF"
+					item: { components: { "ftbquests:missing_item": "gtceu:hp_steam_alloy_smelter" }, count: 1, id: "ftbquests:missing_item" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"146FAD3439753D7A"
+				"05FCF84E6FD3AD58"
+			]
+			id: "2F497429F63CCE86"
+			tasks: [
+				{
+					id: "56700EF9B9211ADC"
+					item: { components: { "ftbquests:missing_item": "gtceu:lp_steam_alloy_smelter" }, count: 1, id: "ftbquests:missing_item" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "544BA361760DB486"
+					item: { components: { "ftbquests:missing_item": "gtceu:hp_steam_alloy_smelter" }, count: 1, id: "ftbquests:missing_item" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4491892B28E5EB98"
+					item: { components: { "ftbquests:missing_item": "gtceu:plate_casting_mold" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"146FAD3439753D7A"
+				"543026FF330CF21C"
+			]
+			id: "05FCF84E6FD3AD58"
+			tasks: [{
+				id: "3708642528E7BA44"
+				item: { components: { "ftbquests:missing_item": "gtceu:rubber_ingot" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"2F497429F63CCE86"
+				"2DB22F3E6850E7E0"
+			]
+			dependency_requirement: "one_completed"
+			id: "4803953D248591C4"
+			tasks: [{
+				id: "32E1C2B3C3240657"
+				item: { components: { "ftbquests:missing_item": "gtceu:rubber_plate" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5AAD3B2E2BBEEEE2"]
+			id: "2DB22F3E6850E7E0"
+			tasks: [
+				{
+					id: "47907060EC4482CC"
+					item: { components: { "ftbquests:missing_item": "tconstruct:seared_table" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "525300F56408AA38"
+					item: { components: { "ftbquests:missing_item": "gtceu:plate_casting_mold" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			id: "4D9B8C85071711BE"
+			tasks: [{
+				id: "29C2FE6367D79AB9"
+				item: { count: 1, id: "create:mechanical_mixer" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"4D9B8C85071711BE"
+				"543026FF330CF21C"
+			]
+			id: "5AAD3B2E2BBEEEE2"
+			tasks: [{
+				id: "6CCBDFC477FEB764"
+				item: { components: { "ftbquests:missing_item": "gtceu:rubber_bucket" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"4803953D248591C4"
+				"3E4C557D3B827A0F"
+				"52BAD36786C6B088"
+			]
+			id: "158F3C3BCB8763E9"
+			tasks: [{
+				id: "478BA4084AE78199"
+				item: { components: { "ftbquests:missing_item": "ue_addons:copper_mechanism" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4803953D248591C4"]
+			id: "29755995D7CB152F"
+			tasks: [{
+				id: "0E581C3160EFAE32"
+				item: { components: { "ftbquests:missing_item": "kubejs:lv_mechanism" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2FCE75A0EDF4E25D"]
+			id: "3E4C557D3B827A0F"
+			tasks: [{
+				id: "6F138DE13E74E035"
+				item: { components: { "ftbquests:missing_item": "ue_addonsp2:antirust_core" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6FB3E37A01CB2129"]
+			id: "2FCE75A0EDF4E25D"
+			tasks: [{
+				id: "26175D6ADF8BAF70"
+				item: { count: 1, id: "immersiveengineering:creosote_bucket" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			id: "6FB3E37A01CB2129"
+			tasks: [{
+				count: 27L
+				id: "6058DC9C893B9F25"
+				item: { count: 1, id: "immersiveengineering:cokebrick" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3B1C290D0A14626A"]
+			id: "52BAD36786C6B088"
+			tasks: [{
+				id: "2835DE5C046C6FAB"
+				item: { components: { "ftbquests:missing_item": "ue_addons:andsite_mechanism" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4BF5BCF4F8F4C4F1"]
+			id: "3B1C290D0A14626A"
+			tasks: [{
+				id: "6CBAC9D0583FBFAD"
+				item: { components: { "ftbquests:missing_item": "ue_addons:iron_mechanism" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["746A3F11AED9FEB9"]
+			id: "4BF5BCF4F8F4C4F1"
+			tasks: [{
+				id: "14DC603636EC47BB"
+				item: { components: { "ftbquests:missing_item": "ue_addons:stone_mechanism" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			id: "746A3F11AED9FEB9"
+			tasks: [{
+				id: "5F6E0FAA9FDEA239"
+				item: { components: { "ftbquests:missing_item": "ue_addons:wooden_mechanism" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+	]
+}

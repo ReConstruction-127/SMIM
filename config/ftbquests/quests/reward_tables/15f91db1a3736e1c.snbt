@@ -1,0 +1,34 @@
+{
+	id: "15F91DB1A3736E1C"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			count: 2
+			id: "2512C9C5D442D2E3"
+			item: {
+				count: 1
+				id: "sophisticatedbackpacks:stack_upgrade_tier_4"
+			}
+			weight: 2.0f
+		}
+		{ id: "3EE73CCE201658ED", item: { count: 1, id: "touhou_little_maid:substitute_jizo" } }
+		{
+			count: 16
+			id: "055CCC18C60E2E6A"
+			item: {
+				count: 1
+				id: "apotheosis:mythic_material"
+			}
+		}
+		{ id: "097113B27CAAFC13", item: { count: 1, id: "create:creative_blaze_cake" } }
+		{
+			count: 64
+			id: "1D7520AB76661FAF"
+			item: {
+				count: 1
+				id: "create:precision_mechanism"
+			}
+		}
+	]
+}

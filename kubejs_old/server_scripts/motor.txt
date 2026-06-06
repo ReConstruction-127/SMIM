@@ -1,0 +1,49 @@
+ServerEvents.recipes(event => {
+  // 配方1：严格遵循 slot + id
+  event.custom({
+    "type": "spore:surgery",
+    "ingredients": [
+      { "slot": 0, "id": "ue_addons:living_mechanism" },
+      { "slot": 1, "id": "ue_addons:living_mechanism" },
+      { "slot": 2, "id": "ue_addons:living_mechanism" },
+      { "slot": 3, "id": "ue_addons:living_mechanism" },
+      { "slot": 4, "id": "spore:brain_remnants" },
+      { "slot": 5, "id": "spore:reforged_biomass_a" },
+      { "slot": 6, "id": "spore:reforged_biomass_w" },
+      { "slot": 7, "id": "spore:reforged_biomass_t" },
+      { "slot": 8, "id": "create:shaft" },
+      { "slot": 9, "id": "spore:mutated_fiber" },
+      { "slot": 10, "id": "spore:mutated_heart" },
+      { "slot": 11, "id": "spore:mutated_fiber" },
+      { "slot": 12, "id": "ue_addons:living_mechanism" },
+      { "slot": 13, "id": "ue_addons:living_mechanism" },
+      { "slot": 14, "id": "ue_addons:living_mechanism" },
+      { "slot": 15, "id": "ue_addons:living_mechanism" }
+    ],
+    "result": { "id": "kubejs:motor_off" }
+  })
+
+  // 配方2：严格遵循 slot + id
+  event.custom({
+    "type": "spore:surgery",
+    "ingredients": [
+      { "slot": 0, "id": "allthemodium:allthemodium_nugget" },
+      { "slot": 1, "id": "allthemodium:allthemodium_nugget" },
+      { "slot": 2, "id": "allthemodium:allthemodium_nugget" },
+      { "slot": 3, "id": "allthemodium:allthemodium_nugget" },
+      { "slot": 4, "id": "allthemodium:allthemodium_nugget" },
+      { "slot": 5, "id": "spore:brain_remnants" },
+      { "slot": 6, "id": "spore:reforged_biomass_w" },
+      { "slot": 7, "id": "allthemodium:allthemodium_nugget" },
+      { "slot": 8, "id": "allthemodium:allthemodium_nugget" },
+      { "slot": 9, "id": "spore:reforged_biomass_a" },
+      { "slot": 10, "id": "spore:reforged_biomass_t" },
+      { "slot": 11, "id": "allthemodium:allthemodium_nugget" },
+      { "slot": 12, "id": "allthemodium:allthemodium_nugget" },
+      { "slot": 13, "id": "allthemodium:allthemodium_nugget" },
+      { "slot": 14, "id": "allthemodium:allthemodium_nugget" },
+      { "slot": 15, "id": "allthemodium:allthemodium_nugget" }
+    ],
+    "result": { "id": "allthemodium:teleport_pad" }
+  })
+})

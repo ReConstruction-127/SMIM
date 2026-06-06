@@ -1,0 +1,635 @@
+[DLC]
+
+[mod:DLC|Z-Create-Optimization-6]
+  [0]
+    [6/createthreadedtrains-neoforge-1]
+      [21]
+        [1-1]
+          [0]
+            [0]
+              [jar]
+                enabled = false
+                appliedTargets = []
+
+    [6/createbetterfps-1]
+      [21]
+        [1-1]
+          [1]
+            [3]
+              [jar]
+                enabled = false
+                appliedTargets = []
+
+    [6/colorwheel-neoforge-1]
+      [2]
+        [3+mc1]
+          [21]
+            [1]
+              [jar]
+                enabled = false
+                appliedTargets = []
+
+    [6/iris-flywheel-compat-NeoForge-2]
+      [2]
+        [0]
+          [jar]
+            enabled = false
+            appliedTargets = []
+
+    [6/colorwheel_patcher-neoforge-1]
+      [0]
+        [4+mc1]
+          [21]
+            [1]
+              [jar]
+                enabled = false
+                appliedTargets = []
+
+[mod:DLC|Z-Client-side-server/Kerria-1]
+  [0]
+    [3+1]
+      [21]
+        [1-neoforge]
+          [jar]
+            enabled = false
+            appliedTargets = []
+
+[mod:DLC|Z-Client-side-server/smoothchunk-1]
+  [21-4]
+    [1]
+      [jar]
+        enabled = false
+        appliedTargets = []
+
+[mod:DLC|Z-Client-side-server/doespotatotick-1]
+  [21]
+    [1-5]
+      [6]
+        [3]
+          [jar]
+            enabled = false
+            appliedTargets = []
+
+[unknown:DLC|config/fml]
+  [toml]
+    enabled = false
+    appliedTargets = []
+
+[mod:DLC|Z-Client-side-server/MemorySweep-1]
+  [21]
+    [1-neoforge-2]
+      [0]
+        [3-fix]
+          [jar]
+            enabled = false
+            appliedTargets = []
+
+[mod:DLC|Z-Client-side-server/configured-neoforge-1]
+  [21]
+    [1-2]
+      [6]
+        [3]
+          [jar]
+            enabled = false
+            appliedTargets = []
+
+[mod:DLC|Z-Client-side-server/NotEnoughBandwidth-0]
+  [3]
+    [18+prototype+teacon]
+      [jar]
+        enabled = false
+        appliedTargets = []
+
+[mod:DLC|Y-Prerequisite library/duplicationless-1]
+  [21]
+    [1-1]
+      [1]
+        [5]
+          [jar]
+            enabled = false
+            appliedTargets = []
+
+[mod:DLC|Z-Client-side/yeetusexperimentus-neoforge-87]
+  [0]
+    [0]
+      [jar]
+        enabled = false
+        appliedTargets = []
+
+[mod:DLC|Z-Client-side-server/structure_layout_optimizer-neoforge-1]
+  [0]
+    [12]
+      [jar]
+        enabled = false
+        appliedTargets = []
+
+[mod:DLC|Z-Client-side-server/c2me-neoforge-mc1]
+  [21]
+    [1-0]
+      [3]
+        [0+alpha]
+          [0]
+            [90]
+              [jar]
+                enabled = false
+                appliedTargets = []
+
+[mod:DLC|Z-Client-side-server/CraftTweaker-neoforge-1]
+  [21]
+    [1-21]
+      [0]
+        [38]
+          [jar]
+            enabled = false
+            appliedTargets = []
+
+[mod:DLC|Z-Client-side-server/FastFurnace-1]
+  [21]
+    [1-9]
+      [0]
+        [1]
+          [jar]
+            enabled = false
+            appliedTargets = []
+
+[mod:DLC|Z-Client-side-server/alternate_current-mc1]
+  [21-1]
+    [9]
+      [0]
+        [jar]
+          enabled = false
+          appliedTargets = []
+
+[mod:DLC|Z-Client-side/dynamic-fps-3]
+  [11]
+    [4+minecraft-1]
+      [21]
+        [0-neoforge]
+          [jar]
+            enabled = false
+            appliedTargets = []
+
+[mod:DLC|Z-Client-side-server/redirector-neoforge-1]
+  [21]
+    [1-1]
+      [0]
+        [0]
+          [jar]
+            enabled = false
+            appliedTargets = []
+
+[mod:DLC|Z-Client-side-server/lithium-neoforge-0]
+  [15]
+    [3+mc1]
+      [21]
+        [1]
+          [jar]
+            enabled = false
+            appliedTargets = []
+
+[mod:DLC|Z-Client-side-server/biomespy-neoforge-1]
+  [21]
+    [1-1]
+      [3]
+        [3]
+          [jar]
+            enabled = false
+            appliedTargets = []
+
+[mod:DLC|Z-Client-side/BadOptimizations-2]
+  [4]
+    [1-1]
+      [21]
+        [1]
+          [jar]
+            enabled = false
+            appliedTargets = []
+
+[mod:DLC|Z-Client-side-server/chunksending-1]
+  [21-2]
+    [8]
+      [jar]
+        enabled = false
+        appliedTargets = []
+
+[mod:DLC|Z-Client-side/Ixeris-4]
+  [1]
+    [8+1]
+      [21]
+        [1-neoforge]
+          [jar]
+            enabled = false
+            appliedTargets = []
+
+[mod:DLC|Z-Client-side-server/despawntweaks-neoforge-1]
+  [0]
+    [0-1]
+      [21]
+        [1]
+          [jar]
+            enabled = false
+            appliedTargets = []
+
+[mod:DLC|Z-Client-side-server/ScalableLux-0]
+  [1]
+    [0]
+      [1+neoforge]
+        [1cb1e91-all]
+          [jar]
+            enabled = false
+            appliedTargets = []
+
+[mod:DLC|Z-Special/vanillin-neoforge-1]
+  [21]
+    [1-1]
+      [1]
+        [3]
+          [jar]
+            enabled = false
+            appliedTargets = []
+
+[mod:DLC|Z-Client-side/acceleratedrendering-1]
+  [0]
+    [8-1]
+      [21]
+        [1-alpha]
+          [jar]
+            enabled = false
+            appliedTargets = []
+
+[mod:DLC|Z-Client-side-server/letmedespawn-1]
+  [21]
+    [x-neoforge-1]
+      [5]
+        [0]
+          [jar]
+            enabled = false
+            appliedTargets = []
+
+[mod:DLC|Z-Client-side-server/lazyyyyy-lexforge-core-0]
+  [14]
+    [19]
+      [jar]
+        enabled = false
+        appliedTargets = []
+
+[mod:DLC|Z-Client-side-server/fastrecipesearch-1]
+  [21]
+    [1-26]
+      [1-neoforge]
+        [jar]
+          enabled = false
+          appliedTargets = []
+
+[mod:DLC|Z-Client-side-server/Krypton FNP-forge-1]
+  [20]
+    [1-0]
+      [2]
+        [28]
+          [2-1]
+            [20]
+              [1]
+                [jar]
+                  enabled = false
+                  appliedTargets = []
+
+[mod:DLC|Z-Client-side/Fastquit-3]
+  [0]
+    [1+1]
+      [21]
+        [1neoforge]
+          [jar]
+            enabled = false
+            appliedTargets = []
+
+[mod:DLC|Z-Client-side-server/fast-ip-ping-v1]
+  [0]
+    [8-mc1]
+      [21]
+        [1-neoforge]
+          [jar]
+            enabled = false
+            appliedTargets = []
+
+[mod:DLC|Z-Client-side/acceleratedrecoiling-21]
+  [1]
+    [11-alpha-hotfix]
+      [jar]
+        enabled = false
+        appliedTargets = []
+
+[mod:DLC|Z-Client-side-server/NoChatReports-NEOFORGE-1]
+  [21]
+    [1-v2]
+      [9]
+        [1]
+          [jar]
+            enabled = false
+            appliedTargets = []
+
+[mod:DLC|Z-Client-side/betterfpsdist-1]
+  [21-6]
+    [0]
+      [jar]
+        enabled = false
+        appliedTargets = []
+
+[mod:DLC|Z-Client-side-server/cerulean-neoforge-1]
+  [0]
+    [0-1]
+      [21]
+        [1]
+          [jar]
+            enabled = false
+            appliedTargets = []
+
+[mod:DLC|Y-Prerequisite library/cupboard-1]
+  [21-3]
+    [5]
+      [jar]
+        enabled = false
+        appliedTargets = []
+
+[unknown:DLC|config/modernfix-mixins]
+  [properties]
+    enabled = false
+    appliedTargets = []
+
+[mod:DLC|Y-Prerequisite library/resourcefulconfig-neoforge-1]
+  [21-3]
+    [0]
+      [11]
+        [jar]
+          enabled = false
+          appliedTargets = []
+
+[mod:DLC|Z-Client-side/particle_core-0]
+  [3]
+    [3+1]
+      [21+neoforge]
+        [jar]
+          enabled = false
+          appliedTargets = []
+
+[mod:DLC|Z-Client-side-server/server_expansion-1]
+  [1]
+    [1-neoforge-1]
+      [21]
+        [1]
+          [jar]
+            enabled = false
+            appliedTargets = []
+
+[mod:DLC|Z-Client-side/threatengl-neoforge-2]
+  [0]
+    [4-release]
+      [10]
+        [jar]
+          enabled = false
+          appliedTargets = []
+
+[mod:DLC|Z-Client-side-server/redirected-neoforge-1]
+  [0]
+    [0-1]
+      [21]
+        [1]
+          [jar]
+            enabled = false
+            appliedTargets = []
+
+[mod:DLC|Z-Special/dimthread-NEOFORGE-mc1]
+  [21]
+    [1-v1]
+      [2]
+        [1]
+          [jar]
+            enabled = false
+            appliedTargets = []
+
+[mod:DLC|Z-Client-side-server/logbegone-neoforge-1]
+  [21]
+    [1-1]
+      [0]
+        [3]
+          [jar]
+            enabled = false
+            appliedTargets = []
+
+[unknown:DLC|config/immediatelyfast]
+  [json]
+    enabled = false
+    appliedTargets = []
+
+[mod:DLC|Z-Client-side/BetterF3-11]
+  [0]
+    [3-NeoForge-1]
+      [21]
+        [1]
+          [jar]
+            enabled = false
+            appliedTargets = []
+
+[mod:DLC|Z-Client-side-server/efficient_hashing-neoforge-1]
+  [0]
+    [0+1]
+      [21]
+        [1-mod]
+          [jar]
+            enabled = false
+            appliedTargets = []
+
+[mod:DLC|Y-Prerequisite library/fzzy_config-0]
+  [7]
+    [6+1]
+      [21+neoforge]
+        [jar]
+          enabled = false
+          appliedTargets = []
+
+[mod:DLC|Z-Client-side-server/ModernUI-NeoForge-1]
+  [21]
+    [1-3]
+      [12]
+        [0]
+          [2-universal]
+            [jar]
+              enabled = false
+              appliedTargets = []
+
+[mod:DLC|Y-Prerequisite library/Almanac-1]
+  [21]
+    [1-2-neoforge-1]
+      [5]
+        [2]
+          [jar]
+            enabled = false
+            appliedTargets = []
+
+[mod:DLC|Z-Client-side-server/FastSuite-1]
+  [21]
+    [1-6]
+      [0]
+        [7]
+          [jar]
+            enabled = false
+            appliedTargets = []
+
+[mod:DLC|Z-Client-side-server/asynclogger-1]
+  [1]
+    [0+1]
+      [21]
+        [1-neoforge]
+          [jar]
+            enabled = false
+            appliedTargets = []
+
+[mod:DLC|Z-Client-side/flerovium-neoforge-1]
+  [21]
+    [1-1]
+      [0]
+        [17-all]
+          [jar]
+            enabled = false
+            appliedTargets = []
+
+[mod:DLC|Z-Client-side-server/fluidium-1]
+  [21]
+    [1-1]
+      [4]
+        [0]
+          [jar]
+            enabled = false
+            appliedTargets = []
+
+[mod:DLC|Z-Client-side-server/servercore-neoforge-1]
+  [5]
+    [10+1]
+      [21]
+        [1]
+          [jar]
+            enabled = false
+            appliedTargets = []
+
+[mod:DLC|Z-Client-side-server/FastWorkbench-1]
+  [21]
+    [1-9]
+      [1]
+        [3]
+          [jar]
+            enabled = false
+            appliedTargets = []
+
+[mod:DLC|Y-Prerequisite library/OctoLib-NEOFORGE-0]
+  [6]
+    [1+1]
+      [21]
+        [jar]
+          enabled = false
+          appliedTargets = []
+
+[mod:DLC|Z-Client-side-server/modernfix-neoforge-5]
+  [26]
+    [1+mc1]
+      [21]
+        [1]
+          [jar]
+            enabled = false
+            appliedTargets = []
+
+[mod:DLC|Z-Client-side-server/zstdmc-1]
+  [0-SNAPSHOT-fat]
+    [jar]
+      enabled = false
+      appliedTargets = []
+
+[mod:DLC|Z-Client-side-server/txnilib-neoforge-1]
+  [0]
+    [24-1]
+      [21]
+        [1]
+          [jar]
+            enabled = false
+            appliedTargets = []
+
+[mod:DLC|Y-Prerequisite library/coroutil-neoforge-1]
+  [21]
+    [0-1]
+      [3]
+        [9]
+          [jar]
+            enabled = false
+            appliedTargets = []
+
+[mod:DLC|Z-Client-side-server/spark-1]
+  [10]
+    [124-neoforge]
+      [jar]
+        enabled = false
+        appliedTargets = []
+
+[mod:DLC|Z-Client-side-server/zstdnet-1]
+  [21]
+    [1-neoforge-1]
+      [3]
+        [5-all]
+          [jar]
+            enabled = false
+            appliedTargets = []
+
+[mod:DLC|Y-Prerequisite library/Placebo-1]
+  [21]
+    [1-9]
+      [9]
+        [1]
+          [jar]
+            enabled = false
+            appliedTargets = []
+
+[mod:DLC|Z-Client-side/super_resolution-neoforge-1]
+  [21]
+    [1]
+      [21]
+        [1-0]
+          [8]
+            [3-alpha]
+              [2+opengl]
+                [jar]
+                  enabled = false
+                  appliedTargets = []
+
+[mod:DLC|Z-Client-side-server/packetfixer-3]
+  [3]
+    [1-1]
+      [20]
+        [5-1]
+          [21]
+            [X-merged]
+              [jar]
+                enabled = false
+                appliedTargets = []
+
+[mod:DLC|Z-Client-side-server/Not Enough Recipe Book-NEOFORGE-0]
+  [4]
+    [3+1]
+      [21]
+        [jar]
+          enabled = false
+          appliedTargets = []
+
+[mod:DLC|Y-Prerequisite library/kotlinforforge-5]
+  [11]
+    [0-all]
+      [jar]
+        enabled = false
+        appliedTargets = []
+
+[presets]
+1 = "Off"
+2 = "Off"
+3 = "Off"
+4 = "Off"
+5 = "Off"
+6 = "Off"
+7 = "Off"
+8 = "Off"
+9 = "Off"

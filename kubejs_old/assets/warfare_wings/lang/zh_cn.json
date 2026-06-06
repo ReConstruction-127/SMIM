@@ -1,0 +1,409 @@
+{
+  "item.warfare_wings.p40e": "P-40E 战鹰",
+  "item.warfare_wings.p40e.description": "美国寇蒂斯-莱特研发的战斗机，是二战前期盟军的主力机型之一",
+  "entity.warfare_wings.p40e": "P-40E 战鹰",
+
+  "item.warfare_wings.p40e_scheme1": "P-40E 战鹰（涂装1）",
+  "item.warfare_wings.p40e_scheme1.description": "美国寇蒂斯-莱特研发的战斗机，是二战前期盟军的主力机型之一",
+  "entity.warfare_wings.p40e_scheme1": "P-40E 战鹰（涂装1）",
+
+  "item.warfare_wings.p40e_scheme2": "P-40E 战鹰（涂装2）",
+  "item.warfare_wings.p40e_scheme2.description": "美国寇蒂斯-莱特研发的战斗机，是二战前期盟军的主力机型之一",
+  "entity.warfare_wings.p40e_scheme2": "P-40E 战鹰（涂装2）",
+
+  "item.warfare_wings.p40e_scheme3": "P-40E 战鹰（涂装3）",
+  "item.warfare_wings.p40e_scheme3.description": "美国寇蒂斯-莱特研发的战斗机，是二战前期盟军的主力机型之一",
+  "entity.warfare_wings.p40e_scheme3": "P-40E 战鹰（涂装3）",
+
+  "item.warfare_wings.p51d": "P-51D 野马",
+  "item.warfare_wings.p51d.description": "北美航空公司研发的战斗机，被公认为二战后期最优秀的战斗机",
+  "entity.warfare_wings.p51d": "P-51D 野马",
+
+  "item.warfare_wings.p51d_scheme1": "P-51D 野马（涂装1）",
+  "item.warfare_wings.p51d_scheme1.description": "北美航空公司研发的战斗机，被公认为二战后期最优秀的战斗机",
+  "entity.warfare_wings.p51d_scheme1": "P-51D 野马（涂装1）",
+
+  "item.warfare_wings.p51d_scheme2": "P-51D 野马（涂装2）",
+  "item.warfare_wings.p51d_scheme2.description": "北美航空公司研发的战斗机，被公认为二战后期最优秀的战斗机",
+  "entity.warfare_wings.p51d_scheme2": "P-51D 野马（涂装2）",
+
+  "item.warfare_wings.p51d_scheme3": "P-51D 野马（涂装3）",
+  "item.warfare_wings.p51d_scheme3.description": "北美航空公司研发的战斗机，被公认为二战后期最优秀的战斗机",
+  "entity.warfare_wings.p51d_scheme3": "P-51D 野马（涂装3）",
+
+  "item.warfare_wings.p47n": "P-47N 雷电",
+  "item.warfare_wings.p47n.description": "美国共和公司研发的战斗机，与野马并称二战后期美军主力战机",
+  "entity.warfare_wings.p47n": "P-47N 雷电",
+
+  "item.warfare_wings.p47n_scheme1": "P-47N 雷电（涂装1）",
+  "item.warfare_wings.p47n_scheme1.description": "美国共和公司研发的战斗机，与野马并称二战后期美军主力战机",
+  "entity.warfare_wings.p47n_scheme1": "P-47N 雷电（涂装1）",
+
+  "item.warfare_wings.p47n_scheme2": "P-47N 雷电（涂装2）",
+  "item.warfare_wings.p47n_scheme2.description": "美国共和公司研发的战斗机，与野马并称二战后期美军主力战机",
+  "entity.warfare_wings.p47n_scheme2": "P-47N 雷电（涂装2）",
+
+  "item.warfare_wings.p47n_scheme3": "P-47N 雷电（涂装3）",
+  "item.warfare_wings.p47n_scheme3.description": "美国共和公司研发的战斗机，与野马并称二战后期美军主力战机",
+  "entity.warfare_wings.p47n_scheme3": "P-47N 雷电（涂装3）",
+
+  "item.warfare_wings.f6f": "F6F 地狱猫",
+  "item.warfare_wings.f6f.description": "美国格鲁曼公司研发的战斗机，二战中期起为美国海军主力机型",
+  "entity.warfare_wings.f6f": "F6F 地狱猫",
+
+  "item.warfare_wings.f6f_scheme1": "F6F 地狱猫（涂装1）",
+  "item.warfare_wings.f6f_scheme1.description": "美国格鲁曼公司研发的战斗机，二战中期起为美国海军主力机型",
+  "entity.warfare_wings.f6f_scheme1": "F6F 地狱猫（涂装1）",
+
+  "item.warfare_wings.f6f_scheme2": "F6F 地狱猫（涂装2）",
+  "item.warfare_wings.f6f_scheme2.description": "美国格鲁曼公司研发的战斗机，二战中期起为美国海军主力机型",
+  "entity.warfare_wings.f6f_scheme2": "F6F 地狱猫（涂装2）",
+
+  "item.warfare_wings.f6f_scheme3": "F6F 地狱猫（涂装3）",
+  "item.warfare_wings.f6f_scheme3.description": "美国格鲁曼公司研发的战斗机，二战中期起为美国海军主力机型",
+  "entity.warfare_wings.f6f_scheme3": "F6F 地狱猫（涂装3）",
+
+  "item.warfare_wings.a6m": "A6M 零式",
+  "item.warfare_wings.a6m.description": "日本海军主力战斗机，太平洋战争初期拥有压倒性的性能优势",
+  "entity.warfare_wings.a6m": "A6M 零式",
+
+  "item.warfare_wings.a6m_scheme1": "A6M 零式（涂装1）",
+  "item.warfare_wings.a6m_scheme1.description": "日本海军主力战斗机，太平洋战争初期拥有压倒性的性能优势",
+  "entity.warfare_wings.a6m_scheme1": "A6M 零式（涂装1）",
+
+  "item.warfare_wings.a6m_scheme2": "A6M 零式（涂装2）",
+  "item.warfare_wings.a6m_scheme2.description": "日本海军主力战斗机，太平洋战争初期拥有压倒性的性能优势",
+  "entity.warfare_wings.a6m_scheme2": "A6M 零式（涂装2）",
+
+  "item.warfare_wings.a6m_scheme3": "A6M 零式（涂装3）",
+  "item.warfare_wings.a6m_scheme3.description": "日本海军主力战斗机，太平洋战争初期拥有压倒性的性能优势",
+  "entity.warfare_wings.a6m_scheme3": "A6M 零式（涂装3）",
+
+  "item.warfare_wings.ki61": "Ki-61 飞燕",
+  "item.warfare_wings.ki61.description": "日本川崎航空研发的陆军战斗机，是当时日本唯一的液冷式战斗机",
+  "entity.warfare_wings.ki61": "Ki-61 飞燕",
+
+  "item.warfare_wings.ki61_scheme1": "Ki-61 飞燕（涂装1）",
+  "item.warfare_wings.ki61_scheme1.description": "日本川崎航空研发的陆军战斗机，是当时日本唯一的液冷式战斗机",
+  "entity.warfare_wings.ki61_scheme1": "Ki-61 飞燕（涂装1）",
+
+  "item.warfare_wings.ki61_scheme2": "Ki-61 飞燕（涂装2）",
+  "item.warfare_wings.ki61_scheme2.description": "日本川崎航空研发的陆军战斗机，是当时日本唯一的液冷式战斗机",
+  "entity.warfare_wings.ki61_scheme2": "Ki-61 飞燕（涂装2）",
+
+  "item.warfare_wings.ki61_scheme3": "Ki-61 飞燕（涂装3）",
+  "item.warfare_wings.ki61_scheme3.description": "日本川崎航空研发的陆军战斗机，是当时日本唯一的液冷式战斗机",
+  "entity.warfare_wings.ki61_scheme3": "Ki-61 飞燕（涂装3）",
+
+  "item.warfare_wings.ki84": "Ki-84 疾风",
+  "item.warfare_wings.ki84.description": "日本中岛飞机研发的陆军战斗机，被美军评为日本二战最优秀战机",
+  "entity.warfare_wings.ki84": "Ki-84 疾风",
+
+  "item.warfare_wings.ki84_scheme1": "Ki-84 疾风（涂装1）",
+  "item.warfare_wings.ki84_scheme1.description": "日本中岛飞机研发的陆军战斗机，被美军评为日本二战最优秀战机",
+  "entity.warfare_wings.ki84_scheme1": "Ki-84 疾风（涂装1）",
+
+  "item.warfare_wings.ki84_scheme2": "Ki-84 疾风（涂装2）",
+  "item.warfare_wings.ki84_scheme2.description": "日本中岛飞机研发的陆军战斗机，被美军评为日本二战最优秀战机",
+  "entity.warfare_wings.ki84_scheme2": "Ki-84 疾风（涂装2）",
+
+  "item.warfare_wings.ki84_scheme3": "Ki-84 疾风（涂装3）",
+  "item.warfare_wings.ki84_scheme3.description": "日本中岛飞机研发的陆军战斗机，被美军评为日本二战最优秀战机",
+  "entity.warfare_wings.ki84_scheme3": "Ki-84 疾风（涂装3）",
+
+  "item.warfare_wings.fw190": "Fw190 百舌鸟",
+  "item.warfare_wings.fw190.description": "德国福克-沃尔夫研发的战斗机，与BF109并称德国空军二战主力",
+  "entity.warfare_wings.fw190": "Fw190 百舌鸟",
+
+  "item.warfare_wings.fw190_scheme1": "Fw190 百舌鸟（涂装1）",
+  "item.warfare_wings.fw190_scheme1.description": "德国福克-沃尔夫研发的战斗机，与BF109并称德国空军二战主力",
+  "entity.warfare_wings.fw190_scheme1": "Fw190 百舌鸟（涂装1）",
+
+  "item.warfare_wings.fw190_scheme2": "Fw190 百舌鸟（涂装2）",
+  "item.warfare_wings.fw190_scheme2.description": "德国福克-沃尔夫研发的战斗机，与BF109并称德国空军二战主力",
+  "entity.warfare_wings.fw190_scheme2": "Fw190 百舌鸟（涂装2）",
+
+  "item.warfare_wings.fw190_scheme3": "Fw190 百舌鸟（涂装3）",
+  "item.warfare_wings.fw190_scheme3.description": "德国福克-沃尔夫研发的战斗机，与BF109并称德国空军二战主力",
+  "entity.warfare_wings.fw190_scheme3": "Fw190 百舌鸟（涂装3）",
+
+  "item.warfare_wings.bf109": "Bf109 梅塞施密特",
+  "item.warfare_wings.bf109.description": "德国空军二战主力战斗机，为史上产量最高的战斗机，超3万架",
+  "entity.warfare_wings.bf109": "Bf109 梅塞施密特",
+
+  "item.warfare_wings.bf109_scheme1": "Bf109 梅塞施密特（涂装1）",
+  "item.warfare_wings.bf109_scheme1.description": "德国空军二战主力战斗机，为史上产量最高的战斗机，超3万架",
+  "entity.warfare_wings.bf109_scheme1": "Bf109 梅塞施密特（涂装1）",
+
+  "item.warfare_wings.bf109_scheme2": "Bf109 梅塞施密特（涂装2）",
+  "item.warfare_wings.bf109_scheme2.description": "德国空军二战主力战斗机，为史上产量最高的战斗机，超3万架",
+  "entity.warfare_wings.bf109_scheme2": "Bf109 梅塞施密特（涂装2）",
+
+  "item.warfare_wings.bf109_scheme3": "Bf109 梅塞施密特（涂装3）",
+  "item.warfare_wings.bf109_scheme3.description": "德国空军二战主力战斗机，为史上产量最高的战斗机，超3万架",
+  "entity.warfare_wings.bf109_scheme3": "Bf109 梅塞施密特（涂装3）",
+
+  "item.warfare_wings.ju87": "Ju87 斯图卡",
+  "item.warfare_wings.ju87.description": "德国容克研发的俯冲轰炸机，在二战闪击战初期表现活跃，战果卓著",
+  "entity.warfare_wings.ju87": "Ju87 斯图卡",
+
+  "item.warfare_wings.ju87_scheme1": "Ju87 斯图卡（涂装1）",
+  "item.warfare_wings.ju87_scheme1.description": "德国容克研发的俯冲轰炸机，在二战闪击战初期表现活跃，战果卓著",
+  "entity.warfare_wings.ju87_scheme1": "Ju87 斯图卡（涂装1）",
+
+  "item.warfare_wings.ju87_scheme2": "Ju87 斯图卡（涂装2）",
+  "item.warfare_wings.ju87_scheme2.description": "德国容克研发的俯冲轰炸机，在二战闪击战初期表现活跃，战果卓著",
+  "entity.warfare_wings.ju87_scheme2": "Ju87 斯图卡（涂装2）",
+
+  "item.warfare_wings.ju87_scheme3": "Ju87 斯图卡（涂装3）",
+  "item.warfare_wings.ju87_scheme3.description": "德国容克研发的俯冲轰炸机，在二战闪击战初期表现活跃，战果卓著",
+  "entity.warfare_wings.ju87_scheme3": "Ju87 斯图卡（涂装3）",
+
+  "item.warfare_wings.yak3": "Yak-3 雅克-3",
+  "item.warfare_wings.yak3.description": "苏联二战战斗机，体型轻小，实战性能优异，被誉为最佳苏联战机",
+  "entity.warfare_wings.yak3": "Yak-3 雅克-3",
+
+  "item.warfare_wings.yak3_scheme1": "Yak-3 雅克-3（涂装1）",
+  "item.warfare_wings.yak3_scheme1.description": "苏联二战战斗机，体型轻小，实战性能优异，被誉为最佳苏联战机",
+  "entity.warfare_wings.yak3_scheme1": "Yak-3 雅克-3（涂装1）",
+
+  "item.warfare_wings.yak3_scheme2": "Yak-3 雅克-3（涂装2）",
+  "item.warfare_wings.yak3_scheme2.description": "苏联二战战斗机，体型轻小，实战性能优异，被誉为最佳苏联战机",
+  "entity.warfare_wings.yak3_scheme2": "Yak-3 雅克-3（涂装2）",
+
+  "item.warfare_wings.yak3_scheme3": "Yak-3 雅克-3（涂装3）",
+  "item.warfare_wings.yak3_scheme3.description": "苏联二战战斗机，体型轻小，实战性能优异，被誉为最佳苏联战机",
+  "entity.warfare_wings.yak3_scheme3": "Yak-3 雅克-3（涂装3）",
+
+  "item.warfare_wings.mig3": "MiG-3 米格-3",
+  "item.warfare_wings.mig3.description": "苏联二战战斗机，擅长高空截击，低空性能欠佳，后改装为侦察机",
+  "entity.warfare_wings.mig3": "MiG-3 米格-3",
+
+  "item.warfare_wings.mig3_scheme1": "MiG-3 米格-3（涂装1）",
+  "item.warfare_wings.mig3_scheme1.description": "苏联二战战斗机，擅长高空截击，低空性能欠佳，后改装为侦察机",
+  "entity.warfare_wings.mig3_scheme1": "MiG-3 米格-3（涂装1）",
+
+  "item.warfare_wings.mig3_scheme2": "MiG-3 米格-3（涂装2）",
+  "item.warfare_wings.mig3_scheme2.description": "苏联二战战斗机，擅长高空截击，低空性能欠佳，后改装为侦察机",
+  "entity.warfare_wings.mig3_scheme2": "MiG-3 米格-3（涂装2）",
+
+  "item.warfare_wings.mig3_scheme3": "MiG-3 米格-3（涂装3）",
+  "item.warfare_wings.mig3_scheme3.description": "苏联二战战斗机，擅长高空截击，低空性能欠佳，后改装为侦察机",
+  "entity.warfare_wings.mig3_scheme3": "MiG-3 米格-3（涂装3）",
+
+  "item.warfare_wings.mc202": "C.202 雷电",
+  "item.warfare_wings.mc202.description": "意大利二战主力战斗机，活跃于各战场，可与盟军战机正面抗衡",
+  "entity.warfare_wings.mc202": "C.202 雷电",
+
+  "item.warfare_wings.mc202_scheme1": "C.202 雷电（涂装1）",
+  "item.warfare_wings.mc202_scheme1.description": "意大利二战主力战斗机，活跃于各战场，可与盟军战机正面抗衡",
+  "entity.warfare_wings.mc202_scheme1": "C.202 雷电（涂装1）",
+
+  "item.warfare_wings.mc202_scheme2": "C.202 雷电（涂装2）",
+  "item.warfare_wings.mc202_scheme2.description": "意大利二战主力战斗机，活跃于各战场，可与盟军战机正面抗衡",
+  "entity.warfare_wings.mc202_scheme2": "C.202 雷电（涂装2）",
+
+  "item.warfare_wings.mc202_scheme3": "C.202 雷电（涂装3）",
+  "item.warfare_wings.mc202_scheme3.description": "意大利二战主力战斗机，活跃于各战场，可与盟军战机正面抗衡",
+  "entity.warfare_wings.mc202_scheme3": "C.202 雷电（涂装3）",
+
+  "item.warfare_wings.spitfire": "喷火式战斗机",
+  "item.warfare_wings.spitfire.description": "英国超级马林公司研发的战斗机，服役于二战各战线，沿用至50年代",
+  "entity.warfare_wings.spitfire": "喷火式战斗机",
+
+  "item.warfare_wings.spitfire_scheme1": "喷火式战斗机（涂装1）",
+  "item.warfare_wings.spitfire_scheme1.description": "英国超级马林公司研发的战斗机，服役于二战各战线，沿用至50年代",
+  "entity.warfare_wings.spitfire_scheme1": "喷火式战斗机（涂装1）",
+
+  "item.warfare_wings.spitfire_scheme2": "喷火式战斗机（涂装2）",
+  "item.warfare_wings.spitfire_scheme2.description": "英国超级马林公司研发的战斗机，服役于二战各战线，沿用至50年代",
+  "entity.warfare_wings.spitfire_scheme2": "喷火式战斗机（涂装2）",
+
+  "item.warfare_wings.spitfire_scheme3": "喷火式战斗机（涂装3）",
+  "item.warfare_wings.spitfire_scheme3.description": "英国超级马林公司研发的战斗机，服役于二战各战线，沿用至50年代",
+  "entity.warfare_wings.spitfire_scheme3": "喷火式战斗机（涂装3）",
+
+  "item.warfare_wings.b17": "B-17 空中堡垒",
+  "item.warfare_wings.b17.description": "美国波音研发的四发重型轰炸机，时速462km，航程3200km，战后改作运输/侦察机",
+  "entity.warfare_wings.b17": "B-17 空中堡垒",
+
+  "item.warfare_wings.b17_scheme1": "B-17 空中堡垒（涂装1）",
+  "item.warfare_wings.b17_scheme1.description": "美国波音研发的四发重型轰炸机，时速462km，航程3200km，战后改作运输/侦察机",
+  "entity.warfare_wings.b17_scheme1": "B-17 空中堡垒（涂装1）",
+
+  "item.warfare_wings.b17_scheme2": "B-17 空中堡垒（涂装2）",
+  "item.warfare_wings.b17_scheme2.description": "美国波音研发的四发重型轰炸机，时速462km，航程3200km，战后改作运输/侦察机",
+  "entity.warfare_wings.b17_scheme2": "B-17 空中堡垒（涂装2）",
+
+  "item.warfare_wings.b17_scheme3": "B-17 空中堡垒（涂装3）",
+  "item.warfare_wings.b17_scheme3.description": "美国波音研发的四发重型轰炸机，时速462km，航程3200km，战后改作运输/侦察机",
+  "entity.warfare_wings.b17_scheme3": "B-17 空中堡垒（涂装3）",
+
+  "item.warfare_wings.b29": "B-29 超级空中堡垒",
+  "item.warfare_wings.b29.description": "美国波音1944年列装的四发重型轰炸机，搭载增压舱、遥控炮塔等先进技术，战后改作空中加油机",
+  "entity.warfare_wings.b29": "B-29 超级空中堡垒",
+
+  "item.warfare_wings.b29_scheme1": "B-29 超级空中堡垒（涂装1）",
+  "item.warfare_wings.b29_scheme1.description": "美国波音1944年列装的四发重型轰炸机，搭载增压舱、遥控炮塔等先进技术，战后改作空中加油机",
+  "entity.warfare_wings.b29_scheme1": "B-29 超级空中堡垒（涂装1）",
+
+  "item.warfare_wings.b29_scheme2": "B-29 超级空中堡垒（涂装2）",
+  "item.warfare_wings.b29_scheme2.description": "美国波音1944年列装的四发重型轰炸机，搭载增压舱、遥控炮塔等先进技术，战后改作空中加油机",
+  "entity.warfare_wings.b29_scheme2": "B-29 超级空中堡垒（涂装2）",
+
+  "item.warfare_wings.b29_scheme3": "B-29 超级空中堡垒（涂装3）",
+  "item.warfare_wings.b29_scheme3.description": "美国波音1944年列装的四发重型轰炸机，搭载增压舱、遥控炮塔等先进技术，战后改作空中加油机",
+  "entity.warfare_wings.b29_scheme3": "B-29 超级空中堡垒（涂装3）",
+
+  "item.warfare_wings.f4u": "F4U 海盗",
+  "item.warfare_wings.f4u.description": "美国沃特公司1942年列装的舰载战斗机，火力强劲加速快，为盟军最成功的舰载机之一",
+  "entity.warfare_wings.f4u": "F4U 海盗",
+
+  "item.warfare_wings.f4u_scheme1": "F4U 海盗（涂装1）",
+  "item.warfare_wings.f4u_scheme1.description": "美国沃特公司1942年列装的舰载战斗机，火力强劲加速快，为盟军最成功的舰载机之一",
+  "entity.warfare_wings.f4u_scheme1": "F4U 海盗（涂装1）",
+
+  "item.warfare_wings.f4u_scheme2": "F4U 海盗（涂装2）",
+  "item.warfare_wings.f4u_scheme2.description": "美国沃特公司1942年列装的舰载战斗机，火力强劲加速快，为盟军最成功的舰载机之一",
+  "entity.warfare_wings.f4u_scheme2": "F4U 海盗（涂装2）",
+
+  "item.warfare_wings.f4u_scheme3": "F4U 海盗（涂装3）",
+  "item.warfare_wings.f4u_scheme3.description": "美国沃特公司1942年列装的舰载战斗机，火力强劲加速快，为盟军最成功的舰载机之一",
+  "entity.warfare_wings.f4u_scheme3": "F4U 海盗（涂装3）",
+
+  "item.warfare_wings.sbd": "SBD 无畏",
+  "item.warfare_wings.sbd.description": "美国道格拉斯1940年列装的俯冲轰炸机，结构坚固轰炸精准，中途岛海战击沉四艘日航母扭转战局",
+  "entity.warfare_wings.sbd": "SBD 无畏",
+
+  "item.warfare_wings.sbd_scheme1": "SBD 无畏（涂装1）",
+  "item.warfare_wings.sbd_scheme1.description": "美国道格拉斯1940年列装的俯冲轰炸机，结构坚固轰炸精准，中途岛海战击沉四艘日航母扭转战局",
+  "entity.warfare_wings.sbd_scheme1": "SBD 无畏（涂装1）",
+
+  "item.warfare_wings.sbd_scheme2": "SBD 无畏（涂装2）",
+  "item.warfare_wings.sbd_scheme2.description": "美国道格拉斯1940年列装的俯冲轰炸机，结构坚固轰炸精准，中途岛海战击沉四艘日航母扭转战局",
+  "entity.warfare_wings.sbd_scheme2": "SBD 无畏（涂装2）",
+
+  "item.warfare_wings.d4y": "D4Y 彗星",
+  "item.warfare_wings.d4y.description": "日本海军舰载轰炸机，早期采用德制液冷发动机，高速气动性能优异但可靠性差，后期换装气冷发动机",
+  "entity.warfare_wings.d4y": "D4Y 彗星",
+
+  "item.warfare_wings.d4y_scheme1": "D4Y 彗星（涂装1）",
+  "item.warfare_wings.d4y_scheme1.description": "日本海军舰载轰炸机，早期采用德制液冷发动机，高速气动性能优异但可靠性差，后期换装气冷发动机",
+  "entity.warfare_wings.d4y_scheme1": "D4Y 彗星（涂装1）",
+
+  "item.warfare_wings.g4m": "G4M 一式陆攻",
+  "item.warfare_wings.g4m.description": "日本三菱研发的海军双发陆基攻击机，执行轰炸、侦察等任务，为山本五十六的座机，其在此机上被击落",
+  "entity.warfare_wings.g4m": "G4M 一式陆攻",
+
+  "item.warfare_wings.g4m_scheme1": "G4M 一式陆攻（涂装1）",
+  "item.warfare_wings.g4m_scheme1.description": "日本三菱研发的海军双发陆基攻击机，执行轰炸、侦察等任务，为山本五十六的座机，其在此机上被击落",
+  "entity.warfare_wings.g4m_scheme1": "G4M 一式陆攻（涂装1）",
+
+  "item.warfare_wings.g4m_scheme2": "G4M 一式陆攻（涂装2）",
+  "item.warfare_wings.g4m_scheme2.description": "日本三菱研发的海军双发陆基攻击机，执行轰炸、侦察等任务，为山本五十六的座机，其在此机上被击落",
+  "entity.warfare_wings.g4m_scheme2": "G4M 一式陆攻（涂装2）",
+
+  "item.warfare_wings.g10n1": "G10N 富岳一号",
+  "item.warfare_wings.g10n1.description": "日本中岛飞机构想的超大型战略轰炸机，为Z计划核心机型，旨在轰炸美国本土，因战局恶化和物资匮乏项目取消，本机型为模组虚构型号",
+  "entity.warfare_wings.g10n1": "G10N 富岳一号",
+
+  "item.warfare_wings.g10n1_scheme1": "G10N 富岳一号（涂装1）",
+  "item.warfare_wings.g10n1_scheme1.description": "日本中岛飞机构想的超大型战略轰炸机，为Z计划核心机型，旨在轰炸美国本土，因战局恶化和物资匮乏项目取消，本机型为模组虚构型号",
+  "entity.warfare_wings.g10n1_scheme1": "G10N 富岳一号（涂装1）",
+
+  "item.warfare_wings.g10n1_scheme2": "G10N 富岳一号（涂装2）",
+  "item.warfare_wings.g10n1_scheme2.description": "日本中岛飞机构想的超大型战略轰炸机，为Z计划核心机型，旨在轰炸美国本土，因战局恶化和物资匮乏项目取消，本机型为模组虚构型号",
+  "entity.warfare_wings.g10n1_scheme2": "G10N 富岳一号（涂装2）",
+
+  "item.warfare_wings.g10n2": "G10N 富岳二号",
+  "item.warfare_wings.g10n2.description": "日本中岛飞机构想的超大型战略轰炸机，为Z计划核心机型，旨在轰炸美国本土，因战局恶化和物资匮乏项目取消，本机型为模组虚构型号",
+  "entity.warfare_wings.g10n2": "G10N 富岳二号",
+
+  "item.warfare_wings.g10n2_scheme1": "G10N 富岳二号（涂装1）",
+  "item.warfare_wings.g10n2_scheme1.description": "日本中岛飞机构想的超大型战略轰炸机，为Z计划核心机型，旨在轰炸美国本土，因战局恶化和物资匮乏项目取消，本机型为模组虚构型号",
+  "entity.warfare_wings.g10n2_scheme1": "G10N 富岳二号（涂装1）",
+
+  "item.warfare_wings.g10n2_scheme2": "G10N 富岳二号（涂装2）",
+  "item.warfare_wings.g10n2_scheme2.description": "日本中岛飞机构想的超大型战略轰炸机，为Z计划核心机型，旨在轰炸美国本土，因战局恶化和物资匮乏项目取消，本机型为模组虚构型号",
+  "entity.warfare_wings.g10n2_scheme2": "G10N 富岳二号（涂装2）",
+
+  "item.warfare_wings.il2": "Il-2 伊尔-2",
+  "item.warfare_wings.il2.description": "苏联伊留申设计局研发的强击机，装甲厚重火力强劲，被誉为飞行坦克，苏德战争中战果辉煌，总产量36183架为史上产量最高的军用飞机",
+  "entity.warfare_wings.il2": "Il-2 伊尔-2",
+
+  "item.warfare_wings.il2_scheme1": "Il-2 伊尔-2（涂装1）",
+  "item.warfare_wings.il2_scheme1.description": "苏联伊留申设计局研发的强击机，装甲厚重火力强劲，被誉为飞行坦克，苏德战争中战果辉煌，总产量36183架为史上产量最高的军用飞机",
+  "entity.warfare_wings.il2_scheme1": "Il-2 伊尔-2（涂装1）",
+
+  "item.warfare_wings.il2_scheme2": "Il-2 伊尔-2（涂装2）",
+  "item.warfare_wings.il2_scheme2.description": "苏联伊留申设计局研发的强击机，装甲厚重火力强劲，被誉为飞行坦克，苏德战争中战果辉煌，总产量36183架为史上产量最高的军用飞机",
+  "entity.warfare_wings.il2_scheme2": "Il-2 伊尔-2（涂装2）",
+
+  "item.warfare_wings.il2_scheme3": "Il-2 伊尔-2（涂装3）",
+  "item.warfare_wings.il2_scheme3.description": "苏联伊留申设计局研发的强击机，装甲厚重火力强劲，被誉为飞行坦克，苏德战争中战果辉煌，总产量36183架为史上产量最高的军用飞机",
+  "entity.warfare_wings.il2_scheme3": "Il-2 伊尔-2（涂装3）",
+
+  "item.warfare_wings.he111": "He 111 亨克尔",
+  "item.warfare_wings.he111.description": "德国亨克尔研发的双发轰炸机，采用椭圆机翼和独特弹仓，为二战德军主力中型轰炸机，后期防御和速度性能显不足",
+  "entity.warfare_wings.he111": "He 111 亨克尔",
+
+  "item.warfare_wings.he111_scheme1": "He 111 亨克尔（涂装1）",
+  "item.warfare_wings.he111_scheme1.description": "德国亨克尔研发的双发轰炸机，采用椭圆机翼和独特弹仓，为二战德军主力中型轰炸机，后期防御和速度性能显不足",
+  "entity.warfare_wings.he111_scheme1": "He 111 亨克尔（涂装1）",
+
+  "item.warfare_wings.he111_scheme2": "He 111 亨克尔（涂装2）",
+  "item.warfare_wings.he111_scheme2.description": "德国亨克尔研发的双发轰炸机，采用椭圆机翼和独特弹仓，为二战德军主力中型轰炸机，后期防御和速度性能显不足",
+  "entity.warfare_wings.he111_scheme2": "He 111 亨克尔（涂装2）",
+
+  "item.warfare_wings.he111_scheme3": "He 111 亨克尔（涂装3）",
+  "item.warfare_wings.he111_scheme3.description": "德国亨克尔研发的双发轰炸机，采用椭圆机翼和独特弹仓，为二战德军主力中型轰炸机，后期防御和速度性能显不足",
+  "entity.warfare_wings.he111_scheme3": "He 111 亨克尔（涂装3）",
+
+  "item.warfare_wings.ww_bomb": "250磅航空炸弹",
+  "item.warfare_wings.ww_bomb.description": "美军制式航空炸弹",
+  "entity.warfare_wings.ww_bomb": "250磅航空炸弹",
+
+  "item.warfare_wings.ww_gbomb": "SC250航空炸弹",
+  "item.warfare_wings.ww_gbomb.description": "德军制式航空炸弹",
+  "entity.warfare_wings.ww_gbomb": "SC250航空炸弹",
+
+  "item.warfare_wings.ww_sbomb": "FAB-250航空炸弹",
+  "item.warfare_wings.ww_sbomb.description": "苏军制式航空炸弹",
+  "entity.warfare_wings.ww_sbomb": "FAB-250航空炸弹",
+
+  "item.warfare_wings.ww_jbomb": "九二式250公斤高爆弹",
+  "item.warfare_wings.ww_jbomb.description": "日军陆军制式航空炸弹",
+  "entity.warfare_wings.ww_jbomb": "九二式250公斤高爆弹",
+
+  "item.warfare_wings.ww_usbomber": "轰炸机用250磅炸弹",
+  "item.warfare_wings.ww_usbomber.description": "美军轰炸机专用航空炸弹",
+  "entity.warfare_wings.ww_usbomber": "轰炸机用250磅炸弹",
+
+  "item.warfare_wings.ww_gbomber": "轰炸机用SC250炸弹",
+  "item.warfare_wings.ww_gbomber.description": "德军轰炸机专用航空炸弹",
+  "entity.warfare_wings.ww_gbomber": "轰炸机用SC250炸弹",
+
+  "item.warfare_wings.ww_sbomber": "轰炸机用FAB-250炸弹",
+  "item.warfare_wings.ww_sbomber.description": "苏军轰炸机专用航空炸弹",
+  "entity.warfare_wings.ww_sbomber": "轰炸机用FAB-250炸弹",
+
+  "item.warfare_wings.ww_jbomber": "轰炸机用九二式高爆弹",
+  "item.warfare_wings.ww_jbomber.description": "日军陆军轰炸机专用航空炸弹",
+  "entity.warfare_wings.ww_jbomber": "轰炸机用九二式高爆弹",
+
+  "item.warfare_wings.ww_jgbomb": "九一式航空鱼雷",
+  "item.warfare_wings.ww_jgbomb.description": "日本海军制式航空鱼雷",
+  "entity.warfare_wings.ww_jgbomb": "九一式航空鱼雷",
+
+  "item.warfare_wings.ww_usgbomb": "Mk.14航空鱼雷",
+  "item.warfare_wings.ww_usgbomb.description": "美国海军制式航空鱼雷",
+  "entity.warfare_wings.ww_usgbomb": "Mk.14航空鱼雷",
+
+  "item.warfare_wings.wing_mg": "机载机枪",
+  "item.warfare_wings.wing_mg.description": "通用型机载航空机枪",
+  "entity.warfare_wings.wing_mg": "机载机枪",
+
+  "item.warfare_wings.iron_frame": "铁制机架",
+  "item.warfare_wings.two_iron_frame": "捆装铁制机架",
+  "item.warfare_wings.r_iron_frame": "加固型铁制机架"
+}

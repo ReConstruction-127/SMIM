@@ -1,0 +1,95 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "74849C77A1EDB5A8"
+	group: "56C520161AC601FC"
+	id: "74849C77A1EDB5A8"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "71DCB97FCC7C0870"
+			tasks: [{
+				id: "19BF8CF31C06DAD6"
+				item: { components: { "ftbquests:missing_item": "seven-elements:infusion_table" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["71DCB97FCC7C0870"]
+			id: "4BAB89D93726EECD"
+			tasks: [{
+				id: "7FA6989B7315C376"
+				item: { count: 1, id: "spore:cryogenic_reagent" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["71DCB97FCC7C0870"]
+			id: "751F4293532D5501"
+			tasks: [{
+				disable_toast: true
+				id: "2DD65C902A975F4B"
+				item: { count: 1, id: "apotheosis:gem" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["71DCB97FCC7C0870"]
+			id: "2032DEC394CA6BEE"
+			tasks: [{
+				id: "67A8B7EAA58B01C6"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["71DCB97FCC7C0870"]
+			id: "444950AE38B2D8CB"
+			tasks: [{
+				id: "22BD9229B749B25C"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["71DCB97FCC7C0870"]
+			id: "798B68424BE9EB1E"
+			tasks: [{
+				id: "02785307D7FA6D09"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["71DCB97FCC7C0870"]
+			id: "76CE55D9F9FF5357"
+			tasks: [{
+				id: "6777266AFFD16E88"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["71DCB97FCC7C0870"]
+			id: "3B71C1A2547AF0CF"
+			tasks: [{
+				id: "564186F4CE8CAC06"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+	]
+}

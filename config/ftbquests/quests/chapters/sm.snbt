@@ -1,0 +1,36 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sm"
+	group: "7077C155C366B76D"
+	icon: {
+		components: {
+			"ftbquests:missing_item": "terra_entity:leather_whip"
+		}
+		id: "ftbquests:missing_item"
+	}
+	id: "5EE4417F829EDD43"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "575E6E6D21AF999C"
+		rewards: [{
+			id: "7E6F24141C4A061C"
+			item: {
+				components: {
+					"ftbquests:missing_item": "terra_entity:leather_whip"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			type: "item"
+		}]
+		tasks: [{
+			id: "63B63FD12AA44301"
+			type: "checkmark"
+		}]
+		x: -0.5d
+		y: 0.0d
+	}]
+}

@@ -1,0 +1,1 @@
+StartupEvents.registry("fluid", event => event.create("juice"))

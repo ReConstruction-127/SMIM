@@ -1,0 +1,18 @@
+{
+    "name": "预警模块",
+    "icon": "mffs:warn_module",
+    "category": "mffs:interdiction_modules",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "mffs:warn_module",
+            "link_recipe": true,
+            "text": "将 $(5)预警模块$() 安装到 $(l:mffs:machines/interdiction_matrix)禁制矩阵$() 的模块槽位后，设备会周期性地向其**作用区**内的所有未授权玩家发送警告信息。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "mffs:warn_module",
+            "text": "合成 $(5)预警模块$() 的配方。"
+        }
+    ]
+}

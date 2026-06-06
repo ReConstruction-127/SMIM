@@ -1,0 +1,37 @@
+{
+    "name": "强制推导器",
+    "icon": "mffs:coercion_deriver",
+    "category": "mffs:machines",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "mffs:coercion_deriver",
+            "link_recipe": true,
+            "text": "$(9)强制推导器$() 是模块化力场系统的核心设备之一。它的主要功能是将 FE 能量转化为 $(l:mffs:getting_started/fortron)力场能量液$()，而这种能量液正是其他模块化力场系统设备运转的必需能源。$(9)强制推导器$() 需与 $(l:mffs:machines/fortron_capacitor)力场能量电容器$() 协同工作，为其充入 $(l:mffs:getting_started/fortron)力场能量液$()，再由电容器将能量分配给其余设备。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "mffs:coercion_deriver",
+            "text": "合成 $(9)强制推导器$() 的配方。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "使用方法",
+            "text": "若要生成 $(l:mffs:getting_started/fortron)力场能量液$()，需先为 $(9)强制推导器$() 接入 FE 能源，并输入红石信号激活设备。设备通电激活后，外观会从红色变为蓝色，同时开始生成 $(l:mffs:getting_started/fortron)力场能量液$()。你可以将 $(9)强制推导器$() 的频率调整为与其他模块化力场系统设备一致，使其与 $(l:mffs:machines/fortron_capacitor)力场能量电容器$() 等设备建立链接。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "频率匹配可通过以下两种方式实现：$(li)右键点击强制推导器，在设备界面中输入目标频率数值$(li)手持频率卡片，潜行右键点击强制推导器$(p)向 $(9)强制推导器$() 中放入 $(2)青金石$() 或 $(2)下界石英$()，可大幅提升 $(l:mffs:getting_started/fortron)力场能量液$() 的生成效率。具体操作是将上述任意一种材料放入界面箭头旁的物品槽，此举可使能量液的产出效率提升约20倍。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "运行模式",
+            "text": "$(9)强制推导器$() 拥有两种运行模式：推导模式与整合模式。设备默认处于**推导模式**，该模式下会持续将输入的 FE 能量转化为 $(l:mffs:getting_started/fortron)力场能量液$()。点击设备界面中央的 $(2)推导模式$() 切换按钮，即可将运行模式切换为 $(2)整合模式$()，反之亦然。在整合模式下，设备会反向运行，将储存的 $(l:mffs:getting_started/fortron)力场能量液$() 重新转化为 FE 能量。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "可升级性",
+            "text": "你可以为强制推导器加装各类升级模块，以提升设备性能。$(li)$(l:mffs:upgrade_modules/speed_module)$(5)增速模块$()：提升放入 $(2)青金石$() 或 $(2)下界石英$() 后的效率加成效果$(li)$(l:mffs:upgrade_modules/capacity_module)$(5)扩容模块$()：提升强制推导器的 $(l:mffs:getting_started/fortron)力场能量液$() 储存上限$()"
+        }
+    ]
+}

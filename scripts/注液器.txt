@@ -1,0 +1,10 @@
+<recipetype:create:filling>.addJsonRecipe("antirust_core",
+{"ingredients": [{
+      "item": "gtceu:sticky_resin"
+    },{
+      "amount": 20,
+      "fluid": "immersiveengineering:creosote"
+    }],
+  "results": [{
+      "item": "ue_addonsp2:antirust_core"
+    }]});

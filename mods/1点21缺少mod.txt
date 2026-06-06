@@ -1,0 +1,36 @@
+SMNH 1.21
+
+IM部分缺失：
+热力系列
+Create: Vintage Improvements
+storagenetwork
+create:utilities
+Create:crystal_clear换成Create: Prismatic Shine，id可能出错
+
+缺失：
+更好的燃烧机制Better Burning
+greate
+妙趣果园
+ue_addons
+tacz和哨戒动力臂、神化：现代诸神黄昏
+Iron Furnaces Enhanced(更多熔炉的分支版，修复jei不显示atm熔炉的问题)
+CBC: Nuclear
+Drones
+匠魂、匠魂西洋剑Tinkers' Rapier、TinkerBetterCombat、工匠匠心、匠魂校准
+生物质必须生长
+alex洞穴、alex洞穴乐事（非官方版有性能问题）、alex洞穴维度
+自定义三明治Culinary Construct
+JEITweaker(替换为KubeJS JEI)
+物品分拣分支Inventory Sorter (Configurable)
+From Another World
+物品过滤器（ftb任务前置）
+
+移除：
+意志坚定
+神秘佳肴
+简单飞机
+clockwork
+泰拉生物
+自动汉化更新
+格雷科技现代版
+奇异饰品

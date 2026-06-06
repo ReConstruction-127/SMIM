@@ -1,0 +1,580 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2D7F18164C385A65"
+	group: "7077C155C366B76D"
+	id: "2D7F18164C385A65"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7EF07E4DD0A9B5C3"]
+			id: "0A6A89F0EBEACE13"
+			tasks: [{
+				id: "1A56C169120251CF"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0A6A89F0EBEACE13"]
+			id: "31EA7D53C6E2F933"
+			tasks: [{
+				id: "0DBFE29517539CA6"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"0F3B501B425A6B8D"
+				"31EA7D53C6E2F933"
+			]
+			icon: {
+				id: "touhou_little_maid:entity_placeholder"
+			}
+			id: "594E26DCB376D83A"
+			tasks: [{
+				id: "79CE41EBD6A9940A"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["31EA7D53C6E2F933"]
+			id: "4018C318C748E5D5"
+			tasks: [{
+				id: "5087EEB3F7780775"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["62C44282B7181D18"]
+			id: "5B54FCF95E510DBB"
+			tasks: [
+				{
+					id: "41B065538573E13A"
+					item: { components: { "ftbquests:missing_item": "kubejs:treefarmblackcard" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "735F2B6BB29DF430"
+					item: { components: { "ftbquests:missing_item": "kubejs:chickenfarmblackcard" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["28D832D9884A276F"]
+			id: "46F89E2AF676C1C4"
+			tasks: [{
+				id: "0F48510D99D0E0AF"
+				item: { components: { "ftbquests:missing_item": "blue_skies:alchemy_table" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["31EA7D53C6E2F933"]
+			id: "0F0AA0CD4F0AFE82"
+			rewards: [{
+				id: "3F05E56C0A66C1AE"
+				item: {
+					count: 1
+					id: "sophisticatedbackpacks:advanced_feeding_upgrade"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5AA252B78E97690B"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["31EA7D53C6E2F933"]
+			icon: {
+				id: "minecraft:diamond_pickaxe"
+			}
+			id: "44CB5140172B1C93"
+			tasks: [{
+				id: "1B5D5035AF5FB07D"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0BC31D88B11BB232"]
+			id: "3B4BDD0E8D676FAA"
+			tasks: [{
+				id: "2FDC37CD2907919F"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["31EA7D53C6E2F933"]
+			icon: {
+				components: {
+					"ftbquests:missing_item": "pneumaticcraft:pneumatic_wrench"
+				}
+				id: "ftbquests:missing_item"
+			}
+			id: "0BC31D88B11BB232"
+			tasks: [{
+				id: "38BDACF9BD5596CE"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0BC31D88B11BB232"]
+			icon: {
+				id: "minecraft:diamond_sword"
+			}
+			id: "28D832D9884A276F"
+			tasks: [{
+				id: "4A30D26504213AEE"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0BC31D88B11BB232"]
+			icon: {
+				id: "minecraft:diamond_pickaxe"
+			}
+			id: "62C44282B7181D18"
+			tasks: [{
+				id: "4055EF8C3BE27DA8"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"62C44282B7181D18"
+				"0F0AA0CD4F0AFE82"
+			]
+			id: "1EC541E5FAA482FB"
+			tasks: [
+				{
+					id: "46EE94B8EA43CAA5"
+					item: { count: 1, id: "farmersdelight:stove" }
+					type: "item"
+				}
+				{
+					id: "45A1118D2B172AF8"
+					item: { components: { "ftbquests:missing_item": "kaleidoscope_cookery:pot" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "12F426BD0E6E9D3C"
+					item: { components: { "ftbquests:missing_item": "refurbished_furniture:spatula" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "34D7B15759844BF3"
+					item: { components: { "ftbquests:missing_item": "kaleidoscope_cookery:enamel_basin" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "49C0D8959FC08A8E"
+					item: { count: 1, id: "farmersdelight:iron_knife" }
+					type: "item"
+				}
+				{
+					id: "01140CC6B8A66853"
+					item: { components: { "ftbquests:missing_item": "kaleidoscope_cookery:recipe_item" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["31EA7D53C6E2F933"]
+			id: "2F7ED9793FB8DE73"
+			tasks: [{
+				id: "2E21536050E482F1"
+				item: { components: { "ftbquests:missing_item": "kubejs:bulletcoin" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["62C44282B7181D18"]
+			id: "5B9B1325E9B742D1"
+			tasks: [
+				{
+					id: "215F704F80BAFDC5"
+					item: { components: { "ftbquests:missing_item": "good_nights_sleep:spectrite_ingot" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "778E2A7EEF8221D6"
+					item: { components: { "ftbquests:missing_item": "blue_skies:ventium_ingot" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3B4BDD0E8D676FAA"]
+			id: "1030EB40666CD0F9"
+			tasks: [
+				{
+					id: "0E06F20CC061571D"
+					item: { components: { "ftbquests:missing_item": "pneumaticcraft:ingot_iron_compressed" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "757BBA67D0145F0A"
+					item: { components: { "ftbquests:missing_item": "pneumaticcraft:air_compressor" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "7E6540223D037960"
+					item: { components: { "ftbquests:missing_item": "pneumaticcraft:safety_tube_module" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1030EB40666CD0F9"]
+			id: "52EEA5627A0142EE"
+			tasks: [{
+				advancement: "pneumaticcraft:pressure_chamber"
+				criterion: ""
+				id: "7A4DCD25E565CF9E"
+				type: "advancement"
+			}]
+			x: 11.0d
+			y: -1.5d
+		}
+		{
+			id: "22501156B928D82C"
+			tasks: [
+				{
+					id: "4BEC73E33EC5282E"
+					item: { components: { "ftbquests:missing_item": "kubejs:stonemachine" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "37E88A9D8FCC3593"
+					item: { components: { "ftbquests:missing_item": "kubejs:stringmachine" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["62C44282B7181D18"]
+			id: "22FDAC3B8A9DCCD1"
+			tasks: [{
+				id: "2CAFEA4BB6F62E73"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7E615DA65C2A072E"]
+			dependency_requirement: "one_started"
+			id: "682069955921D312"
+			tasks: [
+				{
+					id: "0C631DC042ADBA5B"
+					item: { components: { "ftbquests:missing_item": "pneumaticcraft:assembly_controller" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "0034CB763E76F3A8"
+					item: { components: { "ftbquests:missing_item": "pneumaticcraft:assembly_drill" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "76720658C428477B"
+					item: { components: { "ftbquests:missing_item": "pneumaticcraft:assembly_io_unit_export" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "0332EEEBD6FF7DAC"
+					item: { components: { "ftbquests:missing_item": "pneumaticcraft:assembly_io_unit_import" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "0294AA050CECB0FF"
+					item: { components: { "ftbquests:missing_item": "pneumaticcraft:assembly_laser" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "791F6CB762A512F0"
+					item: { components: { "ftbquests:missing_item": "pneumaticcraft:assembly_platform" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["52EEA5627A0142EE"]
+			id: "7E615DA65C2A072E"
+			tasks: [
+				{
+					id: "75AF3269DC33D45C"
+					item: { components: { "ftbquests:missing_item": "pneumaticcraft:uv_light_box" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "4D1CB670DFF0B453"
+					item: { components: { "ftbquests:missing_item": "pneumaticcraft:etching_tank" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "65D93954C8DBC9B7"
+					item: { components: { "ftbquests:missing_item": "pneumaticcraft:etching_acid_bucket" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "3743F1C5156882FA"
+					item: { components: { "ftbquests:missing_item": "pneumaticcraft:unassembled_pcb" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "71AEEEF3E2A68AFE"
+					item: { components: { "ftbquests:missing_item": "pneumaticcraft:printed_circuit_board" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["682069955921D312"]
+			icon: {
+				components: {
+					"ftbquests:missing_item": "pneumaticcraft:pneumatic_chestplate"
+				}
+				id: "ftbquests:missing_item"
+			}
+			id: "1CEF9E22C7D5A552"
+			tasks: [
+				{
+					id: "090241F65E0DF65A"
+					item: { components: { "ftbquests:missing_item": "pneumaticcraft:pneumatic_helmet" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "31E26B722DD8C98D"
+					item: { components: { "ftbquests:missing_item": "pneumaticcraft:pneumatic_chestplate" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "7C0482204F7F29AF"
+					item: { components: { "ftbquests:missing_item": "pneumaticcraft:pneumatic_leggings" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "4FDF55606FBB7C6D"
+					item: { components: { "ftbquests:missing_item": "pneumaticcraft:pneumatic_boots" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["682069955921D312"]
+			id: "63B4D6F8AAA8F3EB"
+			tasks: [
+				{
+					id: "51178032BAAF52B7"
+					item: { components: { "ftbquests:missing_item": "pneumaticcraft:solar_compressor" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "2C40CF0B0A29A62C"
+					item: { components: { "ftbquests:missing_item": "pneumaticcraft:flux_compressor" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["149F81AD9F29B2CA"]
+			id: "1CC8B839FBF105B4"
+			tasks: [
+				{
+					id: "5EB2D401E7C5C5D1"
+					item: { components: { "ftbquests:missing_item": "pneumaticcraft:plastic" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "3E7351D7C3E740E4"
+					item: { components: { "ftbquests:missing_item": "pneumaticcraft:plastic_bucket" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "06B009FA17920127"
+					item: { components: { "ftbquests:missing_item": "pneumaticcraft:heat_frame" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			id: "149F81AD9F29B2CA"
+			tasks: [
+				{
+					id: "36B609D9BD2D2C62"
+					item: { components: { "ftbquests:missing_item": "pneumaticcraft:plastic" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "123191C180BFDB35"
+					item: { count: 1, id: "immersiveengineering:plate_duroplast" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22FDAC3B8A9DCCD1"]
+			id: "7DAED8C178B871D3"
+			tasks: [{
+				advancement: "apotheosis:affix/ancient_gem"
+				criterion: ""
+				id: "5DCFEDA4FAC4AD4F"
+				type: "advancement"
+			}]
+			x: 11.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["22FDAC3B8A9DCCD1"]
+			id: "66E44DD2FC617BD5"
+			shape: "gear"
+			tasks: [{
+				id: "6C1E48D3D8AB6F9A"
+				item: { components: { "ftbquests:missing_item": "avaritia:infinity_totem" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 4.0d
+		}
+		{
+			id: "38B07594E2B39B4D"
+			tasks: [{
+				id: "2371B8B641CD786F"
+				item: { count: 1, id: "create:creative_motor" }
+				type: "item"
+			}]
+			x: 21.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["31EA7D53C6E2F933"]
+			id: "63C0E963E4D8E9B1"
+			tasks: [
+				{
+					id: "63B352338387A0F4"
+					item: { count: 1, id: "mekanism:jetpack_armored" }
+					type: "item"
+				}
+				{
+					id: "16D0F314EBF2FDFA"
+					item: { components: { "ftbquests:missing_item": "pneumaticcraft:jet_boots_upgrade_5" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "262755DC782E3921"
+					item: { count: 1, id: "minecraft:potion" }
+					type: "item"
+				}
+				{
+					id: "6B1D5D14336A7E43"
+					item: { components: { "ftbquests:missing_item": "youkaishomecoming:cirno_wings" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "2DB588C48A43B81A"
+					item: { components: { "ftbquests:missing_item": "srelic:sky_helmet" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "55A437D685DD274F"
+					item: { components: { "ftbquests:missing_item": "srelic:sky_chestplate" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "6C8D22CF5E716F46"
+					item: { components: { "ftbquests:missing_item": "srelic:sky_leggings" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "0ABAAA03783DA602"
+					item: { components: { "ftbquests:missing_item": "srelic:sky_boots" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "1B87B088232C6C80"
+					item: { components: { "ftbquests:missing_item": "botania:flight_tiara" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "56AAA28C15D8D3E7"
+					item: { components: { "ftbquests:missing_item": "extrabotany:core_of_the_void" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "4906CE7B748ECC7F"
+					item: { components: { "ftbquests:missing_item": "botanicpledge:vedrfolnir_core" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "358D9BE26E1DF321"
+					item: { count: 1, id: "mekanism:module_gravitational_modulating_unit" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3B4BDD0E8D676FAA"]
+			id: "6D15DBBBC98C9485"
+			tasks: [{
+				advancement: "immersiveengineering:main/craft_hammer"
+				criterion: ""
+				id: "67B84A2D8B60ECE1"
+				type: "advancement"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+	]
+}

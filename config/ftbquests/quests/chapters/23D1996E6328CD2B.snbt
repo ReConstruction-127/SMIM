@@ -1,0 +1,108 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "23D1996E6328CD2B"
+	group: "56C520161AC601FC"
+	id: "23D1996E6328CD2B"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6344E81F7F047CF1"
+			rewards: [{
+				id: "2A01D39DE418CD69"
+				item: {
+					components: {
+						"ftbquests:missing_item": "origins:orb_of_origin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F8DDB3084187404"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6344E81F7F047CF1"]
+			id: "57DAEF6DB6514946"
+			rewards: [{
+				id: "5ED7D590E4C68108"
+				item: {
+					components: {
+						"ftbquests:missing_item": "sporeadd:bucket_of_remains"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				team_reward: false
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "7F396AA9EB3B8F6C"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6344E81F7F047CF1"]
+			icon: {
+				id: "spore:cleaver"
+			}
+			id: "40BAA2CC48CA91CA"
+			tasks: [{
+				id: "357DB8F30C5AA1AE"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6344E81F7F047CF1"]
+			id: "7CFAB4885200BF0B"
+			tasks: [{
+				id: "6B25878FB5912B16"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6344E81F7F047CF1"]
+			icon: {
+				components: {
+					"ftbquests:missing_item": "sporeadd:injector"
+				}
+				id: "ftbquests:missing_item"
+			}
+			id: "360CA2C9B163B6D0"
+			tasks: [{
+				id: "52E6590CC2CF8E74"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6344E81F7F047CF1"]
+			icon: {
+				id: "spore:vigil_eye"
+			}
+			id: "47849D6DDDCDFE4B"
+			shape: "gear"
+			tasks: [{
+				id: "4CE03EEC37E82576"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+	]
+}

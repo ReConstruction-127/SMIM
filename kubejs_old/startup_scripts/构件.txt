@@ -1,0 +1,160 @@
+//e.create('').displayName("").rarity('').tooltip("")
+//e.create('').displayName("")
+StartupEvents.registry('item', e => {
+    // 基础强化基座类
+    e.create('augments_base').displayName("强化基座")
+    e.create('filter_augment_base').displayName("分类强化基座")
+    e.create('machine_augment_base').displayName("机器强化基座")
+    e.create('upgrade_base').displayName("升级基座")
+    e.create('error_upgrade_base').displayName("错误的升级基座")
+    e.create('network_upgrade_base').displayName("网络升级基座")
+
+    // 构件（成品 + 半成品 成对排列）
+    e.create('wooden_mechanism').displayName("木质构件")
+    e.create('incomplete_wooden_mechanism').displayName("木质构件（半成品）")
+    
+    e.create('stone_mechanism').displayName("石质构件")
+    e.create('incomplete_stone_mechanism').displayName("石质构件（半成品）")
+    
+    e.create('copper_mechanism').displayName("铜制构件")
+    e.create('incomplete_copper_mechanism').displayName("铜制构件（半成品）")
+    
+    e.create('iron_mechanism').displayName("铁质构件")
+    e.create('incomplete_iron_mechanism').displayName("铁质构件（半成品）")
+    
+    e.create('gold_mechanism').displayName("金质构件")
+    e.create('incomplete_gold_mechanism').displayName("金质构件（半成品）")
+    
+    e.create('lead_mechanism').displayName("铅制构件")
+    e.create('incomplete_lead_mechanism').displayName("铅制构件（半成品）")
+    
+    e.create('lumium_mechanism').displayName("流明构件")
+    e.create('incomplete_lumium_mechanism').displayName("流明构件（半成品）")
+    
+    e.create('signalum_mechanism').displayName("信素构件")
+    e.create('incomplete_signalum_mechanism').displayName("信素构件（半成品）")
+    
+    e.create('enderium_mechanism').displayName("末影构件")
+    e.create('incomplete_enderium_mechanism').displayName("末影构件（半成品）")
+    
+    e.create('structural_mechanism').displayName("结构构件")
+    e.create('incomplete_structural_mechanism').displayName("结构构件（半成品）")
+    
+    e.create('thermal_mechanism').displayName("热力构件")
+    e.create('incomplete_thermal_mechanism').displayName("热力构件（半成品）")
+    
+    e.create('nuclear_mechanism').displayName("核构件")
+    e.create('incomplete_nuclear_mechanism').displayName("核构件（半成品）")
+    
+    e.create('logic_mechanism').displayName("逻辑构件")
+    e.create('incomplete_logic_mechanism').displayName("逻辑构件（半成品）")
+    
+    e.create('calculation_mechanism').displayName("运算构件")
+    e.create('incomplete_calculation_mechanism').displayName("运算构件（半成品）")
+    
+    e.create('engineering_mechanism').displayName("工程构件")
+    e.create('incomplete_engineering_mechanism').displayName("工程构件（半成品）")
+    
+    e.create('andesite_mechanism').displayName("安山构件")
+    e.create('incomplete_andesite_mechanism').displayName("安山构件（半成品）")
+    
+    e.create('infinity_mechanism').displayName("无限构件") // 无半成品
+    
+    e.create('basic_mekanism_mechanism').displayName("基础通用构件")
+    e.create('incomplete_basic_mekanism_mechanism').displayName("基础通用构件（半成品）")
+    
+    e.create('advanced_mekanism_mechanism').displayName("高级通用构件")
+    e.create('incomplete_advanced_mekanism_mechanism').displayName("高级通用构件（半成品）")
+    
+    e.create('elite_mekanism_mechanism').displayName("精英通用构件")
+    e.create('incomplete_elite_mekanism_mechanism').displayName("精英通用构件（半成品）")
+    
+    e.create('ultimate_mekanism_mechanism').displayName("终极通用构件")
+    e.create('incomplete_ultimate_mekanism_mechanism').displayName("终极通用构件（半成品）")
+    
+    e.create('antimatter_mechanism').displayName("反物质构件")
+    e.create('incomplete_antimatter_mechanism').displayName("反物质构件（半成品）")
+    
+    e.create('bronze_mechanism').displayName("青铜M构件")
+    e.create('incomplete_bronze_mechanism').displayName("青铜M构件（半成品）")
+    
+    e.create('basic_mechanism').displayName("基础M构件")
+    e.create('incomplete_basic_mechanism').displayName("基础M构件（半成品）")
+    
+    e.create('advanced_mechanism').displayName("进阶M构件")
+    e.create('incomplete_advanced_mechanism').displayName("进阶M构件（半成品）")
+    
+    e.create('antifreeze_mechanism').displayName("防冻构件")
+    e.create('incomplete_antifreeze_mechanism').displayName("防冻构件（半成品）")
+    
+    e.create('explosion_proof_mechanism').displayName("防爆构件")
+    e.create('incomplete_explosion_proof_mechanism').displayName("防爆构件（半成品）")
+    
+    e.create('heat_resistant_mechanism').displayName("耐热构件")
+    e.create('incomplete_heat_resistant_mechanism').displayName("耐热构件（半成品）")
+    
+    e.create('steel_mechanism').displayName("钢构件")
+    e.create('incomplete_steel_mechanism').displayName("钢构件（半成品）")
+    
+    e.create('stainless_steel_mechanism').displayName("不锈钢构件")
+    e.create('incomplete_stainless_steel_mechanism').displayName("不锈钢构件（半成品）")
+    
+    e.create('titanium_mechanism').displayName("钛构件")
+    e.create('incomplete_titanium_mechanism').displayName("钛构件（半成品）")
+    
+    e.create('iridium_mechanism').displayName("铱构件")
+    e.create('incomplete_iridium_mechanism').displayName("铱构件（半成品）")
+    
+    e.create('turbocharged_mechanism').displayName("涡轮增压构件")
+    e.create('incomplete_turbocharged_mechanism').displayName("涡轮增压构件（半成品）")
+    
+    e.create('nuclear_alloy_mechanism').displayName("核合金构件")
+    e.create('incomplete_nuclear_alloy_mechanism').displayName("核合金构件（半成品）")
+    
+    e.create('quantum_mechanism').displayName("量子构件")
+    e.create('incomplete_quantum_mechanism').displayName("量子构件（半成品）")
+
+    e.create('lv_mechanism').displayName("LV构件")
+    e.create('incomplete_lv_mechanism').displayName("LV构件（半成品）")
+
+    e.create('living_mechanism').displayName("活体构件")
+    e.create('incomplete_living_mechanism').displayName("活体构件（半成品）")
+
+    // 电路元件
+    e.create('incomplete_basic_control_circuit').displayName("基础控制电路（半成品）")
+    e.create('incomplete_advanced_control_circuit').displayName("高级控制电路（半成品）")
+    e.create('incomplete_elite_control_circuit').displayName("精英控制电路（半成品）")
+    e.create('incomplete_ultimate_control_circuit').displayName("终极控制电路（半成品）")
+    e.create('incomplete_resistor').displayName("电阻（半成品）")
+    e.create('incomplete_diode').displayName("二极管（半成品）")
+    e.create('resistor').displayName("电阻")
+    e.create('diode').displayName("二极管")
+
+    // 杂项物品
+    e.create('raw_silicon').displayName("粗硅")
+    e.create('dark_brick').displayName("暗黑砖")
+    e.create('mechanism_cast').displayName("构件铸模")
+    e.create('stone_hammer').displayName("石锤")
+    e.create('lumen_core').displayName("光通核心")
+    e.create('null_pointer_exception').displayName("NullPointerException")
+    e.create('tinder').displayName("火种")
+
+    // 熔融流体桶
+    //e.create('au_f').displayName("熔融金桶")
+    //e.create('cu_f').displayName("熔融铜桶")
+    //e.create('iron_f').displayName("熔融铁桶")
+    //e.create('ni_f').displayName("熔融镍桶")
+    //e.create('os_f').displayName("熔融锇桶")
+    //e.create('pb_f').displayName("熔融铅桶")
+    //e.create('sn_f').displayName("熔融锡桶")
+    //e.create('uf').displayName("熔融铀桶")
+    //e.create('zn_f').displayName("熔融锌桶")
+    //e.create('pure_sand').displayName("纯净沙桶")
+    //e.create('tetrachlorosilane').displayName("四氯化硅桶")
+
+    // 程序文件
+    //e.create('empty_program').displayName("空程序.exe")
+    //e.create('force_program').displayName("强制.exe")
+    //e.create('slow_program').displayName("减速.exe")
+    //e.create('speed_program').displayName("加速.exe")
+})

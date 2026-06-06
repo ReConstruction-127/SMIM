@@ -1,0 +1,18 @@
+{
+    "name": "反人员模块",
+    "icon": "mffs:anti_personnel_module",
+    "category": "mffs:interdiction_modules",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "mffs:anti_personnel_module",
+            "link_recipe": true,
+            "text": "$(5)反人员模块$() 是 $(l:mffs:machines/interdiction_matrix)禁制矩阵$() 的可选功能模块。安装该模块后，禁制矩阵会自动侦测进入其作用区的未授权玩家，并近乎瞬间将其击杀。友方与敌对生物均不会受到伤害。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "mffs:anti_personnel_module",
+            "text": "合成 $(5)反人员模块$() 的配方。"
+        }
+    ]
+}
