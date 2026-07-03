@@ -1,0 +1,11 @@
+/time set day
+/gamerule doDaylightCycle false
+/gamerule doWeatherCycle false
+/time set noon
+/effect clear
+/closeguiscreen
+/help
+/effect clear
+/gamerule doDaylightCycle false
+/gamerule doWeatherCycle false
+/time set noon
