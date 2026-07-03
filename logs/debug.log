@@ -13052,3 +13052,7 @@ Caused by: java.lang.ClassNotFoundException: tamaized.ae2jeiintegration.api.inte
 [037月2026 23:21:52.086] [Render thread/INFO] [ChunkBuilder/]: Stopping worker threads
 [037月2026 23:21:52.222] [Render thread/DEBUG] [Configuration/IO]: Setting configuration environment to MENU
 [037月2026 23:22:01.043] [Worker-ResourceReload-4/DEBUG] [ModernFix/]: Worker-ResourceReload-4 shutdown
+[037月2026 23:23:01.044] [Worker-ResourceReload-1/DEBUG] [ModernFix/]: Worker-ResourceReload-1 shutdown
+[037月2026 23:24:41.976] [CullThread/INFO] [STDOUT/]: [dev.tr7zw.entityculling.CullTask:run:89]: Shutting down culling task!
+[037月2026 23:24:41.984] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[037月2026 23:24:42.000] [Render thread/DEBUG] [Configuration/IO]: Setting configuration environment to MENU

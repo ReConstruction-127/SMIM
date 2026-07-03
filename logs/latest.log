@@ -1104,3 +1104,5 @@ Caused by: java.lang.ClassNotFoundException: tamaized.ae2jeiintegration.api.inte
 [037月2026 23:21:52.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
 [037月2026 23:21:52.016] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
 [037月2026 23:21:52.086] [Render thread/INFO] [ChunkBuilder/]: Stopping worker threads
+[037月2026 23:24:41.976] [CullThread/INFO] [STDOUT/]: [dev.tr7zw.entityculling.CullTask:run:89]: Shutting down culling task!
+[037月2026 23:24:41.984] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
