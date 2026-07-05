@@ -1,0 +1,10 @@
+export * as util from "@package/java/util";
+export * as lang from "@package/java/lang";
+export * as net from "@package/java/net";
+export * as text from "@package/java/text";
+export * as time from "@package/java/time";
+export * as awt from "@package/java/awt";
+export * as nio from "@package/java/nio";
+export * as security from "@package/java/security";
+export * as io from "@package/java/io";
+export * as math from "@package/java/math";

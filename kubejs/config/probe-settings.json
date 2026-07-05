@@ -1,0 +1,8 @@
+{
+    "probejs.newGame": false,
+    "probejs.hintsForLLM": true,
+    "probejs.reset": true,
+    "probejs.fullScanMods": [
+        "*"
+    ]
+}

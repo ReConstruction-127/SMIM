@@ -1,16 +1,22 @@
-[23:11:09] [INIT] KubeJS 2101.7.2-build.368; MC 2101 NeoForge
-[23:11:09] [INIT] Loaded plugins:
-[23:11:09] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSPlugin
-[23:11:09] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSClientPlugin
-[23:11:09] [INIT] - dev.latvian.mods.kubejs.mekanism.MekanismKubeJSPlugin
-[23:11:09] [INIT] - com.almostreliable.ponderjs.KubePlugin
-[23:11:09] [INIT] - com.jesz.createdieselgenerators.compat.kubejs.CDGKubeJSPlugin
-[23:11:09] [INIT] - aztech.modern_industrialization.compat.kubejs.MIKubeJSPlugin
-[23:11:09] [INIT] - com.glodblock.github.extendedae.xmod.kjs.KJSPlugin
-[23:11:09] [INIT] - com.almostreliable.kubeio.KubePlugin
-[23:11:09] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
-[23:11:11] [INFO] startup_scripts:main.js#2: Hello, World! (Loaded startup example script)
-[23:11:11] [INFO] Loaded script startup_scripts:main.js in 0.078 s
-[23:11:11] [INFO] Loaded 1/1 KubeJS startup scripts in 1.8 s with 0 errors and 0 warnings
-[23:11:11] [INFO] Validated 0 files in kubejs/assets/ in 2ms
-[23:11:11] [INFO] Validated 0 files in kubejs/data/ in 0ms
+[22:57:39] [INIT] KubeJS 2101.7.2-build.368; MC 2101 NeoForge
+[22:57:39] [INIT] Loaded plugins:
+[22:57:39] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSPlugin
+[22:57:39] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSClientPlugin
+[22:57:39] [INIT] - dev.latvian.mods.kubejs.integration.architectury.ArchitecturyIntegration
+[22:57:39] [INIT] - com.jesz.createdieselgenerators.compat.kubejs.CDGKubeJSPlugin
+[22:57:39] [INIT] - moe.wolfgirl.probejs.plugin.ProbeJSKJSPlugin
+[22:57:39] [INIT] - dev.latvian.mods.kubejs.mekanism.MekanismKubeJSPlugin
+[22:57:39] [INIT] - com.almostreliable.ponderjs.KubePlugin
+[22:57:39] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbquests.kubejs.FTBQuestsKubeJSPlugin
+[22:57:39] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[22:57:39] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[22:57:39] [INIT] - com.glodblock.github.extendedae.xmod.kjs.KJSPlugin
+[22:57:39] [INIT] - aztech.modern_industrialization.compat.kubejs.MIKubeJSPlugin
+[22:57:39] [INIT] - com.almostreliable.kubeio.KubePlugin
+[22:57:39] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[22:57:41] [INFO] startup_scripts:main.js#2: Hello, World! (Loaded startup example script)
+[22:57:41] [INFO] Loaded script startup_scripts:main.js in 0.106 s
+[22:57:41] [INFO] Loaded script startup_scripts:mechanism/Complete.js in 0.018 s
+[22:57:41] [INFO] Loaded 2/2 KubeJS startup scripts in 1.958 s with 0 errors and 0 warnings
+[22:57:41] [INFO] Validated 45 files in kubejs/assets/ in 16ms
+[22:57:41] [INFO] Validated 0 files in kubejs/data/ in 1ms

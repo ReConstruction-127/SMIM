@@ -1,15 +1,21 @@
-[23:11:11] [INIT] KubeJS 2101.7.2-build.368; MC 2101 NeoForge
-[23:11:11] [INIT] Loaded plugins:
-[23:11:11] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSPlugin
-[23:11:11] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSClientPlugin
-[23:11:11] [INIT] - dev.latvian.mods.kubejs.mekanism.MekanismKubeJSPlugin
-[23:11:11] [INIT] - com.almostreliable.ponderjs.KubePlugin
-[23:11:11] [INIT] - com.jesz.createdieselgenerators.compat.kubejs.CDGKubeJSPlugin
-[23:11:11] [INIT] - aztech.modern_industrialization.compat.kubejs.MIKubeJSPlugin
-[23:11:11] [INIT] - com.glodblock.github.extendedae.xmod.kjs.KJSPlugin
-[23:11:11] [INIT] - com.almostreliable.kubeio.KubePlugin
-[23:11:11] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
-[23:11:11] [INFO] client_scripts:main.js#2: Hello, World! (Loaded client example script)
-[23:11:11] [INFO] Loaded script client_scripts:main.js in 0.001 s
-[23:11:11] [INFO] Loaded 1/1 KubeJS client scripts in 0.081 s with 0 errors and 0 warnings
-[23:11:21] [INFO] Client resource reload complete!
+[23:30:40] [INIT] KubeJS 2101.7.2-build.368; MC 2101 NeoForge
+[23:30:40] [INIT] Loaded plugins:
+[23:30:40] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSPlugin
+[23:30:40] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSClientPlugin
+[23:30:40] [INIT] - dev.latvian.mods.kubejs.integration.architectury.ArchitecturyIntegration
+[23:30:40] [INIT] - com.jesz.createdieselgenerators.compat.kubejs.CDGKubeJSPlugin
+[23:30:40] [INIT] - moe.wolfgirl.probejs.plugin.ProbeJSKJSPlugin
+[23:30:40] [INIT] - dev.latvian.mods.kubejs.mekanism.MekanismKubeJSPlugin
+[23:30:40] [INIT] - com.almostreliable.ponderjs.KubePlugin
+[23:30:40] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbquests.kubejs.FTBQuestsKubeJSPlugin
+[23:30:40] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[23:30:40] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[23:30:40] [INIT] - com.glodblock.github.extendedae.xmod.kjs.KJSPlugin
+[23:30:40] [INIT] - aztech.modern_industrialization.compat.kubejs.MIKubeJSPlugin
+[23:30:40] [INIT] - com.almostreliable.kubeio.KubePlugin
+[23:30:40] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[23:30:40] [INFO] client_scripts:main.js#2: Hello, World! (Loaded client example script)
+[23:30:40] [INFO] Loaded script client_scripts:main.js in 0.001 s
+[23:30:40] [INFO] Loaded 1/1 KubeJS client scripts in 0.027 s with 0 errors and 0 warnings
+[23:30:40] [INFO] Client resource reload complete!
+[23:31:31] [INFO] Client resource reload complete!

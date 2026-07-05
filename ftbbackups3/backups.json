@@ -1,0 +1,52 @@
+[
+	{
+		"index": 1,
+		"success": true,
+		"size": 18669482,
+		"file_count": 202,
+		"time": 1783229430030,
+		"archival_plugin": "ftbbackups3:zip",
+		"file": "2026-07-05-13-30-30.zip",
+		"world_name": "MainTest"
+	},
+	{
+		"index": 2,
+		"success": true,
+		"size": 19355096,
+		"file_count": 212,
+		"time": 1783236800036,
+		"archival_plugin": "ftbbackups3:zip",
+		"file": "2026-07-05-15-33-20.zip",
+		"world_name": "MainTest"
+	},
+	{
+		"index": 3,
+		"success": true,
+		"size": 20730665,
+		"file_count": 212,
+		"time": 1783244000080,
+		"archival_plugin": "ftbbackups3:zip",
+		"file": "2026-07-05-17-33-20.zip",
+		"world_name": "MainTest"
+	},
+	{
+		"index": 4,
+		"success": true,
+		"size": 20723950,
+		"file_count": 212,
+		"time": 1783252944356,
+		"archival_plugin": "ftbbackups3:zip",
+		"file": "2026-07-05-20-02-24.zip",
+		"world_name": "MainTest"
+	},
+	{
+		"index": 5,
+		"success": true,
+		"size": 21116993,
+		"file_count": 212,
+		"time": 1783260144386,
+		"archival_plugin": "ftbbackups3:zip",
+		"file": "2026-07-05-22-02-24.zip",
+		"world_name": "MainTest"
+	}
+]

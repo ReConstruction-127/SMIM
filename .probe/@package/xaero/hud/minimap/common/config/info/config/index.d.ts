@@ -1,0 +1,14 @@
+import { $Stream } from "@package/java/util/stream";
+import { $List_, $Map_, $List } from "@package/java/util";
+
+declare module "@package/xaero/hud/minimap/common/config/info/config" {
+    export class $InfoDisplayManagerConfigData {
+        get(arg0: string): $InfoDisplayConfigData;
+        copyOrder(): $List<string>;
+        getFromOrder(arg0: number): string;
+        getOrderStream(): $Stream<string>;
+        static EMPTY: $InfoDisplayManagerConfigData;
+        constructor(arg0: $List_<string>, arg1: $Map_<string, $InfoDisplayConfigData>);
+        get orderStream(): $Stream<string>;
+    }
+}

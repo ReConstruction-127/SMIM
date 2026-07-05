@@ -1,0 +1,11 @@
+export * as pbr from "@package/net/irisshaders/iris/pbr";
+export * as mixin from "@package/net/irisshaders/iris/mixin";
+export * as shadows from "@package/net/irisshaders/iris/shadows";
+export * as vertices from "@package/net/irisshaders/iris/vertices";
+export * as helpers from "@package/net/irisshaders/iris/helpers";
+export * as pipeline from "@package/net/irisshaders/iris/pipeline";
+export * as targets from "@package/net/irisshaders/iris/targets";
+export * as api from "@package/net/irisshaders/iris/api";
+export * as texture from "@package/net/irisshaders/iris/texture";
+export * as parsing from "@package/net/irisshaders/iris/parsing";
+export * as compat from "@package/net/irisshaders/iris/compat";

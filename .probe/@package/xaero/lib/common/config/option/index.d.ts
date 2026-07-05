@@ -1,0 +1,41 @@
+import { $Consumer_, $BiFunction } from "@package/java/util/function";
+import { $Component } from "@package/net/minecraft/network/chat";
+import { $Logger } from "@package/org/apache/logging/log4j";
+import { $Iterable } from "@package/java/lang";
+import { $Spliterator, $Iterator } from "@package/java/util";
+import { $ConfigValueType } from "@package/xaero/lib/common/config/option/value/type";
+export * as value from "@package/xaero/lib/common/config/option/value";
+
+declare module "@package/xaero/lib/common/config/option" {
+    export class $ConfigOption<T> {
+        getId(): string;
+        getDefaultValue(): T;
+        getDisplayName(): $Component;
+        isValidValue(arg0: T): boolean;
+        getValueType(): $ConfigValueType<T>;
+        isOverridable(): boolean;
+        shouldSaveDefaultValue(): boolean;
+        getTooltip(): $Component;
+        skipConfigReset(): boolean;
+        getDisplayGetter(): $BiFunction<$ConfigOption<T>, T, $Component>;
+        get id(): string;
+        get defaultValue(): T;
+        get displayName(): $Component;
+        get valueType(): $ConfigValueType<T>;
+        get overridable(): boolean;
+        get tooltip(): $Component;
+        get displayGetter(): $BiFunction<$ConfigOption<T>, T, $Component>;
+    }
+    export class $ConfigOptionManager implements $Iterable<$ConfigOption<never>> {
+        get(arg0: string): $ConfigOption<never>;
+        iterator(): $Iterator<$ConfigOption<never>>;
+        register(arg0: $ConfigOption<never>): void;
+        freeze(): void;
+        spliterator(): $Spliterator<$ConfigOption<never>>;
+        forEach(arg0: $Consumer_<$ConfigOption<never>>): void;
+        logger: $Logger;
+        [Symbol.iterator](): Iterator<$ConfigOption<never>>
+    }
+    export class $BooleanConfigOption extends $IndexedConfigOption<boolean> {
+    }
+}

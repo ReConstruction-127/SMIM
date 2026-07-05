@@ -1,0 +1,548 @@
+import { $Level_ } from "@package/net/minecraft/world/level";
+import { $Codec, $MapCodec } from "@package/com/mojang/serialization";
+import { $ItemStack_, $ItemStack } from "@package/net/minecraft/world/item";
+import { $CompoundTag, $CompoundTag_ } from "@package/net/minecraft/nbt";
+import { $EntityType_, $PortalProcessor, $VariantHolder, $Pose_, $Entity, $EntityDimensions, $Entity$RemovalReason, $LivingEntity, $WalkAnimationState } from "@package/net/minecraft/world/entity";
+import { $CallbackInfoReturnable } from "@package/org/spongepowered/asm/mixin/injection/callback";
+import { $Player } from "@package/net/minecraft/world/entity/player";
+import { $ItemFrameAccessor } from "@package/com/simibubi/create/foundation/mixin/accessor";
+import { $AttributeSupplier$Builder } from "@package/net/minecraft/world/entity/ai/attributes";
+import { $EntityDataAccessor } from "@package/net/minecraft/network/syncher";
+import { $InteractionHand, $InteractionHand_ } from "@package/net/minecraft/world";
+import { $SoundEvent } from "@package/net/minecraft/sounds";
+import { $HolderLookup$Provider, $BlockPos, $Holder_, $Holder, $BlockPos_, $Direction_, $Rotations } from "@package/net/minecraft/core";
+import { RegistryMarked, RegistryTypes } from "@special/types";
+import { $RegistryFriendlyByteBuf } from "@package/net/minecraft/network";
+import { $ResourceLocation_, $ResourceLocation } from "@package/net/minecraft/resources";
+import { $MapId } from "@package/net/minecraft/world/level/saveddata/maps";
+import { $ByteBuf } from "@package/io/netty/buffer";
+import { $Record } from "@package/java/lang";
+import { $ItemFrameEntityKJS } from "@package/dev/latvian/mods/kubejs/core";
+import { $Vec3_ } from "@package/net/minecraft/world/phys";
+import { $DamageSource_ } from "@package/net/minecraft/world/damagesource";
+import { $StreamCodec } from "@package/net/minecraft/network/codec";
+
+declare module "@package/net/minecraft/world/entity/decoration" {
+    export class $GlowItemFrame extends $ItemFrame {
+        serializeNBT(arg0: $HolderLookup$Provider): $CompoundTag;
+        invulnerableTime: number;
+        static UUID_TAG: string;
+        static BASE_TICKS_REQUIRED_TO_FREEZE: number;
+        fallDistance: number;
+        hasImpulse: boolean;
+        portalProcess: $PortalProcessor;
+        verticalCollision: boolean;
+        static DELTA_AFFECTED_BY_BLOCKS_BELOW_0_5: number;
+        static MAX_ENTITY_TAG_COUNT: number;
+        static DELTA_AFFECTED_BY_BLOCKS_BELOW_0_2: number;
+        verticalCollisionBelow: boolean;
+        tickCount: number;
+        noPhysics: boolean;
+        yo: number;
+        yOld: number;
+        static DEFAULT_BB_WIDTH: number;
+        minorHorizontalCollision: boolean;
+        static BOARDING_COOLDOWN: number;
+        static DEFAULT_BB_HEIGHT: number;
+        removalReason: $Entity$RemovalReason;
+        yRotO: number;
+        static CONTENTS_SLOT_INDEX: number;
+        walkDistO: number;
+        moveDist: number;
+        static FREEZE_HURT_FREQUENCY: number;
+        flyDist: number;
+        isInPowderSnow: boolean;
+        static ATTACHMENTS_NBT_KEY: string;
+        static ID_TAG: string;
+        mainSupportingBlockPos: ($BlockPos) | undefined;
+        static NUM_ROTATIONS: number;
+        static PASSENGERS_TAG: string;
+        static DELTA_AFFECTED_BY_BLOCKS_BELOW_1_0: number;
+        blocksBuilding: boolean;
+        xRotO: number;
+        wasOnFire: boolean;
+        zo: number;
+        zOld: number;
+        create_diesel_generators$turretPos: $BlockPos;
+        static TOTAL_AIR_SUPPLY: number;
+        xo: number;
+        walkDist: number;
+        xOld: number;
+        noCulling: boolean;
+        wasInPowderSnow: boolean;
+        static BASE_SAFE_FALL_DISTANCE: number;
+        hurtMarked: boolean;
+        horizontalCollision: boolean;
+        constructor(arg0: $EntityType_<$ItemFrame>, arg1: $Level_);
+        constructor(arg0: $Level_, arg1: $BlockPos_, arg2: $Direction_);
+    }
+    export class $HangingEntity extends $BlockAttachedEntity {
+        /**
+         * Updates the entity bounding box based on current facing
+         */
+        playPlacementSound(): void;
+        serializeNBT(arg0: $HolderLookup$Provider): $CompoundTag;
+        invulnerableTime: number;
+        static UUID_TAG: string;
+        static BASE_TICKS_REQUIRED_TO_FREEZE: number;
+        fallDistance: number;
+        hasImpulse: boolean;
+        portalProcess: $PortalProcessor;
+        verticalCollision: boolean;
+        static DELTA_AFFECTED_BY_BLOCKS_BELOW_0_5: number;
+        static MAX_ENTITY_TAG_COUNT: number;
+        static DELTA_AFFECTED_BY_BLOCKS_BELOW_0_2: number;
+        verticalCollisionBelow: boolean;
+        tickCount: number;
+        noPhysics: boolean;
+        yo: number;
+        yOld: number;
+        static DEFAULT_BB_WIDTH: number;
+        minorHorizontalCollision: boolean;
+        static BOARDING_COOLDOWN: number;
+        static DEFAULT_BB_HEIGHT: number;
+        removalReason: $Entity$RemovalReason;
+        yRotO: number;
+        static CONTENTS_SLOT_INDEX: number;
+        walkDistO: number;
+        moveDist: number;
+        static FREEZE_HURT_FREQUENCY: number;
+        flyDist: number;
+        isInPowderSnow: boolean;
+        static ATTACHMENTS_NBT_KEY: string;
+        static ID_TAG: string;
+        mainSupportingBlockPos: ($BlockPos) | undefined;
+        static PASSENGERS_TAG: string;
+        static DELTA_AFFECTED_BY_BLOCKS_BELOW_1_0: number;
+        blocksBuilding: boolean;
+        xRotO: number;
+        wasOnFire: boolean;
+        zo: number;
+        zOld: number;
+        create_diesel_generators$turretPos: $BlockPos;
+        static TOTAL_AIR_SUPPLY: number;
+        xo: number;
+        walkDist: number;
+        xOld: number;
+        noCulling: boolean;
+        wasInPowderSnow: boolean;
+        static BASE_SAFE_FALL_DISTANCE: number;
+        hurtMarked: boolean;
+        horizontalCollision: boolean;
+    }
+    export class $PaintingVariant extends $Record {
+        width(): number;
+        height(): number;
+        area(): number;
+        assetId(): $ResourceLocation;
+        static CODEC: $Codec<$Holder<$PaintingVariant>>;
+        static DIRECT_CODEC: $Codec<$PaintingVariant>;
+        static DIRECT_STREAM_CODEC: $StreamCodec<$ByteBuf, $PaintingVariant>;
+        static STREAM_CODEC: $StreamCodec<$RegistryFriendlyByteBuf, $Holder<$PaintingVariant>>;
+        constructor(arg0: number, arg1: number, arg2: $ResourceLocation_);
+    }
+    /**
+     * Values that may be interpreted as {@link $PaintingVariant}.
+     */
+    export type $PaintingVariant_ = RegistryTypes.PaintingVariant | { height?: number, assetId?: $ResourceLocation_, width?: number,  } | [height?: number, assetId?: $ResourceLocation_, width?: number, ];
+    export class $ArmorStand extends $LivingEntity {
+        /**
+         * Returns false if the entity is an armor stand. Returns `true` for all other entity living bases.
+         */
+        isShowArms(): boolean;
+        /**
+         * Returns false if the entity is an armor stand. Returns `true` for all other entity living bases.
+         */
+        isSmall(): boolean;
+        /**
+         * Returns false if the entity is an armor stand. Returns `true` for all other entity living bases.
+         */
+        isMarker(): boolean;
+        handler$bmh000$ftbchunks$onInteractAt(player: $Player, vec3: $Vec3_, interactionHand: $InteractionHand_, cir: $CallbackInfoReturnable<any>): void;
+        getDefaultDimensions(pose: $Pose_): $EntityDimensions;
+        static createAttributes(): $AttributeSupplier$Builder;
+        /**
+         * Returns false if the entity is an armor stand. Returns `true` for all other entity living bases.
+         */
+        isNoBasePlate(): boolean;
+        setShowArms(invisible: boolean): void;
+        setBodyPose(bodyPose: $Rotations): void;
+        setLeftArmPose(bodyPose: $Rotations): void;
+        setLeftLegPose(bodyPose: $Rotations): void;
+        setRightArmPose(bodyPose: $Rotations): void;
+        setNoBasePlate(invisible: boolean): void;
+        setHeadPose(bodyPose: $Rotations): void;
+        setRightLegPose(bodyPose: $Rotations): void;
+        getHeadPose(): $Rotations;
+        getBodyPose(): $Rotations;
+        getLeftArmPose(): $Rotations;
+        getRightArmPose(): $Rotations;
+        getRightLegPose(): $Rotations;
+        getLeftLegPose(): $Rotations;
+        serializeNBT(arg0: $HolderLookup$Provider): $CompoundTag;
+        static DEFAULT_BASE_GRAVITY: number;
+        hasImpulse: boolean;
+        static USE_ITEM_INTERVAL: number;
+        yHeadRot: number;
+        noPhysics: boolean;
+        yo: number;
+        yBodyRotO: number;
+        removalReason: $Entity$RemovalReason;
+        zza: number;
+        static CLIENT_FLAG_SMALL: number;
+        swingingArm: $InteractionHand;
+        static ID_TAG: string;
+        lastHit: number;
+        static DELTA_AFFECTED_BY_BLOCKS_BELOW_1_0: number;
+        static DATA_RIGHT_LEG_POSE: $EntityDataAccessor<$Rotations>;
+        xRotO: number;
+        static WOBBLE_TIME: number;
+        zo: number;
+        walkDist: number;
+        noCulling: boolean;
+        walkAnimation: $WalkAnimationState;
+        yya: number;
+        oAttackAnim: number;
+        yHeadRotO: number;
+        static UUID_TAG: string;
+        hurtDuration: number;
+        static DISABLE_PUTTING_OFFSET: number;
+        static DEATH_DURATION: number;
+        portalProcess: $PortalProcessor;
+        verticalCollision: boolean;
+        verticalCollisionBelow: boolean;
+        static DATA_LEFT_ARM_POSE: $EntityDataAccessor<$Rotations>;
+        static DEFAULT_BABY_SCALE: number;
+        static ATTRIBUTES_FIELD: string;
+        static DISABLE_TAKING_OFFSET: number;
+        static DEFAULT_BB_HEIGHT: number;
+        static DATA_RIGHT_ARM_POSE: $EntityDataAccessor<$Rotations>;
+        xxa: number;
+        static CLIENT_FLAG_NO_BASEPLATE: number;
+        flyDist: number;
+        static PASSENGERS_TAG: string;
+        wasOnFire: boolean;
+        attackAnim: number;
+        zOld: number;
+        static CLIENT_FLAG_MARKER: number;
+        static DATA_CLIENT_FLAGS: $EntityDataAccessor<number>;
+        timeOffs: number;
+        rotA: number;
+        horizontalCollision: boolean;
+        static ARMOR_SLOT_OFFSET: number;
+        swingTime: number;
+        static BODY_ARMOR_OFFSET: number;
+        tickCount: number;
+        static BOARDING_COOLDOWN: number;
+        static DATA_HEAD_POSE: $EntityDataAccessor<$Rotations>;
+        static SWING_DURATION: number;
+        yRotO: number;
+        static MIN_MOVEMENT_DISTANCE: number;
+        static CONTENTS_SLOT_INDEX: number;
+        static BASE_JUMP_POWER: number;
+        static DATA_LEFT_LEG_POSE: $EntityDataAccessor<$Rotations>;
+        moveDist: number;
+        mainSupportingBlockPos: ($BlockPos) | undefined;
+        create_diesel_generators$turretPos: $BlockPos;
+        xOld: number;
+        wasInPowderSnow: boolean;
+        hurtTime: number;
+        swinging: boolean;
+        hurtMarked: boolean;
+        deathTime: number;
+        static CLIENT_FLAG_SHOW_ARMS: number;
+        static EQUIPMENT_SLOT_OFFSET: number;
+        invulnerableTime: number;
+        jumping: boolean;
+        static BASE_TICKS_REQUIRED_TO_FREEZE: number;
+        fallDistance: number;
+        static DELTA_AFFECTED_BY_BLOCKS_BELOW_0_5: number;
+        static MAX_ENTITY_TAG_COUNT: number;
+        static ARMOR_SLOTS: number;
+        static DELTA_AFFECTED_BY_BLOCKS_BELOW_0_2: number;
+        static PLAYER_HURT_EXPERIENCE_TIME: number;
+        yOld: number;
+        static HAND_SLOTS: number;
+        static DEFAULT_BB_WIDTH: number;
+        minorHorizontalCollision: boolean;
+        static EXTRA_RENDER_CULLING_SIZE_WITH_BIG_HAT: number;
+        removeArrowTime: number;
+        walkDistO: number;
+        static FREEZE_HURT_FREQUENCY: number;
+        isInPowderSnow: boolean;
+        static ATTACHMENTS_NBT_KEY: string;
+        static DATA_BODY_POSE: $EntityDataAccessor<$Rotations>;
+        yBodyRot: number;
+        blocksBuilding: boolean;
+        static TOTAL_AIR_SUPPLY: number;
+        xo: number;
+        invulnerableDuration: number;
+        removeStingerTime: number;
+        static BASE_SAFE_FALL_DISTANCE: number;
+        effectsDirty: boolean;
+        constructor(level: $Level_, x: number, arg2: number, y: number);
+        constructor(entityType: $EntityType_<$ArmorStand>, level: $Level_);
+        get small(): boolean;
+        get marker(): boolean;
+    }
+    export class $ItemFrame extends $HangingEntity implements $ItemFrameEntityKJS, $ItemFrameAccessor {
+        getItem(): $ItemStack;
+        /**
+         * Checks to make sure the `HangingEntity` can be placed there.
+         */
+        hasFramedMap(): boolean;
+        getRotateItemSound(): $SoundEvent;
+        getRemoveItemSound(): $SoundEvent;
+        getFramedMapId(stack: $ItemStack_): $MapId;
+        getAddItemSound(): $SoundEvent;
+        getBreakSound(): $SoundEvent;
+        /**
+         * Return the rotation of the item currently on this frame.
+         */
+        getAnalogOutput(): number;
+        handler$bml000$ftbchunks$onHurt(damageSource: $DamageSource_, f: number, cir: $CallbackInfoReturnable<any>): void;
+        setRotation(rotation: number): void;
+        /**
+         * Return the rotation of the item currently on this frame.
+         */
+        getRotation(): number;
+        getPlaceSound(): $SoundEvent;
+        setItem(stack: $ItemStack_, updateNeighbours: boolean): void;
+        setItem(item: $ItemStack_): void;
+        create$getFrameItemStack(): $ItemStack;
+        serializeNBT(arg0: $HolderLookup$Provider): $CompoundTag;
+        invulnerableTime: number;
+        static UUID_TAG: string;
+        static BASE_TICKS_REQUIRED_TO_FREEZE: number;
+        fallDistance: number;
+        hasImpulse: boolean;
+        portalProcess: $PortalProcessor;
+        verticalCollision: boolean;
+        static DELTA_AFFECTED_BY_BLOCKS_BELOW_0_5: number;
+        static MAX_ENTITY_TAG_COUNT: number;
+        static DELTA_AFFECTED_BY_BLOCKS_BELOW_0_2: number;
+        verticalCollisionBelow: boolean;
+        tickCount: number;
+        noPhysics: boolean;
+        yo: number;
+        yOld: number;
+        static DEFAULT_BB_WIDTH: number;
+        minorHorizontalCollision: boolean;
+        static BOARDING_COOLDOWN: number;
+        static DEFAULT_BB_HEIGHT: number;
+        removalReason: $Entity$RemovalReason;
+        yRotO: number;
+        static CONTENTS_SLOT_INDEX: number;
+        walkDistO: number;
+        moveDist: number;
+        static FREEZE_HURT_FREQUENCY: number;
+        flyDist: number;
+        isInPowderSnow: boolean;
+        static ATTACHMENTS_NBT_KEY: string;
+        static ID_TAG: string;
+        mainSupportingBlockPos: ($BlockPos) | undefined;
+        static NUM_ROTATIONS: number;
+        static PASSENGERS_TAG: string;
+        static DELTA_AFFECTED_BY_BLOCKS_BELOW_1_0: number;
+        blocksBuilding: boolean;
+        xRotO: number;
+        wasOnFire: boolean;
+        zo: number;
+        zOld: number;
+        create_diesel_generators$turretPos: $BlockPos;
+        static TOTAL_AIR_SUPPLY: number;
+        xo: number;
+        walkDist: number;
+        xOld: number;
+        noCulling: boolean;
+        wasInPowderSnow: boolean;
+        static BASE_SAFE_FALL_DISTANCE: number;
+        hurtMarked: boolean;
+        horizontalCollision: boolean;
+        constructor(entityType: $EntityType_<$ItemFrame>, level: $Level_);
+        constructor(entityType: $EntityType_<$ItemFrame>, level: $Level_, pos: $BlockPos_, direction: $Direction_);
+        constructor(level: $Level_, pos: $BlockPos_, facingDirection: $Direction_);
+        get rotateItemSound(): $SoundEvent;
+        get removeItemSound(): $SoundEvent;
+        get addItemSound(): $SoundEvent;
+        get breakSound(): $SoundEvent;
+        get analogOutput(): number;
+        get placeSound(): $SoundEvent;
+    }
+    export class $LeashFenceKnotEntity extends $BlockAttachedEntity {
+        /**
+         * Updates the entity bounding box based on current facing
+         */
+        playPlacementSound(): void;
+        static getOrCreateKnot(level: $Level_, pos: $BlockPos_): $LeashFenceKnotEntity;
+        serializeNBT(arg0: $HolderLookup$Provider): $CompoundTag;
+        invulnerableTime: number;
+        static UUID_TAG: string;
+        static BASE_TICKS_REQUIRED_TO_FREEZE: number;
+        fallDistance: number;
+        hasImpulse: boolean;
+        portalProcess: $PortalProcessor;
+        verticalCollision: boolean;
+        static DELTA_AFFECTED_BY_BLOCKS_BELOW_0_5: number;
+        static MAX_ENTITY_TAG_COUNT: number;
+        static DELTA_AFFECTED_BY_BLOCKS_BELOW_0_2: number;
+        verticalCollisionBelow: boolean;
+        tickCount: number;
+        noPhysics: boolean;
+        yo: number;
+        yOld: number;
+        static DEFAULT_BB_WIDTH: number;
+        minorHorizontalCollision: boolean;
+        static BOARDING_COOLDOWN: number;
+        static DEFAULT_BB_HEIGHT: number;
+        removalReason: $Entity$RemovalReason;
+        yRotO: number;
+        static CONTENTS_SLOT_INDEX: number;
+        walkDistO: number;
+        moveDist: number;
+        static FREEZE_HURT_FREQUENCY: number;
+        flyDist: number;
+        isInPowderSnow: boolean;
+        static ATTACHMENTS_NBT_KEY: string;
+        static ID_TAG: string;
+        mainSupportingBlockPos: ($BlockPos) | undefined;
+        static PASSENGERS_TAG: string;
+        static DELTA_AFFECTED_BY_BLOCKS_BELOW_1_0: number;
+        blocksBuilding: boolean;
+        xRotO: number;
+        wasOnFire: boolean;
+        zo: number;
+        zOld: number;
+        create_diesel_generators$turretPos: $BlockPos;
+        static TOTAL_AIR_SUPPLY: number;
+        xo: number;
+        walkDist: number;
+        xOld: number;
+        noCulling: boolean;
+        wasInPowderSnow: boolean;
+        static OFFSET_Y: number;
+        static BASE_SAFE_FALL_DISTANCE: number;
+        hurtMarked: boolean;
+        horizontalCollision: boolean;
+        constructor(entityType: $EntityType_<$LeashFenceKnotEntity>, level: $Level_);
+        constructor(level: $Level_, pos: $BlockPos_);
+    }
+    export class $Painting extends $HangingEntity implements $VariantHolder<$Holder<$PaintingVariant>> {
+        static create(level: $Level_, pos: $BlockPos_, direction: $Direction_): ($Painting) | undefined;
+        setVariant(variant: $Holder_<$PaintingVariant>): void;
+        getVariant(): $Holder<$PaintingVariant>;
+        serializeNBT(arg0: $HolderLookup$Provider): $Holder<$PaintingVariant>;
+        hasImpulse: boolean;
+        tickCount: number;
+        noPhysics: boolean;
+        yo: number;
+        static BOARDING_COOLDOWN: number;
+        removalReason: $Entity$RemovalReason;
+        yRotO: number;
+        static CONTENTS_SLOT_INDEX: number;
+        moveDist: number;
+        static ID_TAG: string;
+        mainSupportingBlockPos: ($BlockPos) | undefined;
+        static VARIANT_MAP_CODEC: $MapCodec<$Holder<$PaintingVariant>>;
+        static DELTA_AFFECTED_BY_BLOCKS_BELOW_1_0: number;
+        xRotO: number;
+        zo: number;
+        create_diesel_generators$turretPos: $BlockPos;
+        walkDist: number;
+        xOld: number;
+        noCulling: boolean;
+        wasInPowderSnow: boolean;
+        hurtMarked: boolean;
+        invulnerableTime: number;
+        static UUID_TAG: string;
+        static BASE_TICKS_REQUIRED_TO_FREEZE: number;
+        fallDistance: number;
+        portalProcess: $PortalProcessor;
+        verticalCollision: boolean;
+        static DELTA_AFFECTED_BY_BLOCKS_BELOW_0_5: number;
+        static MAX_ENTITY_TAG_COUNT: number;
+        static DELTA_AFFECTED_BY_BLOCKS_BELOW_0_2: number;
+        verticalCollisionBelow: boolean;
+        static VARIANT_CODEC: $Codec<$Holder<$PaintingVariant>>;
+        yOld: number;
+        static DEFAULT_BB_WIDTH: number;
+        minorHorizontalCollision: boolean;
+        static DEFAULT_BB_HEIGHT: number;
+        walkDistO: number;
+        static FREEZE_HURT_FREQUENCY: number;
+        flyDist: number;
+        isInPowderSnow: boolean;
+        static ATTACHMENTS_NBT_KEY: string;
+        static PASSENGERS_TAG: string;
+        blocksBuilding: boolean;
+        wasOnFire: boolean;
+        zOld: number;
+        static TOTAL_AIR_SUPPLY: number;
+        xo: number;
+        static BASE_SAFE_FALL_DISTANCE: number;
+        static DEPTH: number;
+        horizontalCollision: boolean;
+        constructor(level: $Level_, pos: $BlockPos_, direction: $Direction_, variant: $Holder_<$PaintingVariant>);
+        constructor(entityType: $EntityType_<$Painting>, level: $Level_);
+    }
+    export interface $PaintingVariant extends RegistryMarked<RegistryTypes.PaintingVariantTag, RegistryTypes.PaintingVariant> {}
+    export class $BlockAttachedEntity extends $Entity {
+        /**
+         * Returns `true` if other Entities should be prevented from moving through this Entity.
+         */
+        survives(): boolean;
+        addAdditionalSaveData(compound: $CompoundTag_): void;
+        readAdditionalSaveData(compound: $CompoundTag_): void;
+        dropItem(entity: $Entity | null): void;
+        getPos(): $BlockPos;
+        serializeNBT(arg0: $HolderLookup$Provider): $CompoundTag;
+        invulnerableTime: number;
+        static UUID_TAG: string;
+        static BASE_TICKS_REQUIRED_TO_FREEZE: number;
+        fallDistance: number;
+        hasImpulse: boolean;
+        portalProcess: $PortalProcessor;
+        verticalCollision: boolean;
+        static DELTA_AFFECTED_BY_BLOCKS_BELOW_0_5: number;
+        static MAX_ENTITY_TAG_COUNT: number;
+        static DELTA_AFFECTED_BY_BLOCKS_BELOW_0_2: number;
+        verticalCollisionBelow: boolean;
+        tickCount: number;
+        noPhysics: boolean;
+        yo: number;
+        yOld: number;
+        static DEFAULT_BB_WIDTH: number;
+        minorHorizontalCollision: boolean;
+        static BOARDING_COOLDOWN: number;
+        static DEFAULT_BB_HEIGHT: number;
+        removalReason: $Entity$RemovalReason;
+        yRotO: number;
+        static CONTENTS_SLOT_INDEX: number;
+        walkDistO: number;
+        moveDist: number;
+        static FREEZE_HURT_FREQUENCY: number;
+        flyDist: number;
+        isInPowderSnow: boolean;
+        static ATTACHMENTS_NBT_KEY: string;
+        static ID_TAG: string;
+        mainSupportingBlockPos: ($BlockPos) | undefined;
+        static PASSENGERS_TAG: string;
+        static DELTA_AFFECTED_BY_BLOCKS_BELOW_1_0: number;
+        blocksBuilding: boolean;
+        xRotO: number;
+        wasOnFire: boolean;
+        zo: number;
+        zOld: number;
+        create_diesel_generators$turretPos: $BlockPos;
+        static TOTAL_AIR_SUPPLY: number;
+        xo: number;
+        walkDist: number;
+        xOld: number;
+        noCulling: boolean;
+        wasInPowderSnow: boolean;
+        static BASE_SAFE_FALL_DISTANCE: number;
+        hurtMarked: boolean;
+        horizontalCollision: boolean;
+        get pos(): $BlockPos;
+    }
+}

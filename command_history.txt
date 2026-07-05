@@ -9,3 +9,12 @@
 /gamerule doDaylightCycle false
 /gamerule doWeatherCycle false
 /time set noon
+/effect give @a minecraft:night_vision infinite
+/probejs
+/xp add @a 999
+/kjs hand
+/setblock ~ ~ ~
+/setblock ~ ~ ~ enderio:
+/kjs h
+/kjs hand
+/setblock ~ ~ ~ enderio:nutrient_distillation

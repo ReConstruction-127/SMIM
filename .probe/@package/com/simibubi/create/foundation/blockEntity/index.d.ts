@@ -1,0 +1,128 @@
+import { $Level_ } from "@package/net/minecraft/world/level";
+import { $ItemRequirement } from "@package/com/simibubi/create/content/schematics/requirement";
+import { $SpecialBlockEntityItemRequirement } from "@package/com/simibubi/create/api/schematic/requirement";
+import { $VirtualBlockEntity } from "@package/net/createmod/ponder/api";
+import { $Item_, $ItemStack_, $ItemStack } from "@package/net/minecraft/world/item";
+import { $CompoundTag, $CompoundTag_ } from "@package/net/minecraft/nbt";
+import { $CreateAdvancement } from "@package/com/simibubi/create/foundation/advancement";
+import { $IItemHandlerModifiable } from "@package/net/neoforged/neoforge/items";
+import { $Player } from "@package/net/minecraft/world/entity/player";
+import { $IInteractionChecker } from "@package/com/simibubi/create/foundation/utility";
+import { $PartialSafeNBT } from "@package/com/simibubi/create/api/schematic/nbt";
+import { $LevelBlock } from "@package/dev/latvian/mods/kubejs/level";
+import { $List, $Set_, $List_, $Collection } from "@package/java/util";
+import { $ItemPredicate_ } from "@package/dev/latvian/mods/kubejs/item";
+import { $BehaviourType, $BlockEntityBehaviour } from "@package/com/simibubi/create/foundation/blockEntity/behaviour";
+import { $Container } from "@package/net/minecraft/world";
+import { $Consumer_, $Predicate_ } from "@package/java/util/function";
+import { $HolderLookup$Provider, $BlockPos_, $HolderGetter } from "@package/net/minecraft/core";
+import { $BlockState_ } from "@package/net/minecraft/world/level/block/state";
+import { $RegistryFriendlyByteBuf } from "@package/net/minecraft/network";
+import { $Block } from "@package/net/minecraft/world/level/block";
+import { $AABB } from "@package/net/minecraft/world/phys";
+import { $BlockEntityType_, $BlockEntity } from "@package/net/minecraft/world/level/block/entity";
+export * as behaviour from "@package/com/simibubi/create/foundation/blockEntity/behaviour";
+
+declare module "@package/com/simibubi/create/foundation/blockEntity" {
+    export class $SyncedBlockEntity extends $BlockEntity {
+        sendData(): void;
+        readClient(arg0: $CompoundTag_, arg1: $HolderLookup$Provider): void;
+        writeClient(arg0: $CompoundTag_, arg1: $HolderLookup$Provider): $CompoundTag;
+        blockHolderGetter(): $HolderGetter<$Block>;
+        notifyUpdate(): void;
+        static ATTACHMENTS_NBT_KEY: string;
+        constructor(arg0: $BlockEntityType_<never>, arg1: $BlockPos_, arg2: $BlockState_);
+    }
+    export class $ItemHandlerContainer implements $Container {
+        isEmpty(): boolean;
+        getItem(arg0: number): $ItemStack;
+        getMaxStackSize(): number;
+        removeItem(arg0: number, arg1: number): $ItemStack;
+        stillValid(arg0: $Player): boolean;
+        setChanged(): void;
+        clearContent(): void;
+        removeItemNoUpdate(arg0: number): $ItemStack;
+        getContainerSize(): number;
+        stopOpen(arg0: $Player): void;
+        startOpen(arg0: $Player): void;
+        canPlaceItem(arg0: number, arg1: $ItemStack_): boolean;
+        setItem(arg0: number, arg1: $ItemStack_): void;
+        getMaxStackSize(arg0: $ItemStack_): number;
+        canTakeItem(arg0: $Container, arg1: number, arg2: $ItemStack_): boolean;
+        countItem(arg0: $Item_): number;
+        hasAnyOf(arg0: $Set_<$Item_>): boolean;
+        hasAnyMatching(arg0: $Predicate_<$ItemStack>): boolean;
+        self(): $Container;
+        getWidth(): number;
+        getSlots(): number;
+        getBlock(level: $Level_): $LevelBlock;
+        clear(): void;
+        isItemValid(slot: number, stack: $ItemStack_): boolean;
+        setChanged(): void;
+        getSlotLimit(slot: number): number;
+        getHeight(): number;
+        getStackInSlot(slot: number): $ItemStack;
+        isMutable(): boolean;
+        insertItem(slot: number, stack: $ItemStack_, simulate: boolean): $ItemStack;
+        extractItem(slot: number, amount: number, simulate: boolean): $ItemStack;
+        setStackInSlot(slot: number, stack: $ItemStack_): void;
+        asContainer(): $Container;
+        isEmpty(): boolean;
+        clear(match: $ItemPredicate_): void;
+        find(): number;
+        find(match: $ItemPredicate_): number;
+        count(): number;
+        count(match: $ItemPredicate_): number;
+        insertItem(stack: $ItemStack_, simulate: boolean): $ItemStack;
+        getAllItems(): $List<$ItemStack>;
+        countNonEmpty(): number;
+        countNonEmpty(match: $ItemPredicate_): number;
+        constructor(arg0: $IItemHandlerModifiable);
+        get containerSize(): number;
+        get width(): number;
+        get slots(): number;
+        get height(): number;
+        get mutable(): boolean;
+        get allItems(): $List<$ItemStack>;
+    }
+    export class $CachedRenderBBBlockEntity extends $SyncedBlockEntity {
+        getRenderBoundingBox(): $AABB;
+        static ATTACHMENTS_NBT_KEY: string;
+        constructor(arg0: $BlockEntityType_<never>, arg1: $BlockPos_, arg2: $BlockState_);
+        get renderBoundingBox(): $AABB;
+    }
+    export class $SmartBlockEntity extends $CachedRenderBBBlockEntity implements $PartialSafeNBT, $IInteractionChecker, $SpecialBlockEntityItemRequirement, $VirtualBlockEntity {
+        invalidate(): void;
+        remove(): void;
+        isVirtual(): boolean;
+        initialize(): void;
+        destroy(): void;
+        tick(): void;
+        lazyTick(): void;
+        writeSafe(arg0: $CompoundTag_, arg1: $HolderLookup$Provider): void;
+        sendToMenu(arg0: $RegistryFriendlyByteBuf): void;
+        getRequiredItems(arg0: $BlockState_): $ItemRequirement;
+        setLazyTickRate(arg0: number): void;
+        markVirtual(): void;
+        isChunkUnloaded(): boolean;
+        forEachBehaviour(arg0: $Consumer_<$BlockEntityBehaviour>): void;
+        getAllBehaviours(): $Collection<$BlockEntityBehaviour>;
+        awardIfNear(arg0: $CreateAdvancement, arg1: number): void;
+        getBehaviour<T extends $BlockEntityBehaviour>(arg0: $BehaviourType<T>): T;
+        removeBehaviour(arg0: $BehaviourType<never>): void;
+        refreshBlockState(): void;
+        award(arg0: $CreateAdvancement): void;
+        attachBehaviourLate(arg0: $BlockEntityBehaviour): void;
+        addBehavioursDeferred(arg0: $List_<$BlockEntityBehaviour>): void;
+        saveAdditional(arg0: $CompoundTag_, arg1: $HolderLookup$Provider): void;
+        addBehaviours(arg0: $List_<$BlockEntityBehaviour>): void;
+        registerAwardables(arg0: $List_<$BlockEntityBehaviour>, ...arg1: $CreateAdvancement[]): void;
+        canPlayerUse(arg0: $Player): boolean;
+        static ATTACHMENTS_NBT_KEY: string;
+        constructor(arg0: $BlockEntityType_<never>, arg1: $BlockPos_, arg2: $BlockState_);
+        get virtual(): boolean;
+        set lazyTickRate(value: number);
+        get chunkUnloaded(): boolean;
+        get allBehaviours(): $Collection<$BlockEntityBehaviour>;
+    }
+}

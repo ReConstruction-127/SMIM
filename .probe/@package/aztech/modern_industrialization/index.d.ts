@@ -1,0 +1,13 @@
+export * as fluid from "@package/aztech/modern_industrialization/fluid";
+export * as machines from "@package/aztech/modern_industrialization/machines";
+export * as util from "@package/aztech/modern_industrialization/util";
+export * as materials from "@package/aztech/modern_industrialization/materials";
+export * as definition from "@package/aztech/modern_industrialization/definition";
+export * as inventory from "@package/aztech/modern_industrialization/inventory";
+export * as compat from "@package/aztech/modern_industrialization/compat";
+export * as nuclear from "@package/aztech/modern_industrialization/nuclear";
+export * as items from "@package/aztech/modern_industrialization/items";
+export * as api from "@package/aztech/modern_industrialization/api";
+export * as thirdparty from "@package/aztech/modern_industrialization/thirdparty";
+export * as textures from "@package/aztech/modern_industrialization/textures";
+export * as blocks from "@package/aztech/modern_industrialization/blocks";

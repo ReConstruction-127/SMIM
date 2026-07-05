@@ -1,4 +1,20 @@
 [
   {"version":2},
-  {"ingredient":{"id":"modern_industrialization:bronze_cutting_machine"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+  {"ingredient":{"id":"modern_industrialization:industrial_tnt"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:wrench"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"enderio_evolution:basic_powered_spawner"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"enderio_evolution:capacitor_silver"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"enderio:basic_capacitor"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"enderio_evolution:capacitor_grainy"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"enderio_evolution:simple_machine_frame"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"enderio:void_chassis"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"enderio:powered_spawner"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"enderio:ensouled_chassis"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"enderio:energetic_alloy_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:prismarine_shard"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:prismarine_crystals"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:shears"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:iron_axe"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:redstone_ore"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"enderio:niard"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]
